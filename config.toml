@@ -3,3 +3,4 @@ languageCode = "en-us"
 title = "Marsettler"
 theme = "hugo-dusk"
 publishDir = "docs"
+disableHugoGeneratorInject = true
