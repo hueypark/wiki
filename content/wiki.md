@@ -4,6 +4,8 @@ title: "Wiki"
 tags: ["wiki"]
 ---
 
-[원격근무](/remote-work)
+[Go](/go)
 
-[인테리어](/interior)
+[Remote work(원격근무)](/remote-work)
+
+[Interior(인테리어)](/interior)
