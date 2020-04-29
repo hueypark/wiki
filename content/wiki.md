@@ -7,6 +7,8 @@ weight = 99
 
 [C++](/c++)
 
+[CockroachDB](/cockroachdb)
+
 [Go](/go)
 
 [Remote work(원격근무)](/remote-work)
