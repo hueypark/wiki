@@ -1,0 +1,5 @@
+baseURL = "https://marsettler.com/"
+languageCode = "en-us"
+title = "Marsettler"
+theme = "hugo-dusk"
+disableHugoGeneratorInject = true
