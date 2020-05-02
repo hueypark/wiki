@@ -13,4 +13,6 @@ weight = 99
 
 [Remote work(원격근무)](/remote-work)
 
+[How to be successful(성공하는 방법)](/how-to-be-successful)
+
 [Interior(인테리어)](/interior)
