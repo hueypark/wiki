@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "(Guide) Jordan Lewis's LARGE DATA BANK livestream: CockroachDB is learning the secret technique LISTEN/NOTIFY"
-date: "2020-05-06"
+date: "2020-05-05"
 tags: ["cockroachdb", "guide", "livestream"]
 ---
 
