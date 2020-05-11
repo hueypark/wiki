@@ -9,6 +9,8 @@ tags: [life]
 
 <!--more-->
 
+## 도면, 참고사진: https://photos.app.goo.gl/eR9GxsyKfp5DpFyK8
+
 ## 공통
 
 - [ ] 실내건축공사업 면허
