@@ -5,6 +5,8 @@ date: "2020-04-26"
 tags: ["cockroachdb", "go"]
 ---
 
+[(Guide) Jordan Lewis's LARGE DATA BANK livestream: Bugfix and Chill(버그를 수정하자!)](/cockroachdb-livestream-bugfix-and-chill)
+
 [(Guide) Jordan Lewis's LARGE DATA BANK livestream: CockroachDB is learning the secret technique LISTEN/NOTIFY](/cockroachdb-livestream-issue-41522)
 
 [피터 매티스와의 인터뷰 - Software Engineering Daily](/cockroachdb-with-peter-mattis-sedaily)
