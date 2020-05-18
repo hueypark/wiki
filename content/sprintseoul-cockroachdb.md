@@ -38,4 +38,4 @@ tags: [cockroachdb, sprint]
 
 ### 조단의 라이브코딩
 
-[조단](https://mobile.twitter.com/JordanALewis)은 매주 토요일 새벽 4시에 카크로치디비 개발관련 라이브방송을 [트위치](https://www.twitch.tv/large__data__bank)을 진행하고 있습니다. 또 6월 4일 새벽 1시 카크로치디비에 기여하는 방법이란 주제로 [온라인 이벤트](https://www.eventbrite.com/e/how-to-contribute-to-cockroachdb-tickets-105421279886)를 준비하고 있으니 많은 관심 부탁드립니다.
+[조단](https://mobile.twitter.com/JordanALewis)은 매주 토요일 새벽 4시에 카크로치디비 개발관련 라이브방송을 [트위치](https://www.twitch.tv/large__data__bank)에서 진행하고 있습니다. 또 6월 4일 새벽 1시 카크로치디비에 기여하는 방법이란 주제로 [온라인 이벤트](https://www.eventbrite.com/e/how-to-contribute-to-cockroachdb-tickets-105421279886)를 준비하고 있으니 많은 관심 부탁드립니다.
