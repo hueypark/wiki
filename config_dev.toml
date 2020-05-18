@@ -3,3 +3,8 @@ languageCode = "en-us"
 title = "Marsettler"
 theme = "hugo-dusk"
 disableHugoGeneratorInject = true
+
+[params]
+	github = "hueypark"
+	twitter = "jaewanHueyPark"
+	email = "jaewan.huey.park@gmail.com"
