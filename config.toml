@@ -9,4 +9,16 @@ disableHugoGeneratorInject = true
 	twitter = "jaewanHueyPark"
 	email = "jaewan.huey.park@gmail.com"
 
+[[menu.main]]
+	name = "Wiki"
+	weight = -120
+	identifier = "wiki"
+	url = "/wiki/"
+
+[[menu.main]]
+	name = "About Me"
+	weight = -110
+	identifier = "about me"
+	url = "/about-me/"
+
 googleAnalytics = "UA-121966234-1"

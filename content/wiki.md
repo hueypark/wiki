@@ -1,8 +1,6 @@
 +++
 title = "Wiki"
 date = "2020-03-29"
-menu = "main"
-weight = 99
 +++
 
 [C++](/c++)
