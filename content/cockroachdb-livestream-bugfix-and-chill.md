@@ -6,12 +6,7 @@ tags: ["cockroachdb", "guide", "livestream"]
 ---
 
 {{< rawhtml >}}
-<iframe
-	src="https://player.twitch.tv/?video=v615054683&autoplay=false"
-	height="400"
-	width="100%"
-	allowfullscreen="true">
-</iframe>
+<iframe width="893" height="502" src="https://www.youtube.com/embed/nFmDJP-fNRQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {{< /rawhtml >}}
 
 이번 주에도 [@JordanALewis](https://mobile.twitter.com/JordanALewis)의 진행되었습니다. `Bugfix and Chill`이란 제목으로 여러가지 버그성 이슈를 살펴봅니다.
