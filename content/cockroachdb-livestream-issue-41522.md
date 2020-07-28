@@ -6,7 +6,7 @@ tags: ["cockroachdb", "guide", "livestream"]
 ---
 
 {{< rawhtml >}}
-<iframe width="893" height="502" src="https://www.youtube.com/embed/r0SBgOePc6I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height="400" width="100%" src="https://www.youtube.com/embed/r0SBgOePc6I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {{< /rawhtml >}}
 
 [@JordanALewis](https://mobile.twitter.com/JordanALewis)는 매 주 토요일 새벽
