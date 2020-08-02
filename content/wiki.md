@@ -16,3 +16,5 @@ date = "2020-03-29"
 [How to be successful(성공하는 방법)](/how-to-be-successful)
 
 [Interior(인테리어)](/interior)
+
+[Network(네트워크)](/network)
