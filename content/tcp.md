@@ -9,6 +9,8 @@ tags: [network, tcp]
 
 <!--more-->
 
-## 읽어볼 만한 글
+## 볼 만한 링크
 
 [TCP/IP 네트워크 스택 이해하기](https://d2.naver.com/helloworld/47667)
+
+[TCP connection walkthrough | Networking tutorial (13 of 13)](https://www.youtube.com/watch?v=F27PLin3TV0)
