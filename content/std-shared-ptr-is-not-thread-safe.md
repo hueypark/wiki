@@ -1,15 +1,15 @@
 ---
 layout: post
-title: std::shared_ptr is not thread safe
+title: std::shared_ptr 는 쓰레드 세이프하지 않음
 date: 2018-09-03
 tags: ["c++", "multithread"]
 ---
 
-I found that std::shared_ptr is not thread-safe. I leave some examples.
+std::shared_ptr 는 쓰레드 세이프하지 않습니다. 관련 예제와 볼만한 링크를 남깁니다.
 
 <!--more-->
 
-### Access resource after destruct
+### 예제 1. 소멸자 호출 후 자원 접근
 
 ```cpp
 #include <iostream>
@@ -63,7 +63,7 @@ int main()
 
 ```
 
-### Undefined behavior
+### 예제 2. Undefined behavior
 
 ```cpp
 #include <thread>
@@ -92,3 +92,7 @@ int main() {
 	return 0;
 }
 ```
+
+### 볼만한 링크
+
+[c++ why std::shared_ptr need atomic_store, atomic_load or why we need atomic shared_ptr](http://www.comrite.com/wp/c-why-need-atomic_store-atomic_load-on-shared_ptr-atomic-shared_ptr/)
