@@ -3,7 +3,7 @@
 
 <main>
 
-{{ $paginator := .Paginate ( .Site.RegularPages) }}
+{{ $paginator := .Paginate ( .Site.RegularPages.ByLastmod.Reverse ) }}
   {{ range $paginator.Pages }}
     {{ .Render "summary" }}
 {{ end }}
