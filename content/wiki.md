@@ -7,6 +7,8 @@ date = "2020-03-29"
 
 [CockroachDB](/cockroachdb)
 
+[Database(데이터베이스)](/database)
+
 [Go](/go)
 
 [해결하고 싶은 문제들](/problems-want-to-solve)
