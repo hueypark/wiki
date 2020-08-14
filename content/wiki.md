@@ -9,6 +9,8 @@ date = "2020-03-29"
 
 [Database(데이터베이스)](/database)
 
+[Game Server Architecture(게임 서버 아키텍처)](/game-server-architecture)
+
 [Go](/go)
 
 [해결하고 싶은 문제들](/problems-want-to-solve)
