@@ -6,6 +6,10 @@ date: 2019-09-01
 tags: [architecture, game, mmorpg, server]
 ---
 
+2019년 9월 21일에 [데브루키 521회](https://cafe.naver.com/devrookie/9621)에서 발표한 자료입니다.
+
+<!--more-->
+
 ## 거대한 단일 MMORPG 서버
 
 [marsettler.com](https://marsettler.com)
