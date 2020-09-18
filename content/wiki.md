@@ -21,4 +21,6 @@ date = "2020-03-29"
 
 [Interior(인테리어)](/interior)
 
+[Leadership(리더십)](/leadership)
+
 [Network(네트워크)](/network)
