@@ -5,6 +5,8 @@ date: "2020-04-26"
 tags: ["cockroachdb", "go"]
 ---
 
+[페블(Pebble): RocksDB에서 영감을 받은 키밸류 저장소](/cockroachdb-introducing-pebble)
+
 [(Guide) Jordan Lewis's LARGE DATA BANK livestream: Bugfix and Chill(버그를 수정하자!)](/cockroachdb-livestream-bugfix-and-chill)
 
 [(Guide) Jordan Lewis's LARGE DATA BANK livestream: CockroachDB is learning the secret technique LISTEN/NOTIFY](/cockroachdb-livestream-issue-41522)
