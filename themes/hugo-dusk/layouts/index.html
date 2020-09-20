@@ -3,7 +3,7 @@
 
 <main>
 
-{{ $paginator := .Paginate ( .Site.RegularPages.ByLastmod.Reverse ) }}
+{{ $paginator := .Paginate ( where .Site.RegularPages.ByLastmod.Reverse "Title" "!=" "Wiki" ) }}
   {{ range $paginator.Pages }}
     {{ .Render "summary" }}
 {{ end }}
