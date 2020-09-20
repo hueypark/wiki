@@ -1,5 +1,5 @@
 ---
-title: "Single Server MMORPG"
+title: "Single Server MMORPG: Introduction"
 date: "2020-09-17"
 tags: [game, mmorpg, server, single server mmorpg]
 ---
