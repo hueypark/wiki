@@ -1,7 +1,7 @@
 ---
 title: "페블(Pebble): RocksDB에서 영감을 받은 키밸류 저장소"
 date: "2020-09-18"
-tags: [cockroachdb]
+tags: [cockroachdb, pebble]
 ---
 
 [페블(Pebble)](https://github.com/cockroachdb/pebble)은 [RocksDB](https://rocksdb.org/)에서 영감을 받은 키밸류 저장소입니다. 카크로치디비 블로그에 새로운 [Pebble 이야기](https://www.cockroachlabs.com/blog/pebble-rocksdb-kv-store/)가 포스팅되었는데 그 내용을 요약하고 의견을 덧붙입니다.
