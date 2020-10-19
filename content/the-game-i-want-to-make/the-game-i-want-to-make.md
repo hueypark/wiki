@@ -1,7 +1,7 @@
 ---
 title: "내가 만들고 싶은 게임"
 date: "2020-10-13"
-tags: [game, mmorpg]
+tags: ["game", "mmorpg", "the game i want to make"]
 ---
 
 ### 내가 만들고 싶은 게임
