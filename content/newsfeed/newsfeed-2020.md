@@ -6,6 +6,17 @@ tags: ["newsfeed"]
 
 흥미롭게 본 이야기를 정리합니다.
 
+## 2020년 12월
+
+### Rise of Avalon Patch 10 is Here
+
+링크: https://albiononline.com/en/news/rise-of-avalon-patch-10-is-here
+
+클러스터가 꽉 차면 대기열에서 기다리지 않고 근처로 넘어갈 수 있게 되었습니다. 전투가 여려 클러스터에서 동시에 진행될 수 있을 것으로 기대됩니다.
+
+> When a cluster is overcrowded and the Smart Cluster Queue activates, players can now either join the queue or skip the overcrowded cluster entirely. Additionally, the distance players can move from the entrance before being kicked from the queue has been greatly increased.
+
+
 ## 2020년 11월
 
 ### Unite Europe 2016 - Building a PvP focused MMO
