@@ -8,6 +8,14 @@ tags: ["newsfeed"]
 
 ## 2020년 12월
 
+### Relative Disarray (Zerg Debuff)
+
+링크: https://forum.albiononline.com/index.php/Thread/141218-Relative-Disarray-Zerg-Debuff/
+
+Relative Disarray(또는 Zerg Debuff)는 같은 지역에 25명 이상의 연합원이 모여 있을 때 적용되는 디버프입니다. 연합원 수에 따라 공격력과 CC 지속시간을 감소시킵니다. 
+
+아마도 좁은 지역에 너무 많은 유저가 모이는 것을 기획적으로 막고자 한 것 같은데 더 좋은 방법은 없을까 고민해봅니다.
+
 ### 소득 수준을 좌우하는 가장 중요한 자질
 
 링크: https://brunch.co.kr/@haneulalice/185
