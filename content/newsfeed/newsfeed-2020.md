@@ -8,6 +8,12 @@ tags: ["newsfeed"]
 
 ## 2020년 12월
 
+### 한상구 네트워크 필드 엔지니어님의 네트워크 기초이론
+
+링크: https://ssanggu.github.io/ch0/
+
+네트워크 기초이론에 대한 정리가 잘 되어 있습니다.
+
 ### Relative Disarray (Zerg Debuff)
 
 링크: https://forum.albiononline.com/index.php/Thread/141218-Relative-Disarray-Zerg-Debuff/
