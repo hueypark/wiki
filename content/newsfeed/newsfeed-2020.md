@@ -8,6 +8,14 @@ tags: ["newsfeed"]
 
 ## 2020년 12월
 
+### Lecture 14 - How to Operate (Keith Rabois)
+
+링크: https://youtu.be/6fQHLK1aIBs
+
+한국어 정리 링크: https://www.notion.so/How-to-operate-b7a3f2591bd043dd81ef0861f47035d7
+
+매니저가 조직을 운영하는 방법에 관해 이야기합니다. Writer가 아니라 Editor로서의 역할을 강조하고 있습니다.
+
 ### 왜 드라군만 유독 멍청할까?
 
 링크: https://youtu.be/t2PXgu3G91E
