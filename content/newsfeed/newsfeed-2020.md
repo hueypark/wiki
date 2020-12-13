@@ -8,6 +8,18 @@ tags: ["newsfeed"]
 
 ## 2020년 12월
 
+### CentOS Project shifts focus to CentOS Stream
+
+링크: https://blog.centos.org/2020/12/future-is-centos-stream/
+
+CentOS가 8 버전 지원기간을 2021년 12월로 축소하고 Stream 버전에 집중하겠다는 발표를 합니다. 해당 공지의 댓글에서 사용자들은 분노하고 있습니다.
+
+바보같은 일이다. CentOS를 사용하는 유일한 이유는 RHEL를 재빌드하기 때문이었다. 망친 거 축하한다, 멍청이.
+
+> This is dumb. The entire premise and the only reason anyone uses CentOS is because it's rebuilt RHEL. Congratulations on undermining that, nitwits.
+
+기존 CentOS와 동일한 역할을 하게 될 배포판 저장소인 [Rocky Linux](https://github.com/rocky-linux/rocky)가 매우 빠르게 만들어졌습니다. README.md 있는 상황에서 4,500k 스타를 가지고 있네요. CentOS와 같은 배포판을 필요로 한다면 관심있게 지켜봐야 할 것 같습니다.
+
 ### SQL JOIN은 벤 다이어그램? 이제는 그만!
 
 링크: https://velog.io/@public_danuel/sql-join-is-not-venn-diagram
