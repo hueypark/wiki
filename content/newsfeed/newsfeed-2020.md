@@ -8,6 +8,12 @@ tags: ["newsfeed"]
 
 ## 2020년 12월
 
+### SQL JOIN은 벤 다이어그램? 이제는 그만!
+
+링크: https://velog.io/@public_danuel/sql-join-is-not-venn-diagram
+
+이해가 잘 가는 SQL JOIN 동작방식 설명입니다.
+
 ### Lecture 14 - How to Operate (Keith Rabois)
 
 링크: https://youtu.be/6fQHLK1aIBs
