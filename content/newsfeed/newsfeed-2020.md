@@ -8,6 +8,12 @@ tags: ["newsfeed"]
 
 ## 2020년 12월
 
+### BM 구성을 되게 못하는 회사에 관한 이야기: (LONG) (매몰비용 1편) 개발사는 알고있다, 당신이 온라인 게임을 쉽게 접지 못하는 이유 중
+
+링크: https://www.youtube.com/watch?v=wMsFZt-N2gI&feature=youtu.be&t=1350
+
+아직 게임에 대한 이해나 호감이 생기도 전에 강압적인 구매유도를 하는 것은 유저에게 부정적인 경험만 줍니다.
+
 ### CentOS Project shifts focus to CentOS Stream
 
 링크: https://blog.centos.org/2020/12/future-is-centos-stream/
