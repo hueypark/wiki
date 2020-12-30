@@ -8,6 +8,12 @@ tags: ["newsfeed"]
 
 ## 2020년 12월
 
+### [박현우](https://mobile.twitter.com/lqez)님의 직무기술서 이야기
+
+링크: https://twitter.com/lqez/status/1339816860540256257?s=20
+
+> 직무기술서(JD) 쓰기 귀찮은 거 나도 안다. 하지만 회사 소개가 노션 페이지 하나 뿐이고, JD도 없는데 아는 사람이 한다는 이유 만으로 다른 사람에게 추천하기는 어렵다. 초창기 스타트업에서 어떻게 그걸 챙기냐고 반문하기도 하는데, 그럼 좋은 사람 뽑는 일보다 더 중요한 일은 무엇일까?
+
 ### 알비온 온라인 개발자 한마디: 연말 업데이트
 
 링크: https://albiononline.com/ko/news/devtalk-year-end-update
