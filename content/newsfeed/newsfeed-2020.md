@@ -4,9 +4,19 @@ date: "2020-11-25"
 tags: ["newsfeed"]
 ---
 
-흥미롭게 본 이야기를 정리합니다.
-
 ## 2020년 12월
+
+### semgrep-go
+
+링크: https://github.com/dgryski/semgrep-go
+
+이상한 Go 코드의 패턴을 탐지하는 유틸리티입니다. [Damian Gryski](https://mobile.twitter.com/dgryski)의 [트윗](https://mobile.twitter.com/dgryski/status/1337166486025060353)에서 아래와 같이 잘못된 에러를 반환하는 코드를 탐지하는 것을 소개합니다.
+
+```go
+if rows.Err() != nil {
+   return nil, err        // <-- not the error from rows
+}
+```
 
 ### [박현우](https://mobile.twitter.com/lqez)님의 직무기술서 이야기
 
