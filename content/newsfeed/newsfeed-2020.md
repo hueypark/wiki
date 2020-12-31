@@ -6,6 +6,14 @@ tags: ["newsfeed"]
 
 ## 2020년 12월
 
+### Disagree and commit
+
+[이병준](https://mobile.twitter.com/bjlee72)님의 [면접시 조심하면 좋은 것들](https://youtu.be/SZEHjcDSEdE) 중 일부
+
+링크: https://youtu.be/SZEHjcDSEdE?t=183
+
+> 자기가 동의하지 않는 내용이라도 팀원의 한 사람으로서 동의를 했다면 그 동의한 내용을 반드시 따라야 한다.
+
 ### [기계인간](https://mobile.twitter.com/John_Grib)님의 개발자의 성격 이야기
 
 어떤 역할을 하느냐에 따라 조금씩 다르겠지만, 개발자도 적극적이어야 할 필요가 있다는 점에서 크게 공감합니다.
