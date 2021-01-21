@@ -79,21 +79,21 @@ MongoDB 클라이언트가 읽기 요청을 replica set 의 어떤 노드로 보
 
 ## mongod 파일 구조
 
-/data/db
-	WiredTiger: 스토리지 엔진 관련 파일
-	WiredTiger.lock: 다른 몽고디비가 동시에 같은 디렉토리를 사용하지 못하게 막는 파일(갑작스런 장비 재시작시 삭제해 줘야 할 수도 있음)
-	WiredTiger.turtle: 스토리지 엔진 관련 파일
-	WiredTiger.wt: 스토리지 엔진 관련 파일
-	WiredTigerLAS.wt: 스토리지 엔진 관련 파일
-	collection*.wt: 컬렉션 데이터
-	index*.wt: 인덱스 데이터
-	diagnostic.data/: MongoDB 에서 기술지원시 사용하는 진단용 데이터
-	journal/: WiredTiger journal, WAL 로그, 장애 발생 시 이 로그를 이용해 checkpoint 이후 변경사항을 복구
-	mongod.lock: WiredTiger.lock 비슷하게 동시에 두 몽고디비가 같은 디렉토리를 저장소로 사용하지 못하게 막는 파일
-	sizeStorer.wt: 스토리지 엔진 관련 파일
-	storage.bson: 스토리지 엔진 관련 파일
+- /data/db
+	- WiredTiger: 스토리지 엔진 관련 파일
+	- WiredTiger.lock: 다른 몽고디비가 동시에 같은 디렉토리를 사용하지 못하게 막는 파일(갑작스런 장비 재시작시 삭제해 줘야 할 수도 있음)
+	- WiredTiger.turtle: 스토리지 엔진 관련 파일
+	- WiredTiger.wt: 스토리지 엔진 관련 파일
+	- WiredTigerLAS.wt: 스토리지 엔진 관련 파일
+	- collection*.wt: 컬렉션 데이터
+	- index*.wt: 인덱스 데이터
+	- diagnostic.data/: MongoDB 에서 기술지원시 사용하는 진단용 데이터
+	- journal/: WiredTiger journal, WAL 로그, 장애 발생 시 이 로그를 이용해 checkpoint 이후 변경사항을 복구
+	- mongod.lock: WiredTiger.lock 비슷하게 동시에 두 몽고디비가 같은 디렉토리를 저장소로 사용하지 못하게 막는 파일
+	- sizeStorer.wt: 스토리지 엔진 관련 파일
+	- storage.bson: 스토리지 엔진 관련 파일
 
-/tmp/mongodb-*.sock: 소켓 커넥션을 만들기 위한 파일(갑작스런 장비 재시작시 삭제해 줘야 할 수도 있음)
+- /tmp/mongodb-*.sock: 소켓 커넥션을 만들기 위한 파일(갑작스런 장비 재시작시 삭제해 줘야 할 수도 있음)
 
 ---
 
