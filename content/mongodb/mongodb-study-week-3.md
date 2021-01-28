@@ -93,7 +93,7 @@ MongoDB 는 샤드에 샤드 키를 사용
 
 기본 `_id` 나 `date` 와 같이 한 방향으로 꾸준하게 변하면 청크에 데이터가 몰리게 되므로 적합하지 않음
 
-### Hased Shard Key
+### Hashed Shard Key
 
 Monotonic Change 가 있는 키를 사용 할 때 적용하면 키를 분산시킬 수 있음
 
