@@ -179,10 +179,44 @@ writing extra application side logic to ensure referential integrity.
 
 Limit each replica set to 10,000 collections
 
-Unnecessary indexes: storing an index that is unnecessary because it is (1) rarely used if at all or (2) redundant because another compound index covers it.
+- Collections To Drop
+	- Empty collections
+	- Collections whose size is mostly indexes
 
-Bloated documents: storing large amounts of data together in a document when that data is not frequently accessed together.
+[Unnecessary indexes](https://developer.mongodb.com/article/schema-design-anti-pattern-unnecessary-indexes/): storing an index that is unnecessary because it is (1) rarely used if at all or (2) redundant because another compound index covers it.
 
-Separating data that is accessed together: separating data between different documents and collections that is frequently accessed together.
+- The Problem
+	- Indexes take up space
+	- Indexes impact storage engine performance
+	- Indexes impact write performance
+
+Limit each collection to 50 indexes.
+
+Indexes to Drop
+	- Rarely used indexes
+	- Redundant indexes
+
+- Summary
+	- Do: Create indexes that support frequent queries
+	- Don't: Create unnecessary indexes
+
+[Bloated documents](https://developer.mongodb.com/article/schema-design-anti-pattern-bloated-documents/): storing large amounts of data together in a document when that data is not frequently accessed together.
+
+WiredTiger는 인덱스와 자주 쓰는 도큐먼트를 캐시한다
+
+- Summary
+	- Do: Store data together that is accessed together
+	- Don't: bloat your documents with related data that isn't accessed together
+
+[Separating data that is accessed together](https://developer.mongodb.com/article/schema-design-anti-pattern-separating-data/): separating data between different documents and collections that is frequently accessed together.
+
+$lookup
+	- Joins data from more than one collection
+	- Great for rarely used queried or analytical queries
+
+- Problem
+	- $lookup can be slow and resource-intensive
+
+Data that is accessed together should be stored together 
 
 Case-insensitive queries without case-insensitive indexes: frequently executing a case-insensitive query without having a case-insensitive index to cover it.
