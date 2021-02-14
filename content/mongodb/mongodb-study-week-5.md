@@ -8,237 +8,357 @@ tags: ["MongoDB"]
 
 ---
 
-## Pattern
-
-### Handling Duplication, Staleness and Integrity
-
-- Duplication
-	- Why?
-		- Result of embedding information in a given document for faster access
-	- Concern
-		- Challenge for correctness and consistency
-	- case
-		- is solution
-		- has minimal effect(unchanging information)
-		- should be handled(precomputed sum, application handled)
-accepting staleness in some pieces of data,
-writing extra application side logic to ensure referential integrity.
-
-- Staleness
-	- Why?
-		- New events come along at such a rate that updating some data constantly causes peformance issues
-	- Concern
-		- Data quality and reliablity
-	- case
-		- use secondary
-		- batch updates
-		- use change stream
-
-- Referential integrity
-	- Why?
-		- Linking information between documents or tables
-		- No support for cascading deletes
-	- Concern
-		- Challenge for correctness and consistency
-	- case
-		- Change Streams
-		- Single Document
-		- Multi documents transction
+## 패턴
 
 ### Attribute Pattern
 
-- Problem
-	- List of similar fields
-	- Want to search across many fields at once
-	- Fields present in only a small subset of documents
-- Solution
-	- Break  the field/value into sub-document with:
-		- fieldA: field
-		- fieldB: value
-	- Example
+- 상황
+	- 비슷한 필드가 많을 때
+	- 여러 필드에 걸쳐 조회하고 싶을때
+	- 필드가 일부 도큐먼트에만 있을 때
+- 해결책
+	- 필드를 k/v 짝으로 나누어 서브도큐먼트에 저장
+- 예
+
+적용 전
 ```json
-"specs": [
-    { k: "volume", v: "500", u: "ml" },
-    { k: "volume", v: "12", u: "ounces" }
-]
+{
+	"title": "Star Wars",
+	"release_US": "1977-05-20T01:00:00+01:00",
+	"release_France": "1977-10-19T01:00:00+01:00",
+	"release_Italy": "1977-10-20T01:00:00+01:00",
+	"release_UK": "1977-12-27T01:00:00+01:00",
+}
 ```
-- Benefits and Trade-Offs
-	- Easier to index
-	- Allow for non-deterministic field names
-	- Ability to qualify the relationship of the original field and value
+
+적용 후
+```json
+{
+	"title": "Star Wars",
+	"director": "George Lucas",
+	"releases":
+	[
+		{
+			"location": "USA",
+			"date": "1977-05-20T01:00:00+01:00"
+		},
+		{
+			"location": "France",
+			"date": "1977-10-19T01:00:00+01:00"
+		},
+		{
+			"location": "Italy",
+			"date": "1977-10-20T01:00:00+01:00"
+		},
+		{
+			"location": "UK",
+			"date": "1977-12-27T01:00:00+01:00"
+		},
+	]
+}
+```
+- 장점
+	- 인덱싱하기 쉬움
+	- 더 적은 인덱스가 필요함
+	- 쿼리가 간단해지고 일반적으로 빨라짐
 
 ### Extended Reference Pattern
 
-- Embed the "One" side, of a "One-to-Many" relationship, into "Many" side
+- 상황
+	- 너무 많은 조인이 발생함
+- 해결책
+	- 주가 되는 도큐먼트에 쪽에 필드를 임베딩함
+- 예
 
-- only the part that we need to join often
+적용 전
+```json
+customer
+{
+	"_id": 1,
+	"name": "huey",
+	"city": "seoul",
+}
 
-- Proplem
-	- Too many repetitive joins
-- Solution
-	- Identify fields on the lookup side
-	- Bring those fields into the main object
-- Benefits
-	- Faster reads
-	- Reduce number of joins and lookups
-- Trade-Offs
-	- May introduce lots of duplication if extended reference contains fields that mutate a lot
+order
+{
+	"customer_id": 1,
+	"date": "2021-02-14"
+}
+```
+
+적용 후
+```json
+customer
+{
+	"_id": 1,
+	"name": "huey"
+}
+
+order
+{
+	"customer_id": 1,
+	"customer":
+	{
+		"name": "huey"
+	},
+	"date": "2021-02-14"
+}
+```
+
+- 장점
+	- 조인이 줄어들어 성능이 향상됨
+- 단점
+	- 데이터 중복
 
 ### Subset Pattern
 
-- Problem
-	- Working set is too big
-	- Lot of pages are evicted from memory
-	- A larget part of documents is rarely needed
-- Solution
-	- Split the collection in 2 collections
-		- Most used part of documents
-		- Less used part of documents
-	- Duplicate part of a 1-N or N-N relationship that is often used in the most used side
-- Benefits
-	- Smaller working set, as often used documents are smaller
-	- Shorter disk access for bringing in additional documents from the most used collection
-- Trade-Offs
-	- More round trips to the server
-	- A little more space used on disk
+- 상황
+	- 작업 데이터가 너무 커서 메모리에 캐시를 유지하기 어려움
+	- 도큐먼트의 큰 부분이 자주 사용되지 않음
+- 해결책
+	- 컬렉션을 두 개로 나눔
+		- 자주 사용되는 부분
+		- 자주 사용되지 않는 부분
+	- 두 컬렉을 연결
+- 예)
+
+
+적용 전
+```json
+user
+{
+	"_id": 1,
+	"name": "huey",
+	"city": "seoul",
+	"desc": "Software engineer in Seoul..."
+}
+```
+
+적용 후
+```json
+user
+{
+	"_id": 1,
+	"name": "huey",
+	"city": "seoul",	
+}
+
+user_detail
+{
+	"_id": 1,
+	"user_id": 1,
+	"desc": "Software engineer in Seoul..."
+}
+```
+
+- 장점
+	- 자주 사용되는 도큐먼트가 작기 때문에 작업 데이터가 작아짐
+	- 도큐먼트가 더 많이 캐시되기 때문에 디스크 접근이 줄어듬
+- 단점
+	- 서버와 더 많은 횟수의 통신이 필요
+	- 디스크가 약간 더 필요함
 
 ### Computed Pattern
 
-- Problem
-	- Costly computation or manipulation of data
-	- Executed frequently on the same data, producing the same result
-- Solution
-	- Peform the operationand store the result in the appropriate document and collection
-	- If need to redo the operations, keep the source of them
-- Benefits
-	- Read queries are faster
-	- Saving on resources like CPU and Disk
-- Trade-Offs
-	- May be difficult to identify the need
-	- Avoid applying or overusing it unless needed
+- 상황
+	- 데이터에 대한 계산이 많음
+	- 같은 데이터에 자주 접근해서, 같은 결과를 계산함
+- 해결책
+	- 계산된 데이터를 도큐먼트에 저장
+	- 다음 번에 데이터가 필요할 때 미리 계산된 데이터 사용
+- 장점
+	- 읽기가 빨라짐
+	- CPU와 디스크 자원이 절약됨
+- 단점
+	- 필요한 지점을 식별하기 어려울 수 있음
+	- 불필요한 상황에서 과용되기 쉬움
 
 ### Bucket Pattern
 
-- Problem
-	- Avoiding too many documents, or too big documents
-	- A 1-to-Many relationship that can't be embedded
-- Solution
-	- Define the optimal amount of information to group together
-	- Create arrays to store the information in the main object
-	- It is basically an embedded 1-to-Many relationship, where you get N documents, each having an average of Many/N sub documents
-- Benefits
-	- Good balance between number of data access and size of data returned
-	- Makes data more manageable
-	- Easy to prune data
-- Trade-Offs
-	- Can lead to poor query results in not designed correctly
-	- Less friendly to BI Tools
+- 상황
+	- 도큐먼트가 너무 많거나, 커짐
+	- 임베딩하기 어려운 크기의 1 to many 관계 
+- 해결책
+	- 그룹화할 적절한 양의 데이터를 지정
+	- 메인 도큐먼트에 array를 만들어 데이터 저장
+- 예
+
+적용 전
+```json
+{
+	"sensor_id": 12345,
+	"timestamp": "2019-01-31T10:00:00.000Z",
+	"temperature": 40
+}
+
+{
+	"sensor_id": 12345,
+	"timestamp": "2019-01-31T10:01:00.000Z",
+	"temperature": 40
+}
+
+{
+	"sensor_id": 12345,
+	"timestamp": "2019-01-31T10:02:00.000Z",
+	"temperature": 41
+}
+```
+
+적용 후
+```json
+{
+	"sensor_id": 12345,
+	"start_date": "2019-01-31T10:00:00.000Z",
+	"end_date": "2019-01-31T10:59:59.000Z",
+	"measurements": [
+		{
+			"timestamp": "2019-01-31T10:00:00.000Z",
+			"temperature": 40
+		},
+		{
+			"timestamp": "2019-01-31T10:01:00.000Z",
+			"temperature": 40
+		},
+		{
+			"timestamp": "2019-01-31T10:42:00.000Z",
+			"temperature": 42
+		}
+	]
+}
+```
+
+- 장점
+	- 데이터가 급격하게 커져도 적절한 수준에서 제어 가능
+	- 쉽게 데이터 관리 가능
+- 단점
+	- 잘 디자인되지 않으면 제대로 된 결과를 얻기 힘듬
+	- 일반적인 BI 툴에 적용 불가
 
 ### Shcema Versioning Pattern
 
-- Problem
-	- Avoid downtime while doing schema upgrades
-	- Upgrading all documents can take hours, days or even weeks when dealing with big data
-	- Don't want to update all documents
-- Solution
-	- Each document get a "schema_version" field
-	- Application can handle all versions
-	- Choose your strategy to migrate the documents
-- Benefits
-	- No downtime needed
-	- Feel in control of the migration
-	- Less future technical debt
-- Trade-Offs
-	- May need 2 indexes for same field while in migration period
+- 상황
+	- 스키마 변경시 다운타임 발생(짧게는 수 시간에서 수 주가 소요)
+	- 모든 도큐먼트를 다 변경하고 싶지 않음
+- 해결책
+	- `schema_version` 필드 추가
+	- 애플리케이션이 버전 별 처리
+	- 버전 마이그레이션 전략 수립
+- 장점
+	- 다운타임 없음
+	- 데이터 마이그레이션을 제어할 수 있음
+- 단점
+	- 마이그레이션 전까지 인덱스가 두 배로 필요할 수 있음
 
-### Polymorphic Pattern
+---
 
-- Problem
-	- Objects more similar than different
-	- Wnat to keep objects in same collection
-- Solution
-	- Field traks the type of document or sub-document
-	- Application has different code paths per document type, or has subclasses
-- Benefits
-	- Easier to implement
-	- Allow to query across a single collection
+## 안티 패턴
 
-## Anti-patterns
+### Massive arrays
 
-[Massive arrays](https://developer.mongodb.com/article/schema-design-anti-pattern-massive-arrays/): storing massive, unbounded arrays in your documents.
+- 상황
+	- 매우 큰 array 를 포함한 도큐먼트
+- 문제점
+	- 도큐먼트 크기 제한 16 MB
+	- array 크기가 커 짐에 따라 인덱스 성능이 떨어짐
+- 예
 
-- Problem
-	- 16 MB document size limit
-	- Index performance on arrays decreases as array size increases
-
-[Massive number of collections](https://developer.mongodb.com/article/schema-design-anti-pattern-massive-number-collections/): storing a massive number of collections (especially if they are unused or unnecessary) in your database.
-
-- Problem
-	- Empty and unused indexes drain resources
-	- WiredTiger performance decreases with an excessive number of collections and indexes
-
-Limit each replica set to 10,000 collections
-
-- Collections To Drop
-	- Empty collections
-	- Collections whose size is mostly indexes
-
-[Unnecessary indexes](https://developer.mongodb.com/article/schema-design-anti-pattern-unnecessary-indexes/): storing an index that is unnecessary because it is (1) rarely used if at all or (2) redundant because another compound index covers it.
-
-- The Problem
-	- Indexes take up space
-	- Indexes impact storage engine performance
-	- Indexes impact write performance
-
-Limit each collection to 50 indexes.
-
-Indexes to Drop
-	- Rarely used indexes
-	- Redundant indexes
-
-- Summary
-	- Do: Create indexes that support frequent queries
-	- Don't: Create unnecessary indexes
-
-[Bloated documents](https://developer.mongodb.com/article/schema-design-anti-pattern-bloated-documents/): storing large amounts of data together in a document when that data is not frequently accessed together.
-
-WiredTiger는 인덱스와 자주 쓰는 도큐먼트를 캐시한다
-
-- Summary
-	- Do: Store data together that is accessed together
-	- Don't: bloat your documents with related data that isn't accessed together
-
-[Separating data that is accessed together](https://developer.mongodb.com/article/schema-design-anti-pattern-separating-data/): separating data between different documents and collections that is frequently accessed together.
-
-$lookup
-	- Joins data from more than one collection
-	- Great for rarely used queried or analytical queries
-
-- Problem
-	- $lookup can be slow and resource-intensive
-
-Data that is accessed together should be stored together
-
-Summary
-	- Do: Carefully consider your use case as you design your schema
-	- Don't: Separate data that is accessed together
-
-[Case-insensitive queries without case-insensitive indexes](https://developer.mongodb.com/article/schema-design-anti-pattern-case-insensitive-query-index/): frequently executing a case-insensitive query without having a case-insensitive index to cover it.
-
-- Problem
-	- $regex queries are case-insensiteve but not performant
-	- Non-$regex queries that are not suppoeted by a case-insensitive index will return case-sensitive results
-
-Collation: https://docs.mongodb.com/manual/reference/collation/
-	strength: level 1 and 2 five you case-insensitivity
-
-```
-Dog
-dog
-dOg
+수정 전
+```json
+user
+{
+	"_id": 1,
+	"name": "huey",
+	"items":
+	[
+		{
+			"_id": 1,
+			"name": "dragon sword"
+		},
+		{
+			"_id": 2,
+			"name": "titanium shield"
+		},
+		...
+	]
+}
 ```
 
-- Summary
-	- Do: Use $regex with the i option (but it won't be as performant)
-	- Do: Create a case-insensitive index with a collation strength of 1 or 2 and specify that your query uses the same collation
-	- Do: Set the default collation strength of your collection to 1 or 2 when you create it, and do not specify a different collation in your queries and indexes
+수정 후
+```json
+user
+{
+	"_id": 1,
+	"name": "huey"
+}
+
+item
+{
+	"_id": 1,
+	"user_id": 1,
+	"name": "dragon sword"
+}
+{
+	"_id": 2,
+	"user_id": 1,
+	"name": "titanium shield"
+}
+...
+```
+
+### Massive number of collections
+
+- 상황
+	- 너무 많은 컬렉션(안 쓰거나 불필요한)을 추가
+- 문제점
+	- 안 쓰거나 불필요한 인덱스도 자원을 소모함
+	- WiredTiger 는 컬렉션과 인덱스의 수가 늘어남에 따라 성능이 저하됨
+- 예
+	- 새로 추가되는 데이터를 일별로 구분된 컬렉션으로 관리(`player-2021-02-14`, `player-2021-02-15`, `player-2021-02-16`, ...)
+
+### Unnecessary indexes
+
+- 상황
+	- 거의 안 쓰이거나 컴파운드 인덱스가 이미 커버하는 인덱스를 중복 생성
+- 문제점
+	- 인덱스는 디스크를 차지함
+	- 인덱스는 스토리지 엔진 성능에 영향을 줌
+	- 인덱스는 쓰기 성능에 영향을 줌
+- 해결책
+	- 중복 인덱스 제거
+		- { last_name: 1, first_name: 1 } 인덱스가 있으면 { last_name: 1 } 불필요
+	- 거의 안 쓰는 인덱스 제거 고려
+
+### Bloated documents
+
+- 상황
+	- 함께 사용되는 경우가 적은 데이터를 한 도큐먼트로 관리
+- 문제점
+	- WiredTiger 는 자주 쓰는 도큐먼트를 캐시하기 때문에 불필요한 메모리 사용 증가
+- 해결책
+	- 함께 사용되는 경우가 적은 데이터는 Subset Pattern 을 이용해 분리
+
+### Separating data that is accessed together
+
+- 상황
+	- 자주 함께 사용되는 데이터를 분리해 놓음
+- 문제점
+	- $lookup 은 느리고 자원을 많이 사용함
+- 해결책
+	- 자주 함께 사용되는 데이터는 한 도큐먼트에 저장(Extended Reference Pattern 으로 중복 적제하는 것 고려)
+
+### Case-insensitive queries without case-insensitive indexes
+
+- 상황
+	- 대소문자를 구분하지 않는 쿼리를 대소문자 구분하는 인덱스에 적용
+- 문제점
+	- $regex 쿼리는 사용가능하지만 비효율적임(인덱스 사용불가)
+	- Non-$regex 쿼리는 동작하지 않음
+- 해결책
+	- [MongoDB Collation](https://docs.mongodb.com/manual/reference/collation/) 을 참고해 필요한 인덱스 생성
+
+---
+
+## 참고자료
+
+- Building with Patterns: A Summary: https://www.mongodb.com/blog/post/building-with-patterns-a-summary
+- A Summary of Schema Design Anti-Patterns and How to Spot Them: https://developer.mongodb.com/article/schema-design-anti-pattern-summary/
