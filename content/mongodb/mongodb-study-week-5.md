@@ -217,6 +217,28 @@ $lookup
 - Problem
 	- $lookup can be slow and resource-intensive
 
-Data that is accessed together should be stored together 
+Data that is accessed together should be stored together
 
-Case-insensitive queries without case-insensitive indexes: frequently executing a case-insensitive query without having a case-insensitive index to cover it.
+Summary
+	- Do: Carefully consider your use case as you design your schema
+	- Don't: Separate data that is accessed together
+
+[Case-insensitive queries without case-insensitive indexes](https://developer.mongodb.com/article/schema-design-anti-pattern-case-insensitive-query-index/): frequently executing a case-insensitive query without having a case-insensitive index to cover it.
+
+- Problem
+	- $regex queries are case-insensiteve but not performant
+	- Non-$regex queries that are not suppoeted by a case-insensitive index will return case-sensitive results
+
+Collation: https://docs.mongodb.com/manual/reference/collation/
+	strength: level 1 and 2 five you case-insensitivity
+
+```
+Dog
+dog
+dOg
+```
+
+- Summary
+	- Do: Use $regex with the i option (but it won't be as performant)
+	- Do: Create a case-insensitive index with a collation strength of 1 or 2 and specify that your query uses the same collation
+	- Do: Set the default collation strength of your collection to 1 or 2 when you create it, and do not specify a different collation in your queries and indexes
