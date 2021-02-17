@@ -4,10 +4,6 @@ date: "2021-02-10"
 tags: ["MongoDB"]
 ---
 
-아직 작성중입니다.
-
----
-
 ## 패턴
 
 ### Attribute Pattern
