@@ -6,6 +6,23 @@ tags: ["newsfeed"]
 
 ## 2020년 2월
 
+### MongoDB C++ Driver 윈도우즈 빌드
+
+빌드에 너무 많은 시행착오가 있어 기록으노 남깁니다. C++ 의존성 관리의 불편함을 다시 한 번 느끼는 작업이었습니다.
+
+```bat
+cmake -G "Visual Studio 16 2019" -A x64 -DCMAKE_CXX_STANDARD=17 -DCMAKE_CXX_FLAGS="/Zc:__cplusplus" "-DENABLE_SSL=WINDOWS" "-DCMAKE_INSTALL_PREFIX=C:\Users\jaewa\go\src\github.com\hueypark\marsettler\Server\Package\mongo-c-driver-1.17.3\stage" "-DCMAKE_PREFIX_PATH=C:\Users\jaewa\go\src\github.com\hueypark\marsettler\Server\Package\mongo-c-driver-1.17.3\stage" ..
+
+cmake --build . --config RelWithDebInfo
+
+cmake --build . --config RelWithDebInfo --target install
+
+cmake .. -G "Visual Studio 16 2019" -A x64 -DCMAKE_CXX_STANDARD=17 -DCMAKE_CXX_FLAGS="/Zc:__cplusplus" -DCMAKE_BUILD_TYPE=Release -DENABLE_TESTS=OFF -DCMAKE_PREFIX_PATH=C:\Users\jaewa\go\src\github.com\hueypark\marsettler\Server\Package\mongo-c-driver-1.17.3\stage -DCMAKE_INSTALL_PREFIX=C:\Users\jaewa\go\src\github.com\hueypark\marsettler\Server\Package\mongo-cxx-driver-r3.6.2\stage
+
+cmake --build .
+cmake --build . --target install
+```
+
 ### 부정문 질문에 답변할 때 실수하지 않고 답변하는 방법(영어)
 
 Yes, No 를 답하지 않고 내용만 답변
