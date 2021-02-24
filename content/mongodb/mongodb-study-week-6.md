@@ -8,6 +8,8 @@ tags: ["MongoDB"]
 
 ## [db.collection.insertOne()](https://docs.mongodb.com/manual/reference/method/db.collection.insertOne/)
 
+도큐먼트를 하나 추가합니다.
+
 ### 문법
 ```javascript
 db.collection.insertOne(
@@ -36,6 +38,8 @@ db.products.insertOne(
 
 ## [db.collection.insertMany()](https://docs.mongodb.com/manual/reference/method/db.collection.insertMany/)
 
+도큐먼트를 여러 개 추가합니다.
+
 ### 문법
 ```javascript
 db.collection.insertMany(
@@ -49,6 +53,8 @@ db.collection.insertMany(
 
 - ordered
 	- 입력이 순서를 유지할 지 여부, 기본값은 true
+
+### 예: ordered true
 
 ```javascript
 db.products.insertMany( [
@@ -79,6 +85,8 @@ BulkWriteError({
 	"upserted" : [ ]
 })
 ```
+
+### 예: ordered false
 
 ```javascript
 	db.products.insertMany( [
@@ -128,6 +136,8 @@ BulkWriteError({
 
 ## [db.collection.updateOne()](https://docs.mongodb.com/manual/reference/method/db.collection.updateOne/)
 
+도큐먼트를 하나 업데이트합니다.
+
 ### 문법
 
 ```javascript
@@ -173,6 +183,8 @@ db.students.updateMany(
 
 ## db.collection.updateMany()
 
+도큐먼트를 여러 개 업데이트합니다.
+
 ## db.collection.replaceOne()
 
 필터된 도큐먼트를 새 도큐먼트로 변경합니다.
@@ -204,6 +216,7 @@ db.students.replaceOne(
 
 ### 문법
 
+```javascript
 db.collection.deleteOne(
 	<filter>,
 	{
@@ -212,6 +225,7 @@ db.collection.deleteOne(
 		hint: <document|string>		  // Available starting in MongoDB 4.4
 	}
 )
+```
 
 ## [db.collection.deleteMany()](https://docs.mongodb.com/manual/reference/method/db.collection.deleteMany/)
 
@@ -219,6 +233,7 @@ db.collection.deleteOne(
 
 ### 문법
 
+```javascript
 db.collection.deleteMany(
 	<filter>,
 	{
@@ -226,6 +241,7 @@ db.collection.deleteMany(
 		collation: <document>
 	}
 )
+```
 
 # Bulk Write Operations
 
@@ -235,6 +251,7 @@ db.collection.deleteMany(
 
 ### 문법
 
+```javascript
 db.collection.bulkWrite(
 	[ <operation 1>, <operation 2>, ... ],
 	{
@@ -242,6 +259,7 @@ db.collection.bulkWrite(
 		ordered : <boolean>
 	}
 )
+```
 
 - 사용가능 명령
 	- insertOne
@@ -271,7 +289,9 @@ db.collection.bulkWrite(
 
 ## [db.collection.insertMany()](https://docs.mongodb.com/manual/reference/method/db.collection.insertMany/)
 
+위에서 설명한 insertMany 도 Bulk Write 로 구분됩니다.
+
 # $isolated
 
 [4.0](https://docs.mongodb.com/manual/release-notes/4.0-compatibility/index.html) 에서 제거되었고,
-필요하면 트랜잭션을 사용하길 권고하고 있음
+필요하면 트랜잭션을 사용하길 권고합니다.
