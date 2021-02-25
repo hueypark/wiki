@@ -204,8 +204,8 @@ db.students.replaceOne(
 );
 
 { "_id" : 1, "grade_sum" : 100 },
-{ "_id" : 2, "grades" : [ 98, 100, 102 ] },
-{ "_id" : 3, "grades" : [ 95, 110, 100 ] }
+{ "_id" : 2, "grades" : [ 98, 100, 100 ] },
+{ "_id" : 3, "grades" : [ 95, 100, 100 ] }
 ```
 
 # Delete operations
