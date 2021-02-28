@@ -11,49 +11,21 @@ draft: true
 
 # [db.collection.find()](https://docs.mongodb.com/manual/reference/method/db.collection.find/)
 
+쿼리 기준과 일치하는 도큐먼트에 대한 커서를 반환합니다.
 
-|Parameter|Type|Description|
-|---|---|---|
-|query|document|Optional. Specifies selection filter using query operators. To return all documents in a collection, omit this parameter or pass an empty document ({}).|
-|projection|document|Optional. Specifies the fields to return in the documents that match the query filter. To return all fields in the matching documents, omit this parameter. For details, see Projection.|
+|파라미터|설명|
+|---|---|
+|query|Optional. 필터에 사용할 쿼리 연산자입니다.|
+|projection|Optional. 도큐먼트에서 반환할 필드를 지정합니다. 생략하면 모든 필드가 반환됩니다.|
 
-
-## Returns:	A cursor to the documents that match the query criteria. When the find() method “returns documents,” the method is actually returning a cursor to the documents.
-
-## cursor
-A pointer to the result set of a query. Clients can iterate through a cursor to retrieve results. By default, cursors timeout after 10 minutes of inactivity. See Iterate a Cursor in the mongo Shell.
-
-## [Query and Projection Operators](https://docs.mongodb.com/manual/reference/operator/query/)
-
-## Embedded Field Specification
-For fields in an embedded documents, you can specify the field using either:
-
-- dot notation; e.g. "field.nestedfield": <value>
-- nested form; e.g. { field: { nestedfield: <value> } } (Starting in MongoDB 4.4)
-
-# [Iterate a Cursor in the mongo Shell](https://docs.mongodb.com/manual/tutorial/iterate-a-cursor/#read-operations-cursors)
-
-Cursor
-커서의 옵션 및 명령
-Collation
-
-## Read Concern
-## Read Preference
-comment
+반환: 쿼리 기준과 일치하는 도큐먼트에 대한 커서를 반환합니다.
 
 # [db.collection.findAndModify()](https://docs.mongodb.com/manual/reference/method/db.collection.findAndModify/)
 
-Comparisons with the update Method
-When updating a document, db.collection.findAndModify() and the update() method operate differently:
+도큐먼트를 업데이트할 때 `db.collection.findAndModify()` 와 `update()` 는 다르게 동작합니다:
 
-By default, both operations modify a single document. However, the update() method with its multi option can modify more than one document.
+- 기본적으로 둘 다 단일 도큐먼트를 업데이트합니다. 그러나 `update()` 는 `multi` 옵션을 사용해 여러 문서를 업데이트 할 수 있습니다.
 
-If multiple documents match the update criteria, for db.collection.findAndModify(), you can specify a sort to provide some measure of control on which document to update.
+- 대상이 되는 도큐먼트가 다수일때 `findAndModify()` 는 `sort` 옵션을 사용해 대상을 선택할 수 있습니다.
 
-With the default behavior of the update() method, you cannot specify which single document to update when multiple documents match.
-
-By default, db.collection.findAndModify() returns the pre-modified version of the document. To obtain the updated document, use the new option.
-
-The update() method returns a WriteResult object that contains the status of the operation. To return the updated document, use the find() method. However, other updates may have modified the document between your update and the document retrieval. Also, if the update modified only a single document but multiple documents matched, you will need to use additional logic to identify the updated document.
-
-When modifying a single document, both db.collection.findAndModify() and the update() method atomically update the document. See Atomicity and Transactions for more details about interactions and order of operations of these methods.
+- 기본적으로 `findAndModify()` 는 업데이트 전의 문서를 반환합니다. 업데이트 된 문서를 얻으려면 `new` 옵션을 사용하십시오. `update()` 는 작업 상태만 포함된 `WriteResult` 객체를 반환합니다. 업데이트 문서를 확인하려면 `find()` 명령을 사용하십시오(그 사이에 다른 업데이트에 의해 문서가 수정되었을 수 있습니다.).
