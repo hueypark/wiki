@@ -4,6 +4,16 @@ date: "2021-01-29"
 tags: ["newsfeed"]
 ---
 
+## 2020년 3월
+
+### 메모리 누수에 대응하는 실용적인 방법
+
+메모리가 부족해지기 전에 폭발한다면, 미사일에 탑재된 프로그램에서 메모리 누수는 중요하지 않습니다.
+
+> Memory leaks on missiles don't matter, so long as the missile explodes before too much leaks. A 1995 memo: 
+
+링크: https://twitter.com/pomeranian99/status/858856994438094848
+
 ## 2020년 2월
 
 ### MongoDB C++ Driver 윈도우즈 빌드
