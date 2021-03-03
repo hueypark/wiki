@@ -81,7 +81,9 @@ MongoDB 클라이언트가 레플리카 셋의 어떤 멤버에서 데이터를 
 
 # [db.collection.findAndModify()](https://docs.mongodb.com/manual/reference/method/db.collection.findAndModify/)
 
-도큐먼트를 업데이트할 때 `db.collection.findAndModify()` 와 `update()` 는 다르게 동작합니다:
+단일 도큐먼트를 변경 후 반환합니다.
+
+`db.collection.findAndModify()` 와 `update()` 의 차이:
 
 - 기본적으로 둘 다 단일 도큐먼트를 업데이트합니다. 그러나 `update()` 는 `multi` 옵션을 사용해 여러 문서를 업데이트 할 수 있습니다.
 
