@@ -2,7 +2,6 @@
 title: "MongoDB 스터디 7주차(MongoDB CURD 읽기 연산)"
 date: "2021-02-27"
 tags: ["MongoDB"]
-draft: true
 ---
 
 # [db.collection.find()](https://docs.mongodb.com/manual/reference/method/db.collection.find/)
