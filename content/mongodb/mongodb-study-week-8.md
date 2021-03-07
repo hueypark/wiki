@@ -6,7 +6,7 @@ tags: ["MongoDB"]
 
 # Map-Reduce
 
-MongoDB 에서는 맵리듀스 대신 어그리게이션 파이프라인을 사용하길 권장하고 있으며, 상세내용은 아래와 같습니다.
+MongoDB 는 맵리듀스 대신 어그리게이션 파이프라인을 사용하길 권장하고 있으며, 상세내용은 아래와 같습니다.
 
 [어그리게이션 파이프라이프라인](https://docs.mongodb.com/manual/core/aggregation-pipeline/)으로 맵 리듀스를 대체할 수 있습니다
 
