@@ -259,7 +259,7 @@ db.orders.aggregate([
 }
 ```
 
-### 샤딩된 컬렉션에 대한 어그리게이션
+### [샤딩된 컬렉션에 대한 어그리게이션](https://docs.mongodb.com/manual/core/aggregation-pipeline-sharded-collections/)
 
 #### 동작방식
 
@@ -275,7 +275,7 @@ db.orders.aggregate([
 
 파이프라인을 두 파트로 나눌 수 있다면, 가능한 한 많은 단계로 나누어 실행되게 최적화합니다.
 
-# [우편번호 데이터 어그리게이션 예제](https://docs.mongodb.com/manual/tutorial/aggregation-zip-code-data-set/)
+# [예: 우편번호 데이터 어그리게이션](https://docs.mongodb.com/manual/tutorial/aggregation-zip-code-data-set/)
 
 ## 데이터 모델
 
