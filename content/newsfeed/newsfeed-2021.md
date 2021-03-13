@@ -6,6 +6,15 @@ tags: ["newsfeed"]
 
 ## 2020년 3월
 
+### 벡터(수학) 연산 정리
+
+오랫만에 벡터 연산을 사용하게 되었는데, 오랫만에 접근하니 어색했습니다.
+
+괜찮았던 자료 기록합니다.
+
+Dot Product: https://www.mathsisfun.com/algebra/vectors-dot-product.html
+Corss Product: https://www.mathsisfun.com/algebra/vectors-cross-product.html
+
 ### 메모리 누수에 대응하는 실용적인 방법
 
 메모리가 부족해지기 전에 폭발한다면, 미사일에 탑재된 프로그램에서 메모리 누수는 중요하지 않습니다.
