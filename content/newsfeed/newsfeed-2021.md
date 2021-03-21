@@ -21,8 +21,8 @@ tags: ["newsfeed"]
 
 괜찮았던 자료 기록합니다.
 
-Dot Product: https://www.mathsisfun.com/algebra/vectors-dot-product.html
-Corss Product: https://www.mathsisfun.com/algebra/vectors-cross-product.html
+- Dot Product: https://www.mathsisfun.com/algebra/vectors-dot-product.html
+- Corss Product: https://www.mathsisfun.com/algebra/vectors-cross-product.html
 
 ### 메모리 누수에 대응하는 실용적인 방법
 
