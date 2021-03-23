@@ -2,7 +2,6 @@
 title: "MongoDB 스터디 9주차(인덱스)"
 date: "2021-03-14"
 tags: ["MongoDB"]
-draft: true
 ---
 
 # 인덱스
@@ -221,41 +220,34 @@ db.userData.createIndex( { "userMetadata.$**" : 1 } )
 	- 와일드카드 인덱스가 적용되는 필드 하나만 읽기 요청
 	- 명시적으로 `_id` 필드 제거
 	- 대상 필드가 배열이 아님
-- 여러 필드 쿼리
-### Multi-Field Query Predicates
-Wildcard indexes can support at most one query predicate field. That is:
+- 와일드카드 인덱스는 쿼리 조건으로 하나의 필드만 사용할 수 있습니다.
+	- 와일드카드가 아닌 인덱스와 함께 사용할 수 없습니다.
+	- 두 와일드카드 인덱스를 섞어 쓸 수 없습니다.
+	- 단일 와일드카드 인덱스가 여러 필드를 지원하더라도 동시에 하나의 인덱스만 사용가능합니다.
+- 다음 조건을 만족해야 정렬에 인덱스를 사용할 수 있습니다.
+	- 쿼리 플래너가 와일드카드 인덱스를 선택합니다.
+	- 선택된 필드만 정렬합니다.
+	- 대상 필드는 배열이 아닙니다.
+- 지원하지 않는 쿼리 패턴
+	- 필드가 존재하지 않는 컬렉션 쿼리
+	- 도큐먼트나 배열과 비교하는 쿼리
+	- null 이 아닌 경우만 조회하는 쿼리
 
-- MongoDB cannot use a non-wildcard index to satisfy one part of a query predicate and a wildcard index to satisfy another.
-- MongoDB cannot use one wildcard index to satisfy one part of a query predicate and another wildcard index to satisfy another.
-- Even if a single wildcard index could support multiple query fields, MongoDB can use the wildcard index to support only one of the query fields. All remaining fields are resolved without an index.
+## 샤딩
 
-### Queries with Sort
-MongoDB can use a wildcard index for satisfying the sort() only if all of the following are true:
+와일드카드 인덱스로 샤딩할 수 없습니다.
 
-- The query planner selects the wildcard index for satisfying the query predicate.
-- The sort() specifies only the query predicate field.
-- The specified field is never an array.
+# 2d 인덱스, 2d sphere 인덱스
 
-### Unsupported Query Patterns¶
-
-- Wildcard indexes cannot support query condition that checks if a field does not exist.
-- Wildcard indexes cannot support query condition that checks if a field is or is not equal to a document or an array
-- Wildcard indexes cannot support query condition that checks if a field is not equal to null.
-
-### Sharding
-You cannot shard a collection using a wildcard index. Create a non-wildcard index on the field or fields you want to shard on. For more information on shard key selection, see Shard Keys.
-
-## 2d 인덱스, 2d sphere 인덱스
-
-2차원 평면과, 2차원 구체(지구와 같은) 를 나타내는 인덱스
+2차원 평면과, 2차원 구체(지구와 같은) 위 좌표, 공간을 나타내는 인덱스
 
 [GeoJSON object](https://docs.mongodb.com/manual/geospatial-queries/#geospatial-geojson) 를 사용해야 함
 
-## geoHayStack 인덱스
+# geoHayStack 인덱스
 
 > DEPRECATION: MongoDB 4.4 deprecates the geoHaystack index and the geoSearch command. Use a 2d index with $geoNear or $geoWithin instead.
 
-## 해시 인덱스
+# 해시 인덱스
 
 해시 인덱스는 해시를 활용해 인덱스 엔트리를 유지합니다.
 
@@ -265,28 +257,26 @@ You cannot shard a collection using a wildcard index. Create a non-wildcard inde
 db.collection.createIndex( { _id: "hashed" } )
 ```
 
-### 컴파운드 해시 인덱스
+## 컴파운드 해시 인덱스
 
 ```javascript
 db.collection.createIndex( { "fieldA" : 1, "fieldB" : "hashed", "fieldC" : -1 } )
 ```
 
-### 고려사항
+## 고려사항
 
-#### 멀티 키 인덱스(배열) 에슨 사용할 수 없습니다.
+- 멀티 키 인덱스(배열) 에 사용할 수 없습니다.
+- 유니크 제약조건을 걸 수 없습니다. 
+- 2의 53승 보다 큰 부동 소수점 숫자를 지원하지 않습니다.
+> WARNING: 해시 이전에 부동 소수점 숫자를 64비트 정수로 자릅니다. 예를 들어 해시된 인덱스는 2.0, 2.1, 2.2 에 대해 동일한 값을 저장합니다. 충돌을 방지하려면 부동 소수점 숫자를 사용하지 마십시오.
 
-#### 유니크 제약조건을 걸 수 없습니다. 
+---
 
-#### 2의 53승 제한
+# 인덱스 프로퍼티
 
-> WARNING: 해시 이전에 부동 소수점 숫자를 64비트 정수로 잘릅니다. 예를 들어 해시된 인덱스는 2.0, 2.1, 2.2 에 대해 동일한 값을 저장합니다. 충돌을 방지하려면 부동 소수점 숫자를 사용하지 마십시오.
-2의 53승 보다 큰 부동 소수점 숫자를 지원하지 않습니다.
+몽고디비는 인덱스에 여러 종류의 속성을 추가할 수 있습니다.
 
-[해시 함수](https://github.com/mongodb/mongo/blob/master/src/mongo/db/hasher.cpp)
-
-## 인덱스 프로퍼티
-
-### TTL 인덱스
+# TTL 인덱스
 
 TTL 인덱스는 특정 시간이 지난 후 도큐먼트를 자동으로 제거하는 데 사용할 수 있는 단일 필드 인덱스입니다.
 
@@ -294,7 +284,7 @@ TTL 인덱스는 특정 시간이 지난 후 도큐먼트를 자동으로 제거
 db.eventlog.createIndex( { "lastModifiedDate": 1 }, { expireAfterSeconds: 3600 } )
 ```
 
-#### 동작
+## 동작
 
 필드에 배열이고 여러 값이 있으면 가장 빠른 값 기준으로 제거됩니다.
 
@@ -302,31 +292,31 @@ db.eventlog.createIndex( { "lastModifiedDate": 1 }, { expireAfterSeconds: 3600 }
 
 인덱스된 값이 없으면 제거되지 않습니다.
 
-#### 삭제 오퍼레이션
+## 삭제 동작
 
 `mongod` 의 백그라운드 쓰레드가 인덱스 값을 읽고 만료된 도큐먼트를 지웁니다.
 
 TTL 쓰레드가 활성화되면 [db.currentOp()](https://docs.mongodb.com/manual/reference/method/db.currentOp/#db.currentOp) 과 [데이터베이스 프로파일러](https://docs.mongodb.com/manual/tutorial/manage-the-database-profiler/#database-profiler) 에서 확인할 수 있습니다.
 
-#### 삭제 시간
+## 삭제 시간
 
 백그라운드 작업은 60초에 한 번 실행됩니다. 이 때문에 만료된 도큐먼트가 잠시 유지될 수 있습니다.
 
-#### 레플리카 셋
+## 레플리카 셋
 
 레플리카 셋이 구성되면 삭제 작업은 프라이머리에만 실행됩니다.
 
-#### 제한사항
+## 제한사항
 
 - 컴파운드 인덱스를 지원하지 않습니다.
 - `_id` 필드에 적용할 수 없습니다.
 - `capped 컬렉션` 에 사용할 수 없습니다.
 - 이미 존재하는 인덱스의 `expireAfterSeconds` 값을 `createIndex()` 명령어로 변경할 수 없습니다.
-대신 [collMod](https://docs.mongodb.com/manual/reference/command/collMod/#dbcmd.collMod) 데이터베이스 커맨드로 변경하십시오.
+[collMod](https://docs.mongodb.com/manual/reference/command/collMod/#dbcmd.collMod) 데이터베이스 커맨드로 변경하십시오.
 이미 존재하는 인덱스의 값을 변경하려면 인덱스를 삭제하고 다시 만들어야 합니다.
-- 단일 필드가 TTL이 아닌 인덱스를 가지고 있으면 TTL 인덱스를 생성할 수 없습니다. 변경하려면 먼저 인덱스를 삭제하고 다시 만들어야 합니다.
+- 단일 필드가 TTL이 아닌 인덱스를 가지고 있으면 TTL 인덱스를 변경할 수 없습니다. 변경하려면 먼저 인덱스를 삭제하고 다시 만드십시오.
 
-### 유니크 인덱스
+# 유니크 인덱스
 
 유니크 인덱스는 중복 값을 저장하지 않게 보장합니다. 몽고디비는 기본적으로 `_id` 필드에 유니크 인덱스를 만듭니다.
 
@@ -334,7 +324,7 @@ TTL 쓰레드가 활성화되면 [db.currentOp()](https://docs.mongodb.com/manua
 db.collection.createIndex( <key and index type specification>, { unique: true } )
 ```
 
-#### 유니크 컴파운드 인덱스
+## 유니크 컴파운드 인덱스
 
 컴파운드 인덱스에도 유니크 제약조건을 추가할 수 있습니다.
 
@@ -342,19 +332,19 @@ db.collection.createIndex( <key and index type specification>, { unique: true } 
 db.members.createIndex( { groupNumber: 1, lastname: 1, firstname: 1 }, { unique: true } )
 ```
 
-#### 제한사항
+## 제한사항
 
 제약조건을 위반하는 데이터가 이미 포함되어 있는 경우 유니크 인덱스를 추가할 수 없습니다.
 
-해시 인덱스에 유니크 제약조적을 추가할 수 없습니다.
+해시 인덱스에 유니크 제약조건을 추가할 수 없습니다.
 
-#### 존재하지 않는 필드에 대한 유니크 인덱스
+## 존재하지 않는 필드에 대한 유니크 인덱스
 
 도큐먼트가 인덱스된 필드를 가지고 있지 않으면 `null` 값을 저장합니다. 만약 인덱스된 필드가 없는 도큐먼트가 하나 이상 있으면 인덱스 빌드가 실패합니다.
 
-#### 샤딩된 클러스터와 유니크 인덱스
+## 샤딩된 클러스터와 유니크 인덱스
 
-해시드 인덱스에 유니크 제약조건을 추가할 수 없습니다.
+해시 인덱스에 유니크 제약조건을 추가할 수 없습니다.
 
 레인지 샤드된 컬렉션의 경우 아래의 경우 유니크 인덱스를 설정할 수 있습니다:
 
@@ -362,12 +352,7 @@ db.members.createIndex( { groupNumber: 1, lastname: 1, firstname: 1 }, { unique:
 - 컴파운드 인덱스을 경우 샤드 키은 앞쪽에 있어야 합니다.
 - 기본 `_id` 인덱스: 샤드 키에 포함되어 있지 않다면 유니크성은 샤드 별로만 보장됩니다.
 
-The unique index constraints mean that:
-
-- For a to-be-sharded collection, you cannot shard the collection if the collection has other unique indexes.
-- For an already-sharded collection, you cannot create unique indexes on other fields.
-
-#### Partial Indexes
+# Partial 인덱스
 
 특정한 조건을 만족하는 대상에만 적용되는 인덱스
 
@@ -380,14 +365,15 @@ db.restaurants.createIndex(
 )
 ```
 
-사용 가능 연산자
-- equality expressions (i.e. field: value or using the $eq operator),
-- $exists: true expression,
-- $gt, $gte, $lt, $lte expressions,
-- $type expressions,
-- $and operator at the top-level only
+## 사용 가능 연산자
 
-##### 동작
+- equality expressions (i.e. field: value or using the $eq operator),
+- $exists: true
+- $gt, $gte, $lt, $lte
+- $type
+- $and(최고 레벨에서만)
+
+## 동작
 
 쿼리 커버리지: Partial 인덱스를 사용하기 위해 쿼리는 미리 설정된 필터를 포함하는 쿼리를 사용해야 합니다.
 
@@ -410,11 +396,11 @@ db.restaurants.find( { cuisine: "Italian", rating: { $gte: 8 } } )
 db.restaurants.find( { cuisine: "Italian" } )
 ```
 
-##### sparse 인덱스와의 비교
+## sparse 인덱스와의 비교
 
-> TIP: Partial 인덱스는 apares 인덱스의 슈퍼셋 기능을 제공합니다.
+> TIP: Partial 인덱스는 sparse 인덱스의 슈퍼셋 기능을 제공합니다.
 
-#### Case Insensitive 인덱스
+# 대소문자 구분 인덱스
 
 ```javascript
 db.collection.createIndex( { "key" : 1 },
@@ -425,10 +411,11 @@ db.collection.createIndex( { "key" : 1 },
                            } )
 ```
 
-- locale: specifies language rules. See Collation Locales for a list of available locales.
-- strength: determines comparison rules. A value of 1 or 2 indicates a case insensitive collation.
+- strength: 1 또는 2 의 경우 대소문자 구분을 하지 않습니다.
 
-#### Hidden 인덱스
+더 자세한 정보는 [Collation](https://docs.mongodb.com/manual/reference/collation/#collation-document-fields)에서 확인하십시오.
+
+# 히든(Hidden) 인덱스
 
 히든 인덱스는 쿼리 플래너가 해당 인덱스를 사용하지 않게 설정합니다.
 
@@ -448,11 +435,10 @@ db.restaurants.unhideIndex( { borough: 1, city: 1 } );  // Specify the index key
 db.restaurants.unhideIndex( "borough_1_ratings_1" );    // Specify the index name
 ```
 
-#### Sparse 인덱스
+# Sparse 인덱스
 
-Sparse indexes only contain entries for documents that have the indexed field, even if the index field contains a null value. The index skips over any document that is missing the indexed field. The index is “sparse” because it does not include all documents of a collection. By contrast, non-sparse indexes contain all documents in a collection, storing null values for those documents that do not contain the indexed field.
+Sparse 인덱스는 인덱스된 필드가 없거나 값이 null 인 필드를 무시합니다.
+인덱스가 모든 도큐먼트를 포함하지 않기 때문에 `sparse` 입니다.
 
-> IMPORTANT: Changed in version 3.2: Starting in MongoDB 3.2, MongoDB provides the option to create partial indexes. Partial indexes offer a superset of the functionality of sparse indexes. If you are using MongoDB 3.2 or later, partial indexes should be preferred over sparse indexes.
-
-
----
+> IMPORTANT: 3.2 버전부터 Partial 인덱스를 제공하며, Partial 인덱스는 Sparse 인덱스의 슈퍼셋입니다.
+3.2 버전 이상을 사용할 경우 Partial 인덱스를 사용하길 권장합니다.
