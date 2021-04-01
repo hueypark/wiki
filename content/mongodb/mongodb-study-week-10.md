@@ -2,7 +2,6 @@
 title: "MongoDB 스터디 10주차(트랜잭션)"
 date: "2021-03-26"
 tags: ["MongoDB"]
-draft: true
 ---
 
 # 트랜잭션
@@ -10,7 +9,7 @@ draft: true
 몽고디비는 4.0버전(2018년)부터 여러 도큐먼트에 대한 트랜잭션을, 4.2버전(2019년) 부터는 샤딩된 컬렉션에 대한
 분산 트랜잭션을 지원하고 있습니다.
 
-여러 도큐먼트에 대한 ACID 트랜잭션의 지원은 다양한 상황에서 개발자가 쉽게 대응할 수 있게 합니다. 스냅샷 격리수준과
+여러 도큐먼트에 대한 ACID 트랜잭션 지원은 다양한 상황에서 개발자가 쉽게 대응할 수 있게 합니다. 스냅샷 격리수준과
 아토믹한 실행은 샤딩된 클러스터에서도 트랜잭션이 필요한 워크로드를 제어할 수 있게 합니다.
 
 - In version 4.0, MongoDB supports multi-document transactions on replica sets.
@@ -19,11 +18,11 @@ draft: true
 > IMPORTANT: 대부분의 경우 멀티 도큐먼트 트랜잭션은 큰 부하를 일으키며, 효율적인 스키마를 대체하지 않아야 합니다.
 대부분의 시나리오에서 비정규화된 데이터 모델(임베디드 도큐먼트 또는 배열)로 최적화 가능합니다.
 
-## Transactions and Read Preference
+## Read Preference
 
-Multi-document transactions that contain read operations must use read preference primary. All operations in a given transaction must route to the same member.
+여러 도큐먼트에 대한 트랜잭션은 `read preference` `primary` 를 사용해야만 합니다.
 
-## Transactions and Read Concern
+## Read Concern
 
 트랜잭션 내에서는 트랜잭션의 `read concern` 이 적용됩니다.
 
@@ -33,7 +32,6 @@ Multi-document transactions that contain read operations must use read preferenc
 - 샤딩된 클러스터에서 트랜잭션의 경우 여러 샤드가 같은 스냅샷을 사용하는 것을 보장하지 않습니다. 보장이 필요하면 `snapshot` 을 사용하십시오.
 - 4.4 이상 버전에서는 트랜잭션 내에서 컬렉션이나 인덱스를 만들 수 있습니다. 명시적으로 생성할 경우 `local` 을 사용해야
 하고 암시적으로 생성할 경우에는 다른 `read concern` 을 사용해도 됩니다.
-- Starting in MongoDB 4.4, with feature compatibility version (fcv) "4.4" or greater, you can create collections and indexes inside a transaction. If explicitly creating a collection or an index, the transaction must use read concern "local". Implicit creation of a collection can use any of the read concerns available for transactions.
 
 ### majority
 
@@ -62,37 +60,42 @@ Multi-document transactions that contain read operations must use read preferenc
 - 이 경우 `majority` `read concern` 읽기는 과반이 동의한 데이터 반환을 보장합니다. 샤딩된 클러스터에서 전체 샤드에 동기화되었음을 보장하지는 않습니다.
 - 이 경우 `snapshot` `read concern` 읽기는 과반이 동의한 데이터 반환을 보장합니다. 샤딩된 클러스터에서 전체 샤드에 동기화되었음을 보장합니다.
 
-## 일반 정보
+# 일반정보와 고려사항
 
-### 아비터
+## 아비터
 
 여러 샤드에 걸쳐 쓰기 작업이 있는 트랜잭션의 경우 아비터가 포함된 샤드에 접근할 경우 실패합니다.
 
-### Disabled Read Concern Majority
+## Read Concern Majority 비활성화
 
-PAS 레플리카 셋은 `majority` `read concern` 이 비활성화됩니다.
+PAS 레플리카 셋은 `majority` `read concern` 이 비활성되어 있을 수 있습니다.
 
-### Shard Configuration Restriction
+- 샤딩된 클러스터
+	- `majority` `read concern` 이 비활성화된 샤드에 트랜잭션이 적용될 때 `snapshot` 을 사용할 수 없습니다.
+- 단일 레플리카 셋
+	- `local`, `majority`, `snapshot` 모두 사용할 수 있습니다.
+
+## 샤딩된 클러스터에 대한 설정 제한
 
 [writeConcernMajorityJournalDefault](https://docs.mongodb.com/manual/reference/replica-configuration/#mongodb-rsconf-rsconf.writeConcernMajorityJournalDefault)
 설정이 false 인 샤드를 가진 클러스터에서 트랜잭션을 사용할 수 없습니다.
 
-### 스토리지 엔진
+## 스토리지 엔진
 
 4.2 버전부터 프라이머리가 WiredTiger 이고, 세컨더리가 in-memory 인 경우에도 트랜잭션을 사용할 수 있습니다.
 
-### 진행중인 트랜잭션과 쓰기충돌(Write Conflicts)
+## 진행중인 트랜잭션과 쓰기충돌(Write Conflicts)
 
 트랜잭션이 바꾸려고 시도하는 도큐먼트를 외부에서 먼저 변경하면, 트랜잭션은 실패합니다.
 
 트랜잭션이 바꾸고 아직 커밋하지 않은 도큐먼트를 외부에서 변경하려 하면 외부의 쓰기작업은 대기합니다.
 
-### 진행중인 트랜잭션과 스테일 리드(Stale Reads)
+## 진행중인 트랜잭션과 스테일 리드(Stale Reads)
 
 트랜잭션 내 읽기 작업은 스테일 데이터를 반환할 수 있습니다. 즉 트랜잭션 내부의 읽기는 외부 쓰기작업의 결과를 보는 것을
 보장받지 못합니다.
 
-### 진행중인 트랜잭션과 청크 마이그레이션
+## 진행중인 트랜잭션과 청크 마이그레이션
 
 청크 마이그레이션 특정 단계에서 컬렉션 락을 설정합니다.
 
@@ -109,70 +112,34 @@ PAS 레플리카 셋은 `majority` `read concern` 이 비활성화됩니다.
 트랜잭션이 보일 때까지 대기합니다.
 - 그 외의 경우는 트랜잭션의 모든 도큐먼트가 표시되길 기다리지 않고 사용가능한 이전 버전의 도큐먼트를 읽습니다.
 
-## Backups and Restores
+## 백업과 복구
 
 > WARNING: `mongodump` 와 `mongorestore` 를 사용한 백업은 트랜잭션의 원자성을 보장하지 않기 때문에 4.2버전 이상의 샤딩된 클러스터에서 백업용으로 사용할 수 없습니다.
+
+이 떄는 다음 옵션을 고려하십시오.
+
+- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas?tck=docs_server)
+- [MongoDB Cloud Manager](https://www.mongodb.com/cloud/cloud-manager?tck=docs_server)
+- [MongoDB Ops Manager](https://www.mongodb.com/products/ops-manager?tck=docs_server)
 
 ## Multi-document transactions are atomic (i.e. provide an "all-or-nothing" proposition):
 
 - 트랜잭션이 커밋되면, 모든 변경사항이 저장되고 트랜잭션 바깥에 공개됩니다. 트랜잭션이 커밋될 때까지 변경된 데이터는
 외부에 공개되지 않습니다. 하지만 트랜잭션이 여러 샤드에 커밋 될 때에든 모든 샤드가 커밋될 때까지 기다리지는 않습니다.
 예를 들어 트랜션이 커밋되고 `쓰기 1` 은 `샤드 A` 에 보이고, `쓰기 2` 는 `샤드 B` 에 보이지 않을 경우, 다른 읽기가 read
-concern `local` 라면 `쓰기 1` 만 읽을 수 있습니다. (For example, if a transaction is committed and write 1 is visible on shard A but write 2 is not yet visible on shard B, an outside read at read concern "local" can read the results of write 1 without seeing write 2.)
-- 트랜잭션이 취소되면 모든 변경사항은 외부에서 보이지 않고 삭제됩니다. 
+concern `local` 라면 `쓰기 1` 만 읽을 수 있습니다.
+- 트랜잭션이 취소되면 모든 변경사항은 외부에서 보이지 않고 삭제됩니다.
 
-# 스냅샷 격리수준과 쓰기 충돌(Snapshot Isolation and Write Conflicts)
+## 스냅샷 격리수준과 쓰기 충돌(Snapshot Isolation and Write Conflicts)
 
 도큐먼트를 변경할 때 트랜잭션은 도큐먼트에 락을 겁니다. 만약 트랜잭션이 락을 획득할 수 없으면(다른 트랜잭션이 락을
 유지하고 있으면), 5ms 후에 쓰기 충돌과 함께 중단됩니다.
 
 읽기에는 쓰기와 같은 잠금은 필요하지 않습니다. 물론 다른 트랜잭션에서 커밋되지 않은 상태의 값만 볼 수 있습니다.
 
-# 트랜잭션 재시도(Retrying Transactions)
+## 트랜잭션 재시도(Retrying Transactions)
 
 단기 트랜잭션 에러(transient transaction error)는 쓰기 충돌이 발생했으며, 다시 시도해도 안전함을 알립니다. 
-
-```cpp
-    ///
-    /// Helper to run a user-provided callback within a transaction.
-    ///
-    /// This method will start a new transaction on this client session,
-    /// run the callback, then commit the transaction. If it cannot commit
-    /// the transaction, the entire sequence may be retried, and the callback
-    /// may be run multiple times.
-    ///
-    /// If the user callback calls driver methods that run operations against the
-    /// server that can throw an operation_exception (ex: collection::insert_one),
-    /// the user callback should allow those exceptions to propagate up the stack
-    /// so they can be caught and processed by the with_transaction helper.
-    ///
-    /// @param cb
-    ///   The callback to run inside of a transaction.
-    /// @param opts (optional)
-    ///   The options to use to run the transaction.
-    ///
-    /// @throws mongocxx::operation_exception if there are errors completing the
-    /// transaction.
-    ///
-    using with_transaction_cb = std::function<void MONGOCXX_CALL(client_session*)>;
-    void with_transaction(with_transaction_cb cb, options::transaction opts = {});
-```
-
-
-
-## Cluster Wide Logical Time
-
-
-# Transactions Under the Covers
-
-## Low-level timestamps in MongoDB & WiredTiger
-
-WiredTiger 스토리지 레이어는 Timestamp 메타데이터를 저장합니다. 이를 통해 특정 시간 이전 데이터만 쿼리할 수 었습니다.
-또 트랜잭션이 같은 시간에 시작되게 하기 위한 스냅샷을 만들 수 있습니다.
-
-# 특이한 점
-
-replica set 구성이 안 되어있으면 트랜잭션이 실패한다.
 
 # 참고자료
 
