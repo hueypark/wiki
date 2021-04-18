@@ -4,6 +4,14 @@ date: "2021-01-29"
 tags: ["newsfeed"]
 ---
 
+## 2020년 4월
+
+### 인센티브와 문화 설계
+
+> 서팀장. 나는 나쁜 사람은 없다고 생각해. 그런데 착하고 훌륭한 인재들이 모인 상태에서 뭔가 잘못되고 있다면 그건 인센티브와 문화 설계가 잘못된거야. 그걸 바로잡는 것이 내가 할일이지
+
+[Dongho Seo님의 페이스북](https://www.facebook.com/dongho.seo1/posts/4004065036319266?__cft__[0]=AZXgcADJD-l6jTWyMr-mYCPZfncRFeSYHOtmjgY5uuj4CENqdmyjenDQGTPB56qRv3ZYM9wDbbgbyfbx7anFZjuF_KwMjd_F3KtklcTU5b_POGxtnPdKm794EYmHW4xLc-I&__tn__=%2CO%2CP-R)
+
 ## 2020년 3월
 
 ### 시니어의 일(완벽한 확신이 없는 결정을 내리는 일)
