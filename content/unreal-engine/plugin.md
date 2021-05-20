@@ -2,40 +2,55 @@
 title: "언리얼 엔진 플러그인"
 date: "2021-05-01"
 tags: ["Unreal Engine", "plugin"]
+layout: "slide"
 draft: true
 ---
 
-# 플러그인이란?
+## 언리얼 엔진 플러그인
 
-UE4 에서 플러그인이란 에디터 안에서 프로젝트 단위로 개발자가 쉽게 켜고 끌 수 있는 코드 및 데이터 모음입니다.
-플러그인은 런타임 게임플레이 기능을 추가하고, 내장된 엔진 기능을 수정(또는 새 기능을 추가)하거나,
-새 파일 유형을 만들고, 에디터 기존 기능에 새 메뉴, 툴바 명령, 하위 모드를 확장할 수도 있습니다.
-여러 기존 UE4 서브시스템은 플러그인을 사용해서 확장 가능하도록 설계되었습니다.
+박재완
 
-# 새 플러그인 생성
+jaewan.huey.park@gmail.com
+
+---
+
+## 플러그인?
+
+에디터 안에서 프로젝트 단위로 개발자가 쉽게 켜고 끌 수 있는 코드 및 데이터 모음입니다.
+
+- 런타임 게임플레이 기능 추가
+- 내장된 엔진 기능 수정
+- 새 파일 유형을 생성
+- 에디터에 새 메뉴, 툴바 명령, 모드 확장
+- 언리얼 엔진의 기존 서브시스템은 플러그인을 사용해 확장 가능하도록 설계되어 있음
+
+---
+
+## 새 플러그인 생성
 
 Edit -> Plugins -> New Plugin
 
-# 모듈 & 엔진 구조
+![](/unreal-engine/plugin/new-plugin.png)
 
-Resources: 이미지 등의 리소스
-Source: 소스
+---
 
-# 할 수 있는 일
+# 플러그인으로 할 수 있는 일
 
 - 새로운 에셋 만들기
 - 새로운 에셋을 위한 에디터 만들기
 - 드래그 앤 드롭으로 새로운 에셋 생성
 
-# 새로운 에셋 만들기
+---
+
+## 새로운 에셋 만들기
 
 - C++ 클래스로 에셋 선언
-- 에섹 팩토리 구현
-- 에디터에서 에셋 모습 커스터마이징
+- 에셋 팩토리 구현
+- 에셋 커스터마이징(에디터에서 에셋의 모습)
 - 에셋 특화된 컨텐츠 브라우저 액션(오른쪽 클릭해서 하는)
 - 어드밴스트: 커스텀 에셋 에디터 UI
 
-# Asset Factories
+## 에셋 팩토리 구현
 
 Factory Types
 
@@ -59,19 +74,19 @@ UFactory
 - Virtual functions to be overriden
 - Very old API
 
-# UTextAssetFactoryNew
+## UTextAssetFactoryNew
 
 FactoryCreateNew
 
 ShouldShowInNewMenu
 
-# UTextAssetFactory
+## UTextAssetFactory
 
 드래그 앤 드랍용 팫토리
 
 FactoryCreateFile
 
-# Asset 커스터마이징
+## 에셋 커스터마이징(에디터에서 에셋의 모습)
 
 FAssetTypeActions_Base 을 상속한 다음 아래 함수를 오버라이드 해서 구현 가능
 
@@ -82,7 +97,9 @@ virtual FColor GetTypeColor() const override;
 
 썸네일을 바꾸고 싶으면 UThumbnailRenderer 를 더 파보시오
 
-# 에셋 액션 등록
+예) FDataTableExActions
+
+## 에셋 액션 등록
 
 모듈에서 구현
 
@@ -91,7 +108,7 @@ IModuleInterface 을 상속한 후 아래 함수를 구현해주면 됨
 	virtual void StartupModule() override { }
 	virtual void ShutdownModule() override { }
 
-# 에셋 커스텀 UI
+## 에셋 커스텀 UI
 
 아래 함수를 오버라이드해서 구현할 수 있음
 
@@ -105,6 +122,7 @@ void FTextAssetEditorToolkit::Initialize(UTextAsset* InTextAsset, const EToolkit
 class STextAssetEditor
 	: public SCompoundWidget
 {
+
 
 # FTextAssetEditorStyle
 
@@ -137,10 +155,46 @@ Slate: 위젯을 포함하는 모듈
 	- 엔진과, 스탠드얼론 앱 모두 지원
 
 - 다양한 위젯 라이브러리
-	- 버튼, 이미지, 메뉴, 다이얼로그, 메시지 박스 리스트 뷰, 슬라이더 등...
+	- 버튼, 이미지, 메뉴, 다이얼로그, 메시지 박스 리스트 뷰, 슬라이더 등
+
+## Slate 구현체
+
+- Declarative Syntax(서술형 문법)
+	- 여러 개의 매크로 조합으로 위젯의 속성을 설정
+	- Avoids layer of indirection
+
+- Composition(컴포지션)
+	- 몇 줄의 코드만으로 전체 계층을 표현 가능
+	- 쉽게 사용할 수 있는 자연스러운 문법
+	- 상속은 지양함
+	- 자식 슬롯은 어떤 위젯도 가질 수 있음
+	- 코드에서 UI 재연결이 매우 쉬움
+- Composition
+
+## Slate 기반의 새로운 UI
 
 # 위젯 리플렉터를 사용해 샘플을 볼 수 있음
+
+# 예제
+
+1. 데이터 테이블 확장 플러그인 추가
+2. 팩토리 클래스 추가(이 작업을 해야 에디터에서 생성가능함)
+3. 액션 추가
+	- 에디터 상에서 형태, 동작을 설정
+4. 팩토리에서 ConfigureProperties 가상함수 구현
+	- 에디터를 열기 전 설정을 하는 부분
+	- 팩토리 UI 보면서 슬레이트 UI 소개
+5. 액션에서 OpenAssetEditor 가상함수 구현
+	- 에셋 에디터가 열리는 시점에 툴바에 버튼 추가
+6. 아이템 정보를 csv로 저장
+7. 에셋 저장시 자동으로 csv도 저장하게 작업
+8. 레벨 에디터 툴바에 버튼 추가
+
 
 # 참고자료
 
 - 플러그인 생성 및 사용법 모범 사례(언리얼 엔진 온라인 러닝): https://learn.unrealengine.com/course/2504895
+- 데이터 주도형 게임플레이 요소(언리얼 엔진 문서): https://docs.unrealengine.com/ko/InteractiveExperiences/DataDriven/index.html
+- 클래스 지정자(언리얼 엔진 문서): https://docs.unrealengine.com/ko/ProgrammingAndScripting/GameplayArchitecture/Classes/Specifiers/index.html
+- 데이터테이블EX 플러그인 예제: https://github.com/hueypark/ue-plugin-example
+- 텍스트에셋 플러그인 예제: https://github.com/ue4plugins/textasset
