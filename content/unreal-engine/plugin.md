@@ -107,7 +107,7 @@ Edit -> Plugins -> New Plugin
 
 ## 5. 팩토리에서
 
-## ConfigureProperties
+## Configure Properties
 
 ## 가상함수 구현
 
