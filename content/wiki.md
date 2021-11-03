@@ -9,6 +9,8 @@ date = "2020-03-29"
 
 [CockroachDB](/cockroachdb)
 
+[CTO](/cto)
+
 [Database(데이터베이스)](/database)
 
 [Distributed System(분산 시스템)](/distributed-system)
