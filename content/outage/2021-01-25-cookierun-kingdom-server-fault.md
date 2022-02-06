@@ -1,7 +1,7 @@
 ---
 title: "2020년 1월 25일 쿠키런: 킹덤 장기 점검"
 date: "2021-01-28"
-tags: ["server fault"]
+tags: ["outage"]
 ---
 
 ## 개요
