@@ -14,6 +14,7 @@
       <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
     </div> <!--siteTitle-->
 
+    <a class="nav-item" href="/tags"><div class="nav-item-title">Tags</div></a>
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
     <a class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}"><div class="nav-item-title">{{ .Name }}</div></a>
