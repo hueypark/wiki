@@ -3,22 +3,34 @@ title: "gRPC"
 date: "2022-06-12"
 tags: [distributed system, grpc]
 layout: slide
-draft: true
+---
+
+# gRPC 101
+
+간단하고 빠르게 게임서버 만들기
+
 ---
 
 ## gRPC
 
-A high performance, open source universal RPC framework
+A high performance,
+
+open source
+
+universal
+
+RPC framework
 
 ---
 
-## Why gRPC?
+### RPC(Remote procedure call)
 
-gRPC is a modern open source high performance Remote Procedure Call(RPC) framework that can run in any environment. It can effciently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. It is als applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services.
+원격 프로시저 호출
+
 
 ---
 
-## Why gRPC?
+## 왜 gRPC 인가?
 
 - Simple service definition
 - Start quickly and scale
@@ -29,41 +41,60 @@ gRPC is a modern open source high performance Remote Procedure Call(RPC) framewo
 
 ### Simple service definition
 
-Define your service using Protocol Buffers, a powerful binary serialization toolset and language
+강력한 바이너리 직렬화 툴셋인,
+
+Protocol Buffers 를 활용해 서비스를 정의함
 
 ---
 
 ### Start quickly and scale
 
-Install runtime and dev environments with a single line and also scale to millions of RPCs per second with the framework
+적은 코드로 쉽게 개발을 시작한 후,
+
+대규모 요청을 처리하게 확장가능
+
 
 ---
 
 ### Works across languages and platforms
 
-Automatically generate idiomatic client and server stubs for your service in a variety of languages and platforms
+자동으로 생성되는 클라이언트, 서버 stubs 를 사용해
+
+다양한 언어와 플랫폼을 지원함
+
+- C#, C++, Dart, Go, Java, Kotlin, Node, Objective-C, PHP, Python, Ruby
 
 ---
 
-### Bi-directional streaming and integrated auth
+### Bi-directional streaming
 
-Bi-directional streaming and fully integrated pluggable authentication with HTTP/2-based transport
+### and integrated auth
 
----
+- HTTP/2 기반의 양방향 스트리밍
 
-## Core concepts, architecture and lifecycle
-
----
-
-## Overview
+- 완전히 통합된 인증
 
 ---
 
-### Service definition
+## 왜 gRPC 인가?(개인적 생각)
 
-Like many RPC systems, gRPC is based the idea of defining a service, specifyung the methods that can be called remotely with therir parameters and return types.
-By default, gRPC uses protocol buffers as the Interface Definition Language (IDL) for describing both the service interface and the structure of the payload messages.
-It is possible to use other alternatives if desired.
+충분히 많이 검증됨(성능과 안정성 둘 다)
+
+---
+
+## Core concepts, architecture
+
+## and lifecycle
+
+---
+
+### 서비스 정의
+
+- 함수와 비슷하게 서비스 정의
+- 기본은 Protocol Buffers 를 사용
+- 다른 대안도 사용가능
+
+---
 
 ```proto
 service HelloService {
@@ -81,11 +112,18 @@ message HelloResponse {
 
 ---
 
-gRPC let you define four kinds of service method:
+### 정의가능 함수
+
+- Unary RPC
+- Server streaming RPC
+- Client streaming RPC
+- Bidirectional streaming RPC
 
 ---
 
-- Unary RPCs where the client sends a single request to the server and gets a single response back, just like a normal function call.
+### Unary RPC
+
+일반 함수처럼 하나의 요청에 하나의 응답을 반환하는 RPC
 
 ```proto
 rpc SayHello(HelloRequest) returns (HelloResponse);
@@ -93,8 +131,10 @@ rpc SayHello(HelloRequest) returns (HelloResponse);
 
 ---
 
-- Server streaming RPCs where the client sends a request to the server and gets a strem to read a sequence of messages back.
-The client reads from the returned stream until there are no more messages. gRPC guarantees message ordering within an individual RPC call.
+### Server streaming RPC
+
+- 클라이언트가 요청하면 서버는 스트림을 반환하는 RPC
+- gRPC 가 응답의 순서를 보장
 
 ```proto
 rep LotsOfReplies(HelloRequest) returns (stream HelloResponse);
@@ -102,8 +142,10 @@ rep LotsOfReplies(HelloRequest) returns (stream HelloResponse);
 
 ---
 
-- Client streaming RPCs where the client writes a sequence of messages and sends them to the server, again  using a provided stream.
-Once the client has finished writing the messages, it waits for the server to read them and return its reponse. Again gRPC guarantees message ordering within an individual RPC call.
+### Client streaming RPC
+
+- 클라이언트가 스트림으로 요청하는 RPC
+- gRPC 가 요청 스트림의 순서를 보장
 
 ```proto
 rpc LotsOfGreetings(stream HelloRequest) returns (HelloResponse);
@@ -111,10 +153,11 @@ rpc LotsOfGreetings(stream HelloRequest) returns (HelloResponse);
 
 ---
 
-- Bidirectional streaming RPCs where both sides send a sequence of messages using a read-write stream.
-The two streams operate independently, so clients and servers can read and write in whatever order they like:
-for example, the server could wait to receive all the client messages before writing its responses, or it could alternately read a message ten write a message, or some other combination of reads and writes.
-The order of messages in each stream is preserved.
+### Bidirectional streaming RPC
+
+- 양 방향에서 스트림을 사용하는 RPC
+- 두 스트림은 독립적으로 동작하므로 원하는 순서대로 읽고 쓸 수 있음
+- 각 스트림의 순서는 보장됨
 
 ```proto
 rpc BidiHello(stream HelloRequest) returns (stream HelloResponse);
@@ -122,109 +165,7 @@ rpc BidiHello(stream HelloRequest) returns (stream HelloResponse);
 
 ---
 
-### Using the API
-
-Starting from a service definition in a `.proto` file, gRPC provides protocol buffer compiler plugins that generate client- and server-side code.
-gRPC users typically call these APIs of the client side and implent the corresponding API on the server side.
-
-- On the server side, the server implements the methods declared by the service and runs a gRPC server to handle client calls.
-The gRPC infrastructure decodes incoming requests, executes service methods, and encodes service responses.
-
-- On the client side, the client has a local object known as stuc(for some languages, the preferred term is client) that implements the same methods as the service.
-The client can then just call those methods on the local obejct, wrapping the parameters for the call in the appropriate protocol buffer message type - gRPC looks after sending the request(s) to the server and returning the server's protocol buffer response(s).
-
----
-
-### Synchronous vs. asynchronous
-
-Synchronous RPC calls that block until a response arrives from the server are the closest approximation to the abstraction of a procedure call that RPC aspires to.
-On the other hand, networks are inherently asynchronous and in many scenarios it's useful to be able to start RPCs without blocking the current thread.
-
-The gRPC programming API in most languages comes in both synchronous and asynchronous flavors.
-You can find out more in each language's tutorial and reference documentation (complete reference docs are coming soon).
-
----
-
-## RPC life cycle
-
----
-
-### Unary RPC
-
-1. Once the client calls a stub method, the server is notified that the RPC has been invoked with the client's metadata for this call, the method name, and the specified deadline if applicable.
-2. The server can then either send back its own initial metadata(which must be sent before any response) straight away, or wait for the client's request message.
-Which happens first, is application-specific.
-3. Once the server has the client's request message, it does whatever work is necessary to create and populate response.
-The response is then returned (if successful) to the client together with the status details (status code and optional status message) and optional trailing metadata.
-4. If the response status is OK, then the client gets the response, which completes the call on the client side.
-
----
-
-### Server streaming RPC
-
-A server-streaming RPC is similar to a unary RPC, except that the server returns a stream of messages in response to client's request.
-After sending all its messages, the server's status details (status code and optional status message) and optional trailing metadata are sent ot the client.
-This completes processing on the server side. The client completes it ha all the server's messaged.
-
----
-
-### Client streaming RPC
-
-A client-streaming RPC is similar to a unary RPC, except that the client sends a stream of messages to the server instead of a single mesage.
-The server responds with a single message (along with its status details and optional trailing metadata), typically but not necessarily after it has received all the client's messages.
-
----
-
-### Bidirectional streaming RPC
-
-In a bidirectional streaming RPC, the call is initiated by the client invoking the method and the server receiving the client metadata, method name, and deadline.
-The server can choose to send back its initial metadata or wait for the client to start streaming messages.
-
-Client- and server-side stream  processing is application specific. Since the two streams are independent, the client and server can read and write messages in any order.
-For example, a server can wait until it has received all of a client's messages before writing its messages, or the server and client can play "ping-pong" - the server gets a request, then sends back a response, then the client sends another request based on the response, and so on.
-
----
-
-### Deadlines/Timeouts
-
-gRPC allows clients to specify how long they are willing to wait for an RPC to complete before the RPC is terminated with a `DEADLINE_EXCEEDED` error.
-On the server side, the server can query to see if a particular RPC has timed out, or how much time is left to complete the RPC.
-
-Specifying a deadline or timeout is language specific: some language APIs work in terms of timeouts (durations of time), and some language APIs work in terms of a deadline (a fixed point in time) and may or may not have a default deadline.
-
----
-
-### RPC termination
-
-In gRPC, both the client and server make independent and local determinations of the success fo the call, and their conclusions may not match.
-This means that, for example, you could have an RPC that finishes successfully on the server side ("I have sent all my responses!") but fails on the client side ("The responses arrived after my deadline!").
-It's also possible for a server to decide to complete before a client has sent all its requests.
-
----
-
-### Cancelling an RPC
-
-Either the client or the server can cancel an RPC at any time. A cancellation termintates the RPC immediately so that no further work is done.
-
----
-
-### Metadata
-
-Metadata is information about a particular RPC call (such as authentication details) in the form of a list of key-value pairs, where the keys are strings and the values are typically strings, but can be binary data.
-Metadata is opaque to gRPC itself - it lets the client provide information associated with the call to the server and vice versa.
-
-Accesss to metadata is language dependent.
-
----
-
-### Channels
-
-A gRPC channel provides a connection to a gRPC server on specified host and port.
-It is used when creating a client stub.
-Clients can specify channel arguments to modify gRPC's default behavior, such as switching message compression on or off.
-A channel has state, including `connected` and `idle`.
-
-How gRPC deals with closing a channel is language dependent. Some languages also permit querying channel state.
+## Using the API
 
 ---
 
