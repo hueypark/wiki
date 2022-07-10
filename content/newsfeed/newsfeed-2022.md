@@ -6,6 +6,19 @@ tags: ["newsfeed"]
 
 ## 2022년 7월
 
+### 스타트업은 유치원이... 시리즈를 읽고
+
+- 링크
+	- [스타트업은 유치원이 아닙니다.](https://medium.com/@kurtlee/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EC%9D%80-%EC%9C%A0%EC%B9%98%EC%9B%90%EC%9D%B4-%EC%95%84%EB%8B%99%EB%8B%88%EB%8B%A4-7fad4b48e87f)
+	- [스타트업은 유치원과 비슷합니다.](https://velog.io/@zetlos/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EC%9D%80-%EC%9C%A0%EC%B9%98%EC%9B%90%EC%9E%85%EB%8B%88%EB%8B%A4)
+	- [회사는 유치원이 아니다'라는 글을 보고 한마디 썼었는데...](https://www.facebook.com/cjunekim/posts/pfbid021jtvbMgi3e6wdYVUtAqVerWWAWoeFZdXT1mkUc5YwYAaVoKaFjwEGYTVBHzUzjQEl)
+
+### DRI(Directly Responsible Indivisual)
+
+[토스에서의 시간을 돌아보며](https://evan-moon.github.io/2022/05/07/toss-retrospective/) 라는 글을 읽다 DRI(Directly Responsible Indivisual) 라는 개념이 신기해 기록을 남깁니다.
+
+> 토스에서 DRI라는 것은 일종의 신성불가침영역과도 같다. 어떤 DRI를 맡고 있다는 것은 동료들이 해당 업무에 대한 그 사람의 능력에 대해 신뢰하고 있다는 것이고, DRI를 잃는다는 것은 동료로부터 신뢰를 잃어 더 이상 토스팀에 필요없는 사람이 되는 것과 마찬가지이기 때문에 다들 죽기살기로 자신의 DRI를 지켜내기 위해 동료로부터 신뢰를 얻고 팀에 도움이 되려고 노력한다.
+
 ### 넥슨코리아 신규개발본부 ER 서버유닛 정성훈님께서 해주신 멀티플레이 게임 동기화 관련 발표
 
 멀티플레이 게임을 개발해보기 전에는 상상하기 어려운 부분들을 정리해 공유해주셨습니다.
