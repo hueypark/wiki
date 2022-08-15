@@ -38,3 +38,19 @@ draft: true
 ## Go 로 C++ 보다 빠른 프로그램을 작성할 수 있나?
 
 ## C++ 은 왜 빠른가?
+
+### ++i 가 빠를까 i++ 이 빠를까?
+
+[C++ Weekly - Ep 311 - ++i vs i++](https://youtu.be/ObVRSNvGitE)
+
+[Compiler Explorer](https://godbolt.org/z/1oW5voTYY)
+
+### constexpr
+
+[C++ Weekly - Ep 312 - Stop Using `constexpr` (And Use This Instead!)](https://www.youtube.com/watch?v=4pKtPWcl1Go)
+
+[Compiler Explorer](https://godbolt.org/z/dcd5r6scr)
+
+## Go benchmark
+
+https://blog.logrocket.com/benchmarking-golang-improve-function-performance/
