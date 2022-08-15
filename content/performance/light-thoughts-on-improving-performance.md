@@ -6,6 +6,23 @@ layout: slide
 draft: true
 ---
 
+## 목차
+
+---
+
+## 최척화 작업이 업무의 대부분이 될 때도 있을까?
+
+---
+
+## 최적화를 언제 하나?
+
+- 어쩔 수 없을 때
+	- [[오시영의 겜쓸신잡] ‘사진 한 장’보다 게임 용량이 작다고요?](https://it.chosun.com/site/data/html_dir/2020/09/18/2020091803183.html)
+	- 현시대의 장비도 어쩔 수 없는 경우가 많다
+- 비용
+
+---
+
 ## 가정
 
 우리는 놀라운 속도로 성장할 것이다.
@@ -31,6 +48,10 @@ draft: true
 - https://www.newswatch.kr/news/articleView.html?idxno=59899
 - [증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20220624000264)
 
+### 
+
+- [〈야생의 땅: 듀랑고〉 서버 아키텍처 Vol. 3](https://www.slideshare.net/sublee/vol-3-95472828)
+- [각국 유저들의 성향은? ‘야생의 땅: 듀랑고’ 글로벌 서비스 인포그래픽 공개f](https://www.inven.co.kr/webzine/news/?news=222815&iskin=1)
 ---
 
 ## 측정의 중요성
