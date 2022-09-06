@@ -72,6 +72,10 @@ draft: true
 
 [Compiler Explorer](https://godbolt.org/z/dcd5r6scr)
 
+### Finally! A Simple String Split in C++!
+
+[C++ Weekly - Ep 340 - Finally! A Simple String Split in C++!](https://youtu.be/V14xGZAyVKI)
+
 ## Go benchmark
 
 https://blog.logrocket.com/benchmarking-golang-improve-function-performance/
