@@ -76,6 +76,8 @@ draft: true
 
 [C++ Weekly - Ep 340 - Finally! A Simple String Split in C++!](https://youtu.be/V14xGZAyVKI)
 
+### Always initialize a member variable
+
 ## Go benchmark
 
 https://blog.logrocket.com/benchmarking-golang-improve-function-performance/
