@@ -5,7 +5,7 @@ date = "2020-03-29"
 
 [내가 만들고 싶은 게임](/the-game-i-want-to-make)
 
-[C++](/c++)
+[C++](/c++/c++)
 
 [CockroachDB](/cockroachdb)
 
