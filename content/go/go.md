@@ -10,3 +10,5 @@ tags: ["go"]
 [Go의 철학](/go/the-zen-of-go)
 
 [Go module에서 GitHub private repository 사용](/go/using-go-module-with-github-private-repository)
+
+[좋은 읽을거리](/go/good-reads)
