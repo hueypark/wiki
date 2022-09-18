@@ -17,7 +17,7 @@ date = "2020-03-29"
 
 [Game Server Architecture(게임 서버 아키텍처)](/game-server-architecture)
 
-[Go](/go)
+[Go](/go/go)
 
 [해결하고 싶은 문제들](/problems-want-to-solve)
 
