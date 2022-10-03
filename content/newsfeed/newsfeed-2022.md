@@ -4,6 +4,16 @@ date: "2022-06-03"
 tags: ["newsfeed"]
 ---
 
+## 2022년 1월
+
+### 공헌이익
+
+영업이익 = (매출액 - 변동비) - 고정비
+공헌이익 = (매출액 - 변동비)
+공헌이익 = 영업이익 + 고정비
+
+- [컬리의 흑자는 과연 결정의 문제일까?](https://yozm.wishket.com/magazine/detail/1672/)
+
 ## 2022년 8월
 
 ### Don't Put All Your Code In Internal
