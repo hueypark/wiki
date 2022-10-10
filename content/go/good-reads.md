@@ -4,6 +4,15 @@ date: "2022-09-18"
 tags: ["go"]
 ---
 
+## [Obscure Go Optimisations - Bryan Boreham](https://youtu.be/rRtihWOcaLI)
+
+- Take-aways
+	- Slice-to-interface cast will allocate.
+	- Heap allocation is costly.
+	- Generic methods are not fast.
+	- Heap Ballast is dead.
+	- Long live GOMEMLIMIT!
+
 ## [Fixing Memory Exhaustion Bugs in My Golang Web App](https://mtlynch.io/notes/picoshare-perf/)
 
 Go 메모리 관련 OOM 버그를 수정하는 여정에 관한 이야기
