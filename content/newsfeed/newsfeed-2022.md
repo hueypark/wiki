@@ -4,7 +4,11 @@ date: "2022-06-03"
 tags: ["newsfeed"]
 ---
 
-## 2022년 1월
+## 2022년 10월
+
+### [중대한 결정을 지혜롭계 하는 법](https://twitter.com/sight_archive/status/1579715123060822017?s=20&t=slCC7kyDRAlMeoeS7n0tww)
+
+일단 마음 내키는대로 결정하고, 그 뒤에 벌어질 일들을 담대하게 마주하라
 
 ### 공헌이익
 
