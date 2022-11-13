@@ -4,6 +4,13 @@ date: "2022-09-18"
 tags: ["go"]
 ---
 
+## [How to Write Accurate Benchmarks in Go](https://teivah.medium.com/how-to-write-accurate-benchmarks-in-go-4266d7dd1a95)
+
+- Not resetting or pausing the timer
+- Making wrong assumptions about micro-benchmarks
+- Not being careful about compiler optimizations
+- Being fooled by the observer effect
+
 ## [Obscure Go Optimisations - Bryan Boreham](https://youtu.be/rRtihWOcaLI)
 
 - Take-aways
