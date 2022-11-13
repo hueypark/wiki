@@ -1,5 +1,5 @@
 ---
-title: "좋은 읽을거리"
+title: "Go good reads"
 date: "2022-09-18"
 tags: ["go"]
 ---
