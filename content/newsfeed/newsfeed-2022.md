@@ -1,8 +1,12 @@
 ---
-title: "뉴스피드 2022"
+title: "Newsfeed 2022"
 date: "2022-06-03"
 tags: ["newsfeed"]
 ---
+
+## December 2022
+
+### If it is truly important to you, you’ll find a way; if it is not, you’ll find an excuse. - anonymous
 
 ## 2022년 10월
 
