@@ -6,6 +6,14 @@ tags: ["newsfeed"]
 
 ## December 2022
 
+### Guido van Rossum: Python and the Future of Programming | Lex Fridman Podcast #341
+
+- [GitHub Copilot](https://www.youtube.com/watch?v=-DVyjdw4t9I&t=10963s)
+
+> Are programmers jobs threatend by the existence of stack overflow? I don't think so.
+
+Agreed.
+
 ### If it is truly important to you, you’ll find a way; if it is not, you’ll find an excuse. - anonymous
 
 ## 2022년 10월
