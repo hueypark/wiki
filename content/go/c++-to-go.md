@@ -14,18 +14,20 @@ draft: true
 ---
 
 ## Luft
-## Ziegel and TrailDB
+
+- Ziegel and TrailDB
 
 ---
 
 ## [Luft](https://engineering.ab180.co/stories/introducing-luft)
 
 - OLAP database for analize the analyzing user behavior in real-time
-- Use [TrailDB](https://traildb.io/) as a storage
+- Use TrailDB as a storage
+- Written in C/C++ and Go
 
 ---
 
-## TrailDB
+## [TrailDB](https://traildb.io/)
 
 - TrailDB is an efficient tool for storing and querying series of events
 - Written in C
@@ -41,9 +43,9 @@ draft: true
 
 ## Why?
 
-- TrailDB has been a suitable solutionfor us for a long time
-- But development was hlated in 2019
-- Has some issues with peformance and productivity
+- TrailDB has been a suitable solution for the Luft
+- But development was halted in 2019
+- Issues with peformance and productivity
 
 ---
 
@@ -67,7 +69,7 @@ draft: true
 	- With this interface, we can easily replace the engine(partial or full)
 3. Implement storage engine
 4. Peformance tuning
-	- Target: 2x fater for the ingestion, 1.2 slower for the query
+	- 2x fater for the ingestion, 1.2 slower for the query
 
 ---
 
@@ -78,8 +80,12 @@ draft: true
 ### 1. Measuring performance
 
 Go provides great tools for measuring performance.
-There is a built-in benchmarking system, and `pprof` is integrated into Go to provide excellent performance measurement and visualization tools.
-In particular, the experience of being able to easily check the disassemble results on the web was amazing.
+
+- pprof
+	- Experience of being able to easily check the disassemble results on the web was amazing.
+- embedded benchmarking system
+
+---
 
 ```
 Total:      11.55s 22.23s (flat, cum) 14.49%
@@ -102,20 +108,33 @@ Total:      11.55s 22.23s (flat, cum) 14.49%
 
 ### 2. Add benchmarks for the meseurement
 
-We added a benchmark early in the work to see how much performance has improved.
-This allows you to see how much a specific commit affected overall performance.
-What is still lacking is the gap between benchmark data and production data, and we are working to resolve this.
+- Add benchmarks early for the measurement
+- This allows you to see how much a specific commit affected overall performance
 
 ---
 
-### 3. Impressive optimizations
+![](/go/c++-to-go/benchmark.png)
 
-a. Do not type assert to interfece
+---
 
-Is our use case memory allocation on type assertion is too huge
+## 3. Impressive optimizations
 
+---
+
+### Do not type assert to interfece
+
+- Memory allocation on type assertion is too huge
+
+```go
+fund Do(v string) interface{} {
+	return v.(interface{})
+}
 ```
-nc convTstring(val string) (x unsafe.Pointer) {
+
+---
+
+```go
+func convTstring(val string) (x unsafe.Pointer) {
 	if val == "" {
 		x = unsafe.Pointer(&zeroVal[0])
 	} else {
@@ -126,25 +145,28 @@ nc convTstring(val string) (x unsafe.Pointer) {
 }
 ```
 
-b. Object pooling with `sync.Pool`
+---
+
+### Object pooling with `sync.Pool`
 
 `sync.Pool` is a great simple tool for object pooling
 
-c. Load balancing for the job
+---
 
-During ingestion, there were cases where tasks were concentrated on a specific node and the total execution time was increased.
-In order to solve this problem, load balancing was performed, and the execution time was significantly reduced compared to the effort invested.
+### Load balancing
+
+- During ingestion, there were cases where tasks were concentrated on a specific node and the total execution time was increased.
+- With load balancing, the execution time was significantly reduced easily.
 
 ---
 
 ## Hard works
 
-1. With `unsafe`, Go is not a safe language
+---
+
+### With `unsafe`, Go is not a safe zone too
 
 During ingestion, strange values were written to some bytes of the result data for an unknown reason.
-The cause, which was identified through long periods of debugging and code reading, was the misuse of the unsafe package.
-We used the unsafe package for some functions to improve performance, but erroneous calls to it created hard-to-find bugs.
-I am currently using the unsafe package more conservatively.
 
 ```go
 // ~6x faster than ByteOrder.PutUint32
@@ -154,10 +176,24 @@ func PutUint64(data []byte, val uint64) {
 }
 ```
 
-2. If you want mange memory directly, it is hard too in Go
+---
 
-Go's garbage collector is great, but if you want high performance you'll need to do the memory management yourself.
-However, changing the paradigm from code that already relied on the garbage collector to direct memory management was not an easy task.
+After long periods of debugging, I found the misuse of the unsafe package.
+
+I am currently using the unsafe package more conservatively.
+
+
+---
+
+### If you want mange memory directly,
+### It's hard in Go.
+
+- Go's garbage collector is great
+- But if you want high performance you'll need to do the memory management yourself.
+
+---
+
+- However, changing the paradigm from garbage collector to direct memory management was not easy
 
 ```go
 type Writer struct {
@@ -169,29 +205,33 @@ func (w *Writer) Write(data []byte) {
 }
 ```
 
-3. `syns.Pool` is good. But not good enough for us
+---
 
-It's a great implementation, but we allocate/free memory too often and too much, so we needed a more direct way to manage memory.
+### `syns.Pool` is good
+### But not good enough for us
+
+- It's a great implementation, but we allocate/free memory too often and too much
+- So we need more direct way to manage memory.
 
 ---
 
 ## Colclusion
 
-In production, ingestion is up to 1.7x faster, and queries maintain roughly the same performance.
-Despite the fact that there are still parts that operate inefficiently to maintain a TrailDB-compatible interface,
-this level of performance improvement is an encouraging result.
-
+- Peformance in production
+	- Ingestion is up to 1.7x faster
+	- Queries maintain roughly the same
+- There are still parts that operate inefficiently to maintain a TrailDB-compatible interface
+	- After remove this inefficient parts, the performance will be improved more
 ---
 
 ## TODOs
 
 1. Remove TrailDB compatibility
 2. Support very fast autoscale
-3. Real time ingestion
-4. More efficient memory management
-5. Download partial column only if needed
+3. More efficient memory management
+4. Download partial column only if needed
 	- Pre requirment for the very fast autoscale
-6. Use level filter
+5. User level filter
 
 ---
 
