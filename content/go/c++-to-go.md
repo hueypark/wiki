@@ -3,7 +3,6 @@ title: "C++ to Go"
 date: "2022-12-04"
 layout: slide
 tags: ["c++", "go"]
-draft: true
 ---
 
 # C++ to Go
