@@ -4,6 +4,11 @@ date: "2022-09-18"
 tags: ["go"]
 ---
 
+# [Profiling and Execution Tracing in Go](https://teivah.medium.com/profiling-and-execution-tracing-in-go-a5e646970f5b)
+
+- What I learned
+	- pprof can diff with `go tool pprof -http=:8080 -diff_base <file2> <file1>`
+
 # [How to Write Accurate Benchmarks in Go](https://teivah.medium.com/how-to-write-accurate-benchmarks-in-go-4266d7dd1a95)
 
 - Not resetting or pausing the timer
