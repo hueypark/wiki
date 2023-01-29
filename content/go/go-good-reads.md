@@ -4,6 +4,16 @@ date: "2022-09-18"
 tags: ["go"]
 ---
 
+# [DRAFT RELEASE NOTES — Introduction to Go 1.20](https://tip.golang.org/doc/go1.20#introduction)
+
+- Interesting for me
+	- Profile-guided optimization(PGO)
+	- Wrapping multiple errors
+- Other links
+	- [What’s New in Go 1.20, Part I: Language Changes
+](https://blog.carlmjohnson.net/post/2023/golang-120-language-changes/)
+	- [What’s New in Go 1.20, Part II: Major Standard Library Changes](https://blog.carlmjohnson.net/post/2023/golang-120-arenas-errors-responsecontroller/)
+
 # [Profiling and Execution Tracing in Go](https://teivah.medium.com/profiling-and-execution-tracing-in-go-a5e646970f5b)
 
 - What I learned
