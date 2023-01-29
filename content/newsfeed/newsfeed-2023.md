@@ -6,6 +6,19 @@ tags: ["newsfeed"]
 
 # January 2023
 
+## What does the engineering team do?
+
+> Daily Execution that measures business metrics, finds components of them, and improves probabilistically.
+
+Interesting idea from Hoon Park's writing [엔지니어링 팀은 무슨 일을 하는가?](https://disquiet.io/@kun/makerlog/5843).
+
+He also add four action items for the engineer.
+
+1. You must not do anything that cannot affect your business. At least it can't have a higher priority.
+2. No matter what you do, the results should be measurable.
+3. Every moment we have to think about what can be improved to increase the Y value the fastest and most significantly.
+4. Individual engineers should feel weird about not measuring and ask questions.
+
 ## [2022 센드버드 오픈 오피스 아워 ㅣ글로벌 B2B 스타트업을 만들기 위한 20 Quesetions](https://youtu.be/CewBydKrHWw) 를 보고 인상깊었던 답변 내맘대로 정리
 
 Q. 고객사의 커스텀 개발 요청을 어떤 기준으로, 어디까지 수용해야할까요? 제품 이점이 명확하게 강화되고 추가 고객사 확보가 가능하다면 수용하는 편입니다. 피드백 바탕으로 제품 개발하는 것은 중요한 지점인데 팀에서는 SI라고 생각하는 경우가 있어서요. 비슷한 맥락에서 고객의 목소리/요구사항에서 무엇을 반영하고(우선순위화하고), 무엇을 안 할지 정하는 기준은 무엇일까요? 그대로 다 만들 수도 없을 것이고 그렇게 하는게 좋은 제품을 만드는 길은 아닐듯해 어떻게 취사선택할지 고민이 됩니다.
