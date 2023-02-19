@@ -4,6 +4,10 @@ date: "2022-09-18"
 tags: ["go"]
 ---
 
+# [Go 1.20 Experiment: Memory Arenas vs Traditional Memory Management](https://pyroscope.io/blog/go-1-20-memory-arenas/)
+
+Despite the tradeoffs, arena is a very cool feature.
+
 # [DRAFT RELEASE NOTES — Introduction to Go 1.20](https://tip.golang.org/doc/go1.20#introduction)
 
 - Interesting for me
