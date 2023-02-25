@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # February 2023
 
+## [Excerpt from 이번엔 성공할 줄 알았지? [스머프 시즌2 ep.06 스타트업이 망하는 이유]](https://www.youtube.com/watch?v=-_t7JTyMj3k&t=3230s)
+
+> The odds are in your favor. The surviving companies don't even do very well themselves, and the competition is gone.
+
 ## [The Next Grass Is Greener - A Green Labs Retrospective(더 푸릇푸릇해질 다음 여정을 향해 - 그린랩스 회고)](https://velog.io/@jaeholee/%EB%8D%94-%ED%91%B8%EB%A6%87%ED%91%B8%EB%A6%87%ED%95%B4%EC%A7%88-%EB%8B%A4%EC%9D%8C-%EC%97%AC%EC%A0%95%EC%9D%84-%ED%96%A5%ED%95%B4-%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4-%ED%9A%8C%EA%B3%A0)
 
 > Failed to create a successful product.
