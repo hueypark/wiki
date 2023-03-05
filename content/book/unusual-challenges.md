@@ -25,3 +25,9 @@ tags: ["book"]
 1. It was a unique situation where they were working on several experimental products at the same time.
 2. Sadly, the developers did not inspire trust in their coworkers.
 3. There was a pervasive belief throughout the organization that messing with the code would make it faster.
+
+> 제품에 대한 최종 의사결정은 실무자가 내릴 수 있어야 하고, 컴플라이언스 부서는 혁신을 지원하는 쪽으로 작동해야 하며, 개발자는 비즈니스 맥락을 잘 이애해야 한다.
+>
+> The final decisions about the product should be made by practitioners, compliance should work to support innovation, and developers should understand the business context.
+>
+> – p 130
