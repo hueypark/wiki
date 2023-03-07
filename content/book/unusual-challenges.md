@@ -31,3 +31,9 @@ tags: ["book"]
 > The final decisions about the product should be made by practitioners, compliance should work to support innovation, and developers should understand the business context.
 >
 > – p 130
+
+> 하지만 최준호는 자율과 책임의 문화를 지키려는 노력 자체가 가치 있음을 알아주는 사람이었다.
+>
+> But, Choi Joon-ho was a person who recognized the value of the effort to maintain a culture of autonomy and accountability itself.
+>
+> – p 152
