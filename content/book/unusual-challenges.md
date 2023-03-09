@@ -37,3 +37,9 @@ tags: ["book"]
 > But, Choi Joon-ho was a person who recognized the value of the effort to maintain a culture of autonomy and accountability itself.
 >
 > – p 152
+
+> 정승진은 가치 판단을 보류하고 사람들의 행동 그 자체를 바라보고 독립적인 원인과 결과를 찾으려고 노력했다. 도박에서는 확정적이지 않은 보상이 핵심이었다.
+>
+> Jung Seungjin suspended value judgments and looked at people's behavior for what it was, trying to find independent cause and effect. In gambling, indeterminate rewards were key.
+>
+> – p 195
