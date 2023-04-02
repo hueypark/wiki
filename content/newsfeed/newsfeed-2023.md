@@ -4,6 +4,12 @@ date: "2023-01-05"
 tags: ["newsfeed"]
 ---
 
+# April 2023
+
+## [Refined representation of technical debt](https://mobile.twitter.com/John_Grib/status/1642361106319691787)
+
+By enhancing the visibility of our technical debt, we can potentially create an opportunity to tackle it effectively.
+
 # February 2023
 
 ## [Excerpt from 이번엔 성공할 줄 알았지? [스머프 시즌2 ep.06 스타트업이 망하는 이유]](https://www.youtube.com/watch?v=-_t7JTyMj3k&t=3230s)
