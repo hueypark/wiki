@@ -4,6 +4,10 @@ date: "2021-11-03"
 tags: ["cto"]
 ---
 
+### If I get the responsibility to promote someone, make sure to reread Chapter 31 of Peter Drucker's "Management Cases".
+
+- link: https://mobile.twitter.com/John_Grib/status/1562055514380308480
+
 ### 버나드(@kms_bernard) 님의 [트윗](https://twitter.com/kms_bernard/status/1454740694191333376)
 
 > 많은 사람들이 간과하는 것 같은데, CTO는 회사의 경영자다. CTO가 하는 결정은 기술적인게 아니라 비즈니스적인것이어야 하고, 한편으로는 회사의 다른 비즈니스적인 결정에 기술적인 시야를 제공할 수 있어야한다.
