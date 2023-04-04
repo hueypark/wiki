@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # April 2023
 
+## There are hundreds or thousands of reasons why things don't work. It's the job of startup founders and their colleagues to make it work "in spite of" them.
+
+Link: https://mobile.twitter.com/jooddang/status/1635429650636877826
+
 ## [Refined representation of technical debt](https://mobile.twitter.com/John_Grib/status/1642361106319691787)
 
 By enhancing the visibility of our technical debt, we can potentially create an opportunity to tackle it effectively.
