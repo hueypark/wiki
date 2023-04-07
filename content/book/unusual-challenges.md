@@ -43,3 +43,9 @@ tags: ["book"]
 > Jung Seungjin suspended value judgments and looked at people's behavior for what it was, trying to find independent cause and effect. In gambling, indeterminate rewards were key.
 >
 > – p 195
+
+> "우리는 미친 것처럼 보이는 꿈을 꾸지만 결국 그 꿈을 현실로 만들어낼 것" 이라는 말을 되풀이했다. 뒷말은 생략한 채였다. "그러지 않으면 우리는 죽을 테니까."
+>
+> "We dream dreams that appear insane, but we will ultimately realize them," he repeated, leaving out the afterword. "Because if we don't, we shall perish."
+>
+> – p 223
