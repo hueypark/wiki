@@ -6,6 +6,14 @@ tags: ["newsfeed"]
 
 # April 2023
 
+## A professional is trying to win any match.
+
+> Your competitors won't wait for you to finish studying.
+
+> It's admirable to listen and learn, but it's not enough.
+
+Link: https://www.youtube.com/watch?v=GlSvRpmOcAQ
+
 ## There are hundreds or thousands of reasons why things don't work. It's the job of startup founders and their colleagues to make it work "in spite of" them.
 
 Link: https://mobile.twitter.com/jooddang/status/1635429650636877826
