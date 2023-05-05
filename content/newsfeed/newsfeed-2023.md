@@ -4,6 +4,14 @@ date: "2023-01-05"
 tags: ["newsfeed"]
 ---
 
+# May 2023
+
+## [Our Mad Journey of Building a Vector Database in Go - Weaviate at FOSDEM 2023](https://youtu.be/K1R7oK2piUM)
+
+Memory allocations are the big bottleneck in Go.
+
+[avo(Generate x86 Assembly with Go)](https://github.com/mmcloughlin/avo) is good first step to use SIMD(Single Instruction, Multiple Data) in Go.
+
 # April 2023
 
 ## A professional is trying to win any match.
