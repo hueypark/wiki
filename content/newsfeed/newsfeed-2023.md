@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # May 2023
 
+## Essential end-of-month practices to elevate your performance
+
+Link: https://www.youtube.com/watch?v=NY4I82RwKNM
+
 ## [Our Mad Journey of Building a Vector Database in Go - Weaviate at FOSDEM 2023](https://youtu.be/K1R7oK2piUM)
 
 Memory allocations are the big bottleneck in Go.
