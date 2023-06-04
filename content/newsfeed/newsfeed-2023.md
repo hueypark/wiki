@@ -4,6 +4,16 @@ date: "2023-01-05"
 tags: ["newsfeed"]
 ---
 
+# June 2023
+
+## Most people die at 25 and aren't buried until they're 75"
+
+Link: https://twitter.com/george__mack/status/1659217629469609984
+
+## Well, this is NOT a bug, it is a feature. A CEO's job is to focus on profit, indeed.
+
+Link: https://twitter.com/SergioRocks/status/1656282517060681728
+
 # May 2023
 
 ## Essential end-of-month practices to elevate your performance
