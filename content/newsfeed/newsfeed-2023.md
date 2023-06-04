@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # June 2023
 
+## I don't think you learn from mistakes, I think you learn from the process of fixing your own mistakes. You get humiliated, you get unexpected help... that's how you learn and grow.
+
+> Original Korean: 실수로부터 배운다는 말보다는 직접 수습하는 과정에서 배울 수 있다 생각한다. 그 과정에서 치욕당하고 의외의 도움도 받으며 … 그렇게 배우고 성장한다.
+
+Link: https://twitter.com/lqez/status/1664567682904252416
+
 ## Most people die at 25 and aren't buried until they're 75"
 
 Link: https://twitter.com/george__mack/status/1659217629469609984
