@@ -3,7 +3,6 @@ title: "Go 성능 최적화 팁"
 date: "2023-06-04"
 layout: slide
 tags: ["go"]
-draft: true
 ---
 
 ## Go 성능 최적화 팁
