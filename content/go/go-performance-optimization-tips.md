@@ -25,10 +25,12 @@ draft: true
 
 ---
 
-## Luft 사용자의 페르소나(상상)
+## Luft 사용자의 페르소나
 
 - 장기간 데이터에 대해 복잡한 집계 쿼리를 한다.
 - 반응속도에 민감하지 않다.
+- 정확한 예를 들면:
+    - 지난 6개월간 우리 앱에서 한 달에 10만 원 이상 소비한 30대 여성 사용자의 1주일간의 리텐션
 
 ---
 
@@ -44,34 +46,36 @@ draft: true
 ## 적당히 느린 쿼리?
 
 - 처음에는 그냥 눈에 띄는 긴 쿼리
-- 지금은 P90 에서 P95 사이의 쿼리
-    - 약 3달치 데이터에서 funnel 을 조회하는 9초 쿼리
-    - 약 1달치 데이터에서 retention 을 조회하는 13초 걸리는 쿼리
+- 좀 더 정확한 기준을 말하면 P90 에서 P95 사이의 쿼리
+    - 3개월 데이터에서 퍼널을 조회하는 9초 쿼리
+    - 1개월 데이터에서 리텐션을 조회하는 13초 걸리는 쿼리
 
 ---
 
-## 또 있다 개선 대상
+## 또 있다!
 
-- 잠자는 동료들을 깨우는 쿼리
-- 매우 느린 쿼리 중 일부는 새벽에 batch 작업으로 동작함
-- 어떤 임계점을 넘어갈 정도로 느리면 동료들이 일어나 수동으로 복구해야 함
+- 잠자는 동료를 깨우는 쿼리
+- 매우 느린 쿼리 중 일부는 새벽에 batch 로 실행
+- 임계점을 넘어갈 정도로 느리면 사람이 수동으로 복구해야 했음
 
 ---
 
-## 이런 쿼리들을 개선하며 얻은 실전 Go 성능 최적화 팁!
+## 이런 쿼리들을 개선하며 얻은!
+
+## 실전 Go 성능 최적화 팁!
 
 ---
 
 "net/http/pprof" 패키지를 사용하면 
 
-간편하게 프로파일 정보를 얻을 수 있음
+프로파일 정보를 얻을 수 있음
 
 ```go
 import _ "net/http/pprof"
-```
 
-```go
-http.ListenAndServe("localhost:6060", nil)
+main() {
+    http.ListenAndServe("localhost:6060", nil)
+}
 ```
 
 ---
@@ -84,27 +88,32 @@ http.ListenAndServe("localhost:6060", nil)
 
 ---
 
-이런 식으로 데이터를 수집해서 분석
+`go tool pprof` 명령어로 데이터 분석
 
 ```zsh
 go tool pprof http://localhost:6060/debug/pprof/profile
 ```
 
-이렇게 하면 UI 도 바로 실행가능
+`http` flag 를 추가하면 분석용 UI 실행
 
 ```zsh
 go tool pprof -http=localhost:8080 http://localhost:6060/debug/pprof/profile
 ```
 
-trace 는 다른 명령어 사용
+`go tool trace` 로 trace 분석
 
 ```zsh
-go tool trace
+curl -o trace.log http://localhost:7400/debug/pprof/trace?seconds=10
+go tool trace trace.log
 ```
 
 ---
 
-## Exists filter 가 느림
+## 이제 개별 팁으로 들어갑니다!
+
+---
+
+## Exists filter 가 느림(CPU profile)
 
 ![](/go/go-performance-optimization-tips/exists-filter-flame-graph.png)
 
@@ -112,24 +121,24 @@ go tool trace
 
 데이터 존재를 확인하기 위해 호출되는
 
-[interface to string 변환]((https://github.com/golang/go/blob/e827d41c0a2ea392c117a790cdfed0022e419424/src/runtime/iface.go#L388)) 느리기 때문
+[string to interface 변환](https://github.com/golang/go/blob/e827d41c0a2ea392c117a790cdfed0022e419424/src/runtime/iface.go#L388) 이 느리기 때문
 
 ![](/go/go-performance-optimization-tips/runtime-convtstring.png)
 
 ---
 
-- 쿼리 계획 시점 filter 최적화
+- 쿼리 계획 시점에 filter 최적화
 - 가능한 경우 Exists -> NotEqualTo fliter 로 최적화
-    - value != "" 비교
-    - NotEqualTo filter 타입 최적화가 이미 되어 있기 때문에 interface to string 변환 이 없음
+    - value != "" 비교로 동작
+    - NotEqualTo filter 타입 최적화가 이미 되어 있기 때문에 string to interface 변환 이 없음
 
 ---
 
-- Exists 구현을 더 아래 layer 로 내리는 방법도 고려했음
+- Exists 구현을 GetValue 없이 방법도 고려했지만
     - 역사적인 이유로 시도하지 않음
-    - 다른 모듈에 불필요한 복잡도 증가를 가져올 것 같았음
+    - 다른 모듈에 큰 복잡도 증가를 가져올 것 같았음
 - 왜 Exists 에서 value 를 가져와야 하나?
-    - Null 개념이 없기 때문에 Exists 개념이 모호함
+    - Luft 는 스키마가 약하고, Null 개념이 없기 때문에 Exists 개념이 일반적인 경우와 약간 다름
     - 값이 있지만 빈 문자열이 아님을 의미
 
 ---
@@ -162,18 +171,21 @@ memory profile 도 해당 부분의 할당이 큰 지분을 차지
 
 ---
 
-여러 파이프라인을 거칠 때 효율적으로 사용할 수 있게
+### Cursor 의 Next 함수
 
-Cursor.Next 개선
+여러 파이프라인을 거치며 데이터가 사용될 때
+
+효율적으로 동작하게 개선
 
 ---
 
 기존:
 ```go
 for cur.Next() {
-    current := cur.Current()
+    buffer := cur.Current()
 
-    copy(buffer, current)
+    var data []byte
+    copy(data, buffer)
 
     doSomething(buffer)
 }
@@ -218,14 +230,14 @@ for cur.Next() {
 
 ---
 
-[gotraceui](https://github.com/dominikh/gotraceui)
+[gotraceui](https://github.com/dominikh/gotraceui) 에게 감사하는 시간
 
 - 오픈소스 go trace frontend
-- go tool trace 에 비해 압도적으로 빠르고 편안함
+- go tool trace 에 비해 압도적으로 빠름
 
 ---
 
-3초에서 6초 사이에만 processor 를 유의미하게 사용
+쿼리시간 14.7초 중 3~6초만 processor 유의미하게 사용
 
 ![](/go/go-performance-optimization-tips/trace-old.png)
 
@@ -239,7 +251,7 @@ trace 의 synchronization blocking profile
 
 ---
 
-쿼리 시작 단계에서 partition 을 너무 많이 만들지 않게 개선
+gRPC stream 을 너무 많이 만들지 않게 개선
 
 ---
 
@@ -267,8 +279,8 @@ global lock 을 제거하는 방식으로 수정함
 
 ---
 
-- 단일 쿼리 프로파일로는 확인하기 힘들었음
-- 대량 쿼리 프로파일 도입 중
+- 단일 쿼리에서 재현되지 않아 release 전에 검증하지 못함
+- 이 문제를 해결하기 위해 대량 쿼리 프로파일 도입 중
 
 ---
 
@@ -284,8 +296,9 @@ Global lock 제거 결과
 
 ---
 
-- 시스템에 대한 이해가 있었기에 가능했던 작업
-    - 프로파일이 아니라
+프로파일이 아니라
+
+시스템에 대한 이해가 있었기에 가능했던 작업
 
 ---
 
@@ -311,3 +324,10 @@ Global lock 제거 결과
 - gRPC stream 수 줄이기: 56%(14.7s -> 6.4s)
 - Global lock 제거: Pxx: 13.2s -> 19.9s -> 7.6s
 - 샘플링 개선: 22%(13.5s -> 10.5s)
+
+---
+
+## 교훈
+
+- profile 과 trace 를 사용하면 Go 최적화를 효율적으로 할 수 있다.
+- 대상 시스템에 대한 이해는 최적화에 큰 도움을 준다.
