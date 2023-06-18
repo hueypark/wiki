@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # June 2023
 
+## On Wall Street, many employees viewed the company as a pain, and in big tech, many viewed the company as a family - neither of which is a healthy relationship.
+
+> Original full korean: 월가에서는 많은 직원들이 회사를 고통으로 여겼고 빅테크에서는 많은 직원들이 회사를 가족으로 여겼다. 그 어느 쪽도 건강한 회사와 관계는 아니다. 그 중심 밸런스는 본인이 잡아야 한다. 나의 목표와 회사의 목표에 접점이 있으면 서로 최선을 다한다. 회사 목표에 나의 모든 것을 꾸겨 넣을 이유도 없고 회사가 나에게 맞추기를 어리석게 바랄 이유도 없다.
+
+Link: https://twitter.com/eyesofjenny/status/1669639792399880192
+
 ## Where the beautiful person left off, the unit tests remain.
 
 Link: https://twitter.com/sm_park/status/1668631492917096451
