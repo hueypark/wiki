@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # June 2023
 
+## Where the beautiful person left off, the unit tests remain.
+
+Link: https://twitter.com/sm_park/status/1668631492917096451
+
 ## "Why do you study?", "To not love something meaningless."
 
 Link: https://twitter.com/sungwookim/status/1666264671677190144
