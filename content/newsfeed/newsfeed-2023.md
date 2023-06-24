@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # June 2023
 
+## You need to start by setting challenging goals that are more than the sum of their parts.
+
+Link: https://twitter.com/lqez/status/1670975453765701632
+
 ## All of us, without exception, are replaceable. Therefore, if you use irreplaceability in negotiations, it could lead to trouble.
 
 Link: https://twitter.com/_woojinkim/status/1587981325059129345?ref=blog.woojinkim.org
