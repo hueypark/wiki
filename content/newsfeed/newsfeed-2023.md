@@ -6,6 +6,14 @@ tags: ["newsfeed"]
 
 # June 2023
 
+## Two tricks to increase your company's stock price by at least 10x
+
+> 1. Rename the game to `[Your MMO Game name Here] Manager [Release year number Here]`
+
+I am strongly convinced that this comment will actually work.
+
+Link: https://blog.woojinkim.org/two-tricks-to-increase-companys-stock-price-by-at-least-10x/
+
 ## You need to start by setting challenging goals that are more than the sum of their parts.
 
 Link: https://twitter.com/lqez/status/1670975453765701632
