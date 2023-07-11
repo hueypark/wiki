@@ -4,6 +4,16 @@ date: "2023-01-05"
 tags: ["newsfeed"]
 ---
 
+# July 2023
+
+## Impossible?
+
+> BTW, fyi, I don’t remember when I used ‘impossible’ or ‘unrealistic’ on my commitments.
+> Wording is important because that makes difference.
+> Our job is tough but never be pessimistic.
+
+Link: https://m.facebook.com/story.php?story_fbid=pfbid0fmAVRt7X74NQqd2S91V7sXVXpn2Md6K5qmxZWT8qUUFTeUzpQwTm6Lp4DhPiR6Gfl&id=100001518988037
+
 # June 2023
 
 ## Two tricks to increase your company's stock price by at least 10x
