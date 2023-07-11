@@ -6,6 +6,14 @@ tags: ["newsfeed"]
 
 # July 2023
 
+# How I built a $1M business on 2 hours a day.
+
+1. do deep work
+2. consistently
+3. over a long period of time
+
+https://twitter.com/thepatwalls/status/1674432696695783431?s=20
+
 ## Impossible?
 
 > BTW, fyi, I don’t remember when I used ‘impossible’ or ‘unrealistic’ on my commitments.
