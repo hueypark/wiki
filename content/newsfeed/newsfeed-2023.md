@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # July 2023
 
+# Why Refactor? 
+
+We are doing this in order to be able to deliver more functionality more quickly.
+
+Link: https://youtu.be/vqEg37e4Mkw?t=1513
+
 # How I built a $1M business on 2 hours a day.
 
 1. do deep work
