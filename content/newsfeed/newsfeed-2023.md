@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # July 2023
 
+# The Most Exciting Phrase in Science Is Not "Eureka!" But "That’s funny …"
+
+Link: https://quoteinvestigator.com/2015/03/02/eureka-funny/
+
 # Why Refactor? 
 
 We are doing this in order to be able to deliver more functionality more quickly.
