@@ -4,19 +4,25 @@ date: "2023-01-05"
 tags: ["newsfeed"]
 ---
 
+# August 2023
+
+## Getting Friendly With CPU Caches
+
+Link: https://www.ardanlabs.com/blog/2023/07/getting-friendly-with-cpu-caches.html
+
 # July 2023
 
-# The Most Exciting Phrase in Science Is Not "Eureka!" But "That’s funny …"
+## The Most Exciting Phrase in Science Is Not "Eureka!" But "That’s funny …"
 
 Link: https://quoteinvestigator.com/2015/03/02/eureka-funny/
 
-# Why Refactor? 
+## Why Refactor? 
 
 We are doing this in order to be able to deliver more functionality more quickly.
 
 Link: https://youtu.be/vqEg37e4Mkw?t=1513
 
-# How I built a $1M business on 2 hours a day.
+## How I built a $1M business on 2 hours a day.
 
 1. do deep work
 2. consistently
