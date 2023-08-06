@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # August 2023
 
+## [ASCII Pronunciation Rules for Programmers](https://blog.codinghorror.com/ascii-pronunciation-rules-for-programmers/)
+
 ## Getting Friendly With CPU Caches
 
 Link: https://www.ardanlabs.com/blog/2023/07/getting-friendly-with-cpu-caches.html
