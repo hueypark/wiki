@@ -4,6 +4,10 @@ date: "2022-09-18"
 tags: ["go"]
 ---
 
+# [Go compiler and runtime meeting notes](https://github.com/golang/go/issues/43930)
+
+# [go HACKING.md](https://github.com/golang/go/blob/master/src/runtime/HACKING.md)
+
 # [Go basically never frees heap memory back to the operating system](https://utcc.utoronto.ca/~cks/space/blog/programming/GoNoMemoryFreeing)
 
 # [Go 1.20 Experiment: Memory Arenas vs Traditional Memory Management](https://pyroscope.io/blog/go-1-20-memory-arenas/)
