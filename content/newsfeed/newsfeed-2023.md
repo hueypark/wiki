@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # August 2023
 
+## [print(“lol”) doubled the speed of my Go function](https://medium.com/@ludirehak/printing-lol-doubled-the-speed-of-my-go-code-e32e02fc3f92)
+
 ## [ASCII Pronunciation Rules for Programmers](https://blog.codinghorror.com/ascii-pronunciation-rules-for-programmers/)
 
 ## Getting Friendly With CPU Caches
