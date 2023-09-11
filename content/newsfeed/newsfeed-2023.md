@@ -4,6 +4,14 @@ date: "2023-01-05"
 tags: ["newsfeed"]
 ---
 
+# September 2023
+
+## [How I Built Three Billion-dollar CompaniesㅣFrank Slootman, CEO at SnowFlake](https://youtu.be/oiWwyt3HVT0)
+
+> [OK is terrible.](https://www.youtube.com/watch?v=oiWwyt3HVT0&t=331s)
+
+> [Two days max. I prefer actually tomorrow morning.](https://www.youtube.com/watch?v=oiWwyt3HVT0&t=419s)
+
 # August 2023
 
 ## [print(“lol”) doubled the speed of my Go function](https://medium.com/@ludirehak/printing-lol-doubled-the-speed-of-my-go-code-e32e02fc3f92)
