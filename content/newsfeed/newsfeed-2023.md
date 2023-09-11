@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # September 2023
 
+## [Explaining The Postgres Meme](https://www.avestura.dev/blog/explaining-the-postgres-meme)
+
+> Join ordering is NP Hard
+
 ## [How I Built Three Billion-dollar CompaniesㅣFrank Slootman, CEO at SnowFlake](https://youtu.be/oiWwyt3HVT0)
 
 > [OK is terrible.](https://www.youtube.com/watch?v=oiWwyt3HVT0&t=331s)
