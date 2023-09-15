@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # September 2023
 
+## [Turbo 8 is dropping TypeScript](https://world.hey.com/dhh/turbo-8-is-dropping-typescript-70165c01)
+
+> Most programmers find themselves drawn strongly to typing or not quite early in their career, and then spend the rest of it rationalizing The Correct Choice to themselves and others.
+
 ## [Explaining The Postgres Meme](https://www.avestura.dev/blog/explaining-the-postgres-meme)
 
 > Join ordering is NP Hard
