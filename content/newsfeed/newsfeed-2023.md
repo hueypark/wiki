@@ -6,6 +6,13 @@ tags: ["newsfeed"]
 
 # September 2023
 
+## Delivering 80% of a project as soon as possible can be more beneficial for your team and your own development than striving for 100% completion by the deadline.
+
+> 1. 팀장님을 잘 활용하자,
+> 2. 100% 를 on-time 에 전달하기 보다는, 80%를 한 템포 빠르게 공유하여 피드백을 빨리 받고 반영하여 완성도를 높이자
+
+Link: https://www.linkedin.com/posts/seunghoon-lee-30935520_%EC%A3%BC%EB%8B%88%EC%96%B4%EB%A1%9C%EC%84%9C-%EC%9D%BC%EC%9D%84-%EC%9E%98%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EB%B0%A9%EB%B2%95-activity-7108709928395055104-WVkp?utm_source=share&utm_medium=member_desktop
+
 ## [Non-blocking sequential processing in Go using infinite (unbounded) buffered channel](https://dev.to/daholino/non-blocking-sequential-processing-in-go-using-infinite-unbounded-buffered-channel-360g)
 
 ## [Turbo 8 is dropping TypeScript](https://world.hey.com/dhh/turbo-8-is-dropping-typescript-70165c01)
