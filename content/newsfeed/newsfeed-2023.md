@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # September 2023
 
+## [Non-blocking sequential processing in Go using infinite (unbounded) buffered channel](https://dev.to/daholino/non-blocking-sequential-processing-in-go-using-infinite-unbounded-buffered-channel-360g)
+
 ## [Turbo 8 is dropping TypeScript](https://world.hey.com/dhh/turbo-8-is-dropping-typescript-70165c01)
 
 > Most programmers find themselves drawn strongly to typing or not quite early in their career, and then spend the rest of it rationalizing The Correct Choice to themselves and others.
