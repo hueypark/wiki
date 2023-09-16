@@ -4,6 +4,8 @@ date: "2022-09-18"
 tags: ["go"]
 ---
 
+# [A Deep Look Into Golang Profile-Guided Optimization (PGO)](https://theyahya.com/posts/go-pgo/)
+
 # [Go compiler and runtime meeting notes](https://github.com/golang/go/issues/43930)
 
 # [go HACKING.md](https://github.com/golang/go/blob/master/src/runtime/HACKING.md)
