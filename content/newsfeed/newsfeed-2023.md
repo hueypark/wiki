@@ -6,6 +6,14 @@ tags: ["newsfeed"]
 
 # September 2023
 
+## [Why an Engineering Manager Should Not Review Code](https://betterprogramming.pub/why-an-engineering-manager-should-not-review-code-46f87c08db66)
+
+![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*3C8gFD96OADLCWRBfYKy4Q.png)
+
+> - Technical Lead and Engineering Manager are two roles that partner to make the teamwork. Therefore, they should have clear roles and responsibilities and cooperate in a mutual partnership.
+> - Teams hit a size inflection point of ~4 where someone must dedicate their time to communications for the team to work. Otherwise, the team collapses into a black hole of thrash.
+
+
 ## Delivering 80% of a project as soon as possible can be more beneficial for your team and your own development than striving for 100% completion by the deadline.
 
 > 1. 팀장님을 잘 활용하자,
