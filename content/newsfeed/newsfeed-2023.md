@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # September 2023
 
+## [68 Bits of Unsolicited Advice by Kevin Kelly](https://kk.org/thetechnium/68-bits-of-unsolicited-advice/)
+
+> Always demand a deadline. A deadline weeds out the extraneous and the ordinary. It prevents you from trying to make it perfect, so you have to make it different. Different is better.
+
 ## [Why an Engineering Manager Should Not Review Code](https://betterprogramming.pub/why-an-engineering-manager-should-not-review-code-46f87c08db66)
 
 ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*3C8gFD96OADLCWRBfYKy4Q.png)
