@@ -6,6 +6,16 @@ tags: ["newsfeed"]
 
 # September 2023
 
+## [Do we need non disruptive maintenance? by Woojin Kim](https://blog.woojinkim.org/do-we-need-non-disruptive-maintenance)
+
+> While, theoretically, non-disruptive updates can be an avenue to optimize your company's revenue, there exist several costs, beyond technical aspects, that might render maintaining the current trajectory a more judicious choice.
+> Even if the execution is technically feasible, the practicality of implementing such updates may not always align with the company's best interests.
+> This is especially true when considering the manpower needed for verifications, the associated time consumption, the varying feasibility across different game genres, and the expenses involved in retraining the staff.
+
+Original in Korean:
+> 무중단 업데이트는 이론적으로 회사의 수익을 극대화 할 수 있는 방법이지만 기술적인 측면을 생략하고서도 여기에 필요한 여러 가지 비용이 있으며 이를 감안하면 현재 체계를 유지하는 쪽이 더 나은 선택일 가능성도 있습니다.
+> 기술적으로 가능하더라도 점검 과정을 수행하는 인력, 점검 시간에 따른 손해, 게임 장르에 따른 무중단 달성 가능 여부, 스탭들에 대한 재교육 비용 등을 고려할 때 무중단이 항상 이익이 아닐 수 있습니다.
+
 ## [68 Bits of Unsolicited Advice by Kevin Kelly](https://kk.org/thetechnium/68-bits-of-unsolicited-advice/)
 
 > Always demand a deadline. A deadline weeds out the extraneous and the ordinary. It prevents you from trying to make it perfect, so you have to make it different. Different is better.
