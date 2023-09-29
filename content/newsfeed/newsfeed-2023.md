@@ -6,6 +6,13 @@ tags: ["newsfeed"]
 
 # September 2023
 
+## [You can't make decisions based on a game that doesn't exist by Woojin Kim](https://blog.woojinkim.org/you-cant-make-decisions-based-on-a-game-that-doesnt-exist/)
+
+> Don not let them make decisions based on a game that doesn't exist.
+
+Original in Korean:
+> 없는 게임에 근거해 의사결정을 하게 놔 두면 안됩니다.
+
 ## [Do we need non disruptive maintenance? by Woojin Kim](https://blog.woojinkim.org/do-we-need-non-disruptive-maintenance)
 
 > While, theoretically, non-disruptive updates can be an avenue to optimize your company's revenue, there exist several costs, beyond technical aspects, that might render maintaining the current trajectory a more judicious choice.
