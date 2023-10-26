@@ -4,6 +4,12 @@ date: "2023-01-05"
 tags: ["newsfeed"]
 ---
 
+# October 2023
+
+## [The price of managed cloud services](https://world.hey.com/dhh/the-price-of-managed-cloud-services-4f33d67e)
+
+There is arbitrage everywhere, and there are ways to capitalize on it.
+
 # September 2023
 
 ## [You can't make decisions based on a game that doesn't exist by Woojin Kim](https://blog.woojinkim.org/you-cant-make-decisions-based-on-a-game-that-doesnt-exist/)
