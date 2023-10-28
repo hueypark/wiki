@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # October 2023
 
+## [A Survey and Taxonomy of Latency Compensation Techniques for Network Computer Games](https://dl.acm.org/doi/10.1145/3519023)
+
 ## [The price of managed cloud services](https://world.hey.com/dhh/the-price-of-managed-cloud-services-4f33d67e)
 
 There is arbitrage everywhere, and there are ways to capitalize on it.
