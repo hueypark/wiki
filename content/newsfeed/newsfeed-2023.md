@@ -4,6 +4,10 @@ date: "2023-01-05"
 tags: ["newsfeed"]
 ---
 
+# November 2023
+
+## [Hash Tables by Maksim Kita's Blog](https://maksimkita.com/blog/hash_tables.html)
+
 # October 2023
 
 ## [A Survey and Taxonomy of Latency Compensation Techniques for Network Computer Games](https://dl.acm.org/doi/10.1145/3519023)
