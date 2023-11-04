@@ -6,6 +6,16 @@ tags: ["newsfeed"]
 
 # November 2023
 
+## [회사와 팀의 align을 위한 키워드: 반복 & 대화 by Hoon Lee](https://brunch.co.kr/@seunghoon82/333)
+
+> "회사의 중요한 지표 및 프로젝트는 매주, 자주 반복하여 팀에게 설명하고 또 설명한다. 반복을 멈추지 않는다."
+
+> "반복하다 보면, 그 내용에 대해 질문하는 팀원이 생긴다. 그러면 대화를 한다."
+
+> 반복과 대화. 회사와 팀의 align 을 만들어 주는 가장 중요한 2가지 키워드라 생각한다.
+
+Repetition and conversation are the two most important factors in achieving alignment within your company and team.
+
 ## [Hash Tables by Maksim Kita's Blog](https://maksimkita.com/blog/hash_tables.html)
 
 # October 2023
