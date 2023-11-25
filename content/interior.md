@@ -2,12 +2,19 @@
 layout: post
 title: "인테리어"
 date: "2020-02-10"
-tags: [life]
+tags: ["life", "home", "interior"]
 ---
 
-인테리어와 관련된 내용을 기록합니다.
+Write about interior design.
 
 <!--more-->
+
+# Check List
+
+- Coffee machine and sink must be close to each other
+- Sink height should be as high as it is now (95.5 cm)
+
+---
 
 ## 8월 2일
 
