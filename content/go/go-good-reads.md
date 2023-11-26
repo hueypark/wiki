@@ -43,6 +43,8 @@ Go 메모리 관련 OOM 버그를 수정하는 여정에 관한 이야기
 특히 [Other lessons learned](https://mtlynch.io/notes/picoshare-perf/##other-lessons-learned) 와
 [Dead ends](https://mtlynch.io/notes/picoshare-perf/##dead-ends) 파트에서 공유해준 내용에는 배울 점이 많습니다.
 
+## [Bounds Check Elimination in Go 101](https://go101.org/article/bounds-check-elimination.html)
+
 # Generics
 
 ## [Deconstructing Type Parameters by The Go Blog](https://go.dev/blog/deconstructing-type-parameters)
