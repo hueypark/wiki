@@ -4,6 +4,10 @@ date: "2023-01-05"
 tags: ["newsfeed"]
 ---
 
+# December 2023
+
+## [Graviton 3: First Impressions by Chips and Cheese](https://chipsandcheese.com/2022/05/29/graviton-3-first-impressions/)
+
 # November 2023
 
 ## [회사와 팀의 align을 위한 키워드: 반복 & 대화 by Hoon Lee](https://brunch.co.kr/@seunghoon82/333)
