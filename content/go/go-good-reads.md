@@ -49,6 +49,10 @@ Go 메모리 관련 OOM 버그를 수정하는 여정에 관한 이야기
 
 ## [Deconstructing Type Parameters by The Go Blog](https://go.dev/blog/deconstructing-type-parameters)
 
+# Reiaibility
+
+## [NilAway: Practical Nil Panic Detection for Go by the Uber engineering blog](https://www.uber.com/en-NL/blog/nilaway-practical-nil-panic-detection-for-go/)
+
 # Others
 
 ## [Go compiler and runtime meeting notes](https://github.com/golang/go/issues/43930)
