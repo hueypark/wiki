@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # December 2023
 
+## [S3 Express One Zone, Not Quite What I Hoped For by Jack Vanlightly](https://jack-vanlightly.com/blog/2023/11/29/s3-express-one-zone-not-quite-what-i-hoped-for)
+
 ## [퇴사 후 나만의 세계 밖으로 나아갈 때 도움이 될 이야기들 | 페블러스 이주행 by EO](https://youtu.be/VyH-g3RgJpI)
 
 > 1. Figuring out the first question.
