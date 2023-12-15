@@ -6,6 +6,14 @@ tags: ["newsfeed"]
 
 # December 2023
 
+## [퇴사 후 나만의 세계 밖으로 나아갈 때 도움이 될 이야기들 | 페블러스 이주행 by EO](https://youtu.be/VyH-g3RgJpI)
+
+> 1. Figuring out the first question.
+> 2. Finding the first answer to that question.
+> 3. Improving that answer.
+
+> I wondered if I was working at 100% of my capacity as a human being, and realized that I probably wasn't.
+
 ## [Graviton 3: First Impressions by Chips and Cheese](https://chipsandcheese.com/2022/05/29/graviton-3-first-impressions/)
 
 # November 2023
