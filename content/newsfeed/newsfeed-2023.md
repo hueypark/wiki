@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # December 2023
 
+## [How Companies Incentivize Layoffs—A Study of Corporate Career Incentives by David Anderson](https://www.scarletink.com/p/how-companies-incentivize-layoffs)
+
 ## ["My API is very slow, how can I make it better?" by @thegeeknarrator](https://x.com/thegeeknarrator/status/1733434128865849684?s=20)
 
 > "Where is your API spending most if its time? Network? Database call?"
