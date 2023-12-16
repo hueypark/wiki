@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # December 2023
 
+## ["My API is very slow, how can I make it better?" by @thegeeknarrator](https://x.com/thegeeknarrator/status/1733434128865849684?s=20)
+
+> "Where is your API spending most if its time? Network? Database call?"
+
 ## [인프랩 개발팀의 미션과 가치 by 향로(HyangLo)](https://tech.inflab.com/20231117-devteam-value/)
 
 > 배우는 관객이 필요하고
