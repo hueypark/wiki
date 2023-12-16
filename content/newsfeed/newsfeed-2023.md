@@ -6,6 +6,15 @@ tags: ["newsfeed"]
 
 # December 2023
 
+## [인프랩 개발팀의 미션과 가치 by 향로(HyangLo)](https://tech.inflab.com/20231117-devteam-value/)
+
+> 배우는 관객이 필요하고
+> 프로덕트 엔지니어는 고객이 필요하다.
+
+> 완벽하지 않은 전략일지라도 이를 잘 실행하는 조직은 쉽게 지지 않는다.
+
+> 말도 안되는 방향이라도 나를 믿고 따라갈 수 있을정도로 동료와의 신뢰관계를 쌓는 것이 중요하다.
+
 ## [S3 Express One Zone, Not Quite What I Hoped For by Jack Vanlightly](https://jack-vanlightly.com/blog/2023/11/29/s3-express-one-zone-not-quite-what-i-hoped-for)
 
 ## [퇴사 후 나만의 세계 밖으로 나아갈 때 도움이 될 이야기들 | 페블러스 이주행 by EO](https://youtu.be/VyH-g3RgJpI)
