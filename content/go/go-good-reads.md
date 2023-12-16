@@ -12,6 +12,8 @@ tags: ["go"]
 
 # Performance
 
+## [pprof documentation](https://github.com/google/pprof/tree/main/doc)
+
 ## [A Deep Look Into Golang Profile-Guided Optimization (PGO)](https://theyahya.com/posts/go-pgo/)
 
 ## [Profiling and Execution Tracing in Go](https://teivah.medium.com/profiling-and-execution-tracing-in-go-a5e646970f5b)
