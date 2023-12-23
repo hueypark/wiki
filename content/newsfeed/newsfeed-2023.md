@@ -6,6 +6,28 @@ tags: ["newsfeed"]
 
 # December 2023
 
+## [건강검진 검사 추천 비추천 by @BenjaminKim_](https://x.com/BenjaminKim_/status/1737380534635085958?s=20)
+
+> ### 추천
+> - 위내시경(위암)
+> - 대장내시경(대장암, 3년~5년 마다)
+> - 유방초음파(20대부터 2년에 한 번씩, 30대부터는 1년에 한번)
+> - 갑상선초음파(20,30대)
+> - 복부 초음파(간암, 췌장암, 신장암, 담낭암)
+> - 조영증강 복부 CT(한 번쯤 해보면 좋다)
+> - 뇌 MRA(40대 이상. 혈압이 안 좋은 경우만)
+> - 관상동맥 CT(나이가 많은 경우)
+>
+> ### 추천까진 아니고 해도 괜찮은 것
+> - 저선량 폐CT(30,40대가 되면 한 번 정도 해보고 괜찮으면 담부턴 몇년 주기로)
+> - 흉부 CT
+>
+> ### 비추천
+> - 조영증강을 안 한 복부 CT (얻는 것 없이 방사선만 노출된다)
+> - PET-CT (절대 찍지 말것. 방사선 노출이 엄청 높다. 암환자나 찍는거다.)
+> - 허리 MRI, 사지 MRI (안 아프면 할 필요 없다. 증상있음 그냥 정형외과 가라)
+> - 심장 초음파 (증상 없는데 찍을 필요가 없다)
+
 ## [How Companies Incentivize Layoffs—A Study of Corporate Career Incentives by David Anderson](https://www.scarletink.com/p/how-companies-incentivize-layoffs)
 
 ## ["My API is very slow, how can I make it better?" by @thegeeknarrator](https://x.com/thegeeknarrator/status/1733434128865849684?s=20)
