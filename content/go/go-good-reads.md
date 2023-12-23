@@ -12,6 +12,8 @@ tags: ["go"]
 
 # Performance
 
+## [Go 1.22 inlining overhaul](https://docs.google.com/document/d/1a6p7-nbk5PVyM1S2tmccFrrIuGzCyzclstBtaciHxVw)
+
 ## [pprof documentation](https://github.com/google/pprof/tree/main/doc)
 
 ## [A Deep Look Into Golang Profile-Guided Optimization (PGO)](https://theyahya.com/posts/go-pgo/)
