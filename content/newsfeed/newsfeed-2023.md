@@ -6,6 +6,16 @@ tags: ["newsfeed"]
 
 # December 2023
 
+## [The Big Cloud Exit FAQ by @dhh](https://world.hey.com/dhh/the-big-cloud-exit-faq-20274010)
+
+> This isn’t some archaic knowledge that’s been lost to the ages. We might not know exactly how the pyramids were built, but we do still know how to connect a Linux machine to the internet.
+
+I think many of us are forgetting this.
+
+> "buy the baseline, rent the spike"
+
+100% agree.
+
 ## [Constant Propagation in Compiler Design](https://www.geeksforgeeks.org/constant-propagation-in-complier-design/)
 
 > In simpler words, we can say that if  some value is assigned a known constant, than we can simply replace the that value by constant.
