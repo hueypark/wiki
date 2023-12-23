@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # December 2023
 
+## [Constant Propagation in Compiler Design](https://www.geeksforgeeks.org/constant-propagation-in-complier-design/)
+
+> In simpler words, we can say that if  some value is assigned a known constant, than we can simply replace the that value by constant.
+
 ## [건강검진 검사 추천 비추천 by @BenjaminKim_](https://x.com/BenjaminKim_/status/1737380534635085958?s=20)
 
 > ### 추천
