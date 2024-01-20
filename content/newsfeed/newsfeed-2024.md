@@ -6,6 +6,22 @@ tags: ["newsfeed"]
 
 # January 2024
 
+## [Short-lived Datacenter](https://arxiv.org/abs/2202.06646)
+
+Authors: Michael Wawrzoniak, Ingo Müller, Rodrigo Bruno, Ana Klimovic, Gustavo Alonso
+
+## [Peer-to-Peer Communication Across Network Address Translators](https://www.usenix.org/legacy/event/usenix05/tech/general/full_papers/ford/ford.pdf)
+
+Authors: Bryan Ford, Pyda Srisuresh, Dan Kegel
+
+## [TCP Connections for P2P Apps: A Software Approach to Solving the NAT Problem](http://reports-archive.adm.cs.cmu.edu/anon/isri2005/CMU-ISRI-05-104.pdf)
+
+Author: Jeffrey L. Eppinger
+
+## [InfiniCache: Exploiting Ephemeral Serverless Functions to Build a Cost-Effective Memory Cache](https://www.usenix.org/conference/fast20/presentation/wang-ao)
+
+Authors: Ao Wang and Jingyuan Zhang, George Mason University; Xiaolong Ma, University of Nevada, Reno; Ali Anwar, Lukas Rupprecht, Dimitrios Skourtis, and Vasily Tarasov, IBM Research--Almaden; Feng Yan, University of Nevada, Reno; Yue Cheng, George Mason University
+
 ## [2023-04부터 실천중인 스프린트 기반의 팀 업무 프레임워크](https://johngrib.github.io/wiki/better-work/2023/04-scrum-sprint/)
 
 > - 회의록을 작성한다
