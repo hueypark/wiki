@@ -4,6 +4,12 @@ date: "2024-01-01"
 tags: ["newsfeed"]
 ---
 
+# February 2024
+
+## [벌이는 놈, 말리는 놈, 치우는 놈 by Kihong Bae](https://www.thestartupbible.com/2024/01/the-starter-the-stopper-and-the-cleaner.html)
+
+Who am I? Perhaps a cleaner?
+
 # January 2024
 
 ## [Short-lived Datacenter](https://arxiv.org/abs/2202.06646)
