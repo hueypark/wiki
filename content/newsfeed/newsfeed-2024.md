@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # February 2024
 
+## [What’s New in Go 1.22: slices.Concat by Carlana Johnson](https://blog.carlana.net/post/2024/golang-slices-concat/)
+
 ## [Accidentally Quadratic Constant Folding](https://accidentallyquadratic.tumblr.com/)
 
 ## [벌이는 놈, 말리는 놈, 치우는 놈 by Kihong Bae](https://www.thestartupbible.com/2024/01/the-starter-the-stopper-and-the-cleaner.html)
