@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # February 2024
 
+## [What’s New in Go 1.22: reflect.TypeFor by Carlana Johnson](https://blog.carlana.net/post/2024/golang-reflect-type-for/)
+
 ## [What’s New in Go 1.22: slices.Concat by Carlana Johnson](https://blog.carlana.net/post/2024/golang-slices-concat/)
 
 ## [Accidentally Quadratic Constant Folding](https://accidentallyquadratic.tumblr.com/)
