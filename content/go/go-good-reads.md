@@ -49,6 +49,11 @@ Go 메모리 관련 OOM 버그를 수정하는 여정에 관한 이야기
 
 ## [Bounds Check Elimination in Go 101](https://go101.org/article/bounds-check-elimination.html)
 
+## PGO
+
+- [Profile Guided optimisation by Andrew Phillips](https://andrewwphillips.github.io/blog/pgo.html)
+- [cmd/compile: PGO opportunities umbrella issue in github.com/golang/go Issuues](https://github.com/golang/go/issues/62463)
+
 # Generics
 
 ## [Deconstructing Type Parameters by The Go Blog](https://go.dev/blog/deconstructing-type-parameters)
