@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # February 2024
 
+## [나는 일을 즐기며 일할 수 있을까? by Woojin Kim](https://blog.woojinkim.org/will-i-be-able-to-enjoy-my-work/)
+
+> 이 분은 그냥 순수하게 자기 하고 싶은 일을 하고 있을 뿐이고 회사에서 오랜 시간 즐겁게 머물며 현대에 분업화 된 여러 가지 일에 관심을 가진 나머지 그냥 자연스럽게 팀에서 일어나는 모든 일을 알고 있을 뿐이었습니다.
+
+Translation: This person is just doing what he wants to do, and he has been staying at the company for a long time, enjoying various modernized tasks, so he naturally knows everything that happens in the team.
+
 ## [What’s New in Go 1.22: reflect.TypeFor by Carlana Johnson](https://blog.carlana.net/post/2024/golang-reflect-type-for/)
 
 ## [What’s New in Go 1.22: slices.Concat by Carlana Johnson](https://blog.carlana.net/post/2024/golang-slices-concat/)
