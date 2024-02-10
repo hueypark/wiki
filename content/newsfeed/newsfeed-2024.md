@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # February 2024
 
+## [Start With the Go Standard Library by Matthew Sanabria](https://matthewsanabria.dev/posts/start-with-the-go-standard-library/)
+
 ## [나는 일을 즐기며 일할 수 있을까? by Woojin Kim](https://blog.woojinkim.org/will-i-be-able-to-enjoy-my-work/)
 
 > 이 분은 그냥 순수하게 자기 하고 싶은 일을 하고 있을 뿐이고 회사에서 오랜 시간 즐겁게 머물며 현대에 분업화 된 여러 가지 일에 관심을 가진 나머지 그냥 자연스럽게 팀에서 일어나는 모든 일을 알고 있을 뿐이었습니다.
