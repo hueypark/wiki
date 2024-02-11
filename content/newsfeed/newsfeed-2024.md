@@ -6,6 +6,13 @@ tags: ["newsfeed"]
 
 # February 2024
 
+## [Go 1.22 Release Notes](https://tip.golang.org/doc/go1.22)
+
+Related documents:
+
+- [Go 1.22 Released by Andrew Phillips](https://andrewwphillips.github.io/blog/go1p22.html)
+- [What's Coming in Go 1.22 - Daniel Martí - November Gophers 2023](https://youtu.be/LspUdN3nWPc)
+
 ## [Start With the Go Standard Library by Matthew Sanabria](https://matthewsanabria.dev/posts/start-with-the-go-standard-library/)
 
 ## [나는 일을 즐기며 일할 수 있을까? by Woojin Kim](https://blog.woojinkim.org/will-i-be-able-to-enjoy-my-work/)
