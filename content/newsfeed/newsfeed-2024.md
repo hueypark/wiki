@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # February 2024
 
+## [From slow to SIMD: A Go optimization story by Camden Cheek](https://sourcegraph.com/blog/slow-to-simd)
+
 ## [Go 1.22 Release Notes](https://tip.golang.org/doc/go1.22)
 
 Related documents:
