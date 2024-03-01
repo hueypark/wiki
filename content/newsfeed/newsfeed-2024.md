@@ -4,6 +4,15 @@ date: "2024-01-01"
 tags: ["newsfeed"]
 ---
 
+# March 2024
+
+## [Result and process by @lqez](https://twitter.com/lqez/status/1759793856437276902)
+
+> 결과물을 우아하게 하는 일에 집중하는 사람과 과정을 우아하게 하는 일에 집중하는 사람 둘 다 모두 대단한 사람이라고 본다.
+> 많은 사람들은 둘 다 신경쓰지 않고 적당히 하거나 둘 다 신경쓰느라 한 발자국 내딛기도 힘들어 했다.
+
+I'm all about getting results.
+
 # February 2024
 
 ## [From slow to SIMD: A Go optimization story by Camden Cheek](https://sourcegraph.com/blog/slow-to-simd)
