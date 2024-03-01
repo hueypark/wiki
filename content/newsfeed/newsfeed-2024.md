@@ -29,6 +29,8 @@ clarification. Intentionally do a lot of activities to create a sense of securit
 
 # March 2024
 
+## [Some of My Favourite Query Planning Papers by Justin Jaffray](https://buttondown.email/jaffray/archive/some-of-my-favourite-query-planning-papers/)
+
 ## [Money spent, time passed, no impact by HoonLee](https://brunch.co.kr/@seunghoon82/453)
 
 > A good team uses people skills, not money.
