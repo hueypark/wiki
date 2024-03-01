@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # March 2024
 
+## [How I write HTTP services in Go after 13 years by Mat Ryer](https://grafana.com/blog/2024/02/09/how-i-write-http-services-in-go-after-13-years/?trk=feed_main-feed-card_feed-article-content)
+
 ## [Result and process by @lqez](https://twitter.com/lqez/status/1759793856437276902)
 
 > 결과물을 우아하게 하는 일에 집중하는 사람과 과정을 우아하게 하는 일에 집중하는 사람 둘 다 모두 대단한 사람이라고 본다.
