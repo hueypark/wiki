@@ -6,6 +6,14 @@ tags: ["newsfeed"]
 
 # March 2024
 
+## [멘토링 이야기 #14 퇴사의 기술을 알고 싶습니다. by Keeyong H.](https://www.linkedin.com/posts/activity-7164878318226300928-fWOn?utm_source=share&utm_medium=member_desktop)
+
+> 1. 그만두기로 결정했다면 (즉 무슨 카운터 오퍼를 지금 회사에서 주더라도 그만둘 생각이라면) 먼저 매니저와 이야기를 시작해서 마지막 날 정하고 내 일을 누가 대신 할지 정한다. 특별한 이유가 없는한 2주가 딱 좋은 것 같다. 하지만 당장 일을 대신할 사람을 찾기 힘든 곳이라면 시간을 더 여유있게 잡지만 한달 이상은 너무 길다고 본다.
+
+> 2. 어떤 메시지를 퇴사 이유로 보낼 것인지 먼저 바로 위 매니저와 이야기한다. 최대한 솔직하되 어떤 메시지를 전달할 것인지 매니저가 아는 것이 여러모로 좋고 그 메시지에 충실하게 모두에게 이야기하는 것이 좋다. 즉 사람에 따라 말을 바꾸지 않는다. 앞에서 이야기했던 것처럼 되도록이면 감정적인 메시지를 전달하지 않는다. 감정적인 메시지 밖에 생각이 안 난다면 상처가 있다는 증거니 상처를 분명히 인지하고 치유하는 노력을 병행하는 것이 다음 직장에서 잘 하는데 도움이 된다. 안 그러면 상처와 분노를 그대로 들고 새 직장에서 시작할 가능성이 높다.
+
+Ensure consistency in your message regarding the reason for your departure, regardless of the individual.
+
 ## [SSDs Have Become Ridiculously Fast, Except in the Cloud by Viktor Leis](https://databasearchitects.blogspot.com/2024/02/ssds-have-become-ridiculously-fast.html?m=1)
 
 ## [How I write HTTP services in Go after 13 years by Mat Ryer](https://grafana.com/blog/2024/02/09/how-i-write-http-services-in-go-after-13-years/?trk=feed_main-feed-card_feed-article-content)
