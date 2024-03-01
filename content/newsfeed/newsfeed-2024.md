@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # March 2024
 
+## [SSDs Have Become Ridiculously Fast, Except in the Cloud by Viktor Leis](https://databasearchitects.blogspot.com/2024/02/ssds-have-become-ridiculously-fast.html?m=1)
+
 ## [How I write HTTP services in Go after 13 years by Mat Ryer](https://grafana.com/blog/2024/02/09/how-i-write-http-services-in-go-after-13-years/?trk=feed_main-feed-card_feed-article-content)
 
 ## [Result and process by @lqez](https://twitter.com/lqez/status/1759793856437276902)
