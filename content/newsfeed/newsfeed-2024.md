@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # March 2024
 
+## [Money spent, time passed, no impact by HoonLee](https://brunch.co.kr/@seunghoon82/453)
+
+> A good team uses people skills, not money.
+
 ## [멘토링 이야기 #14 퇴사의 기술을 알고 싶습니다. by Keeyong H.](https://www.linkedin.com/posts/activity-7164878318226300928-fWOn?utm_source=share&utm_medium=member_desktop)
 
 > 1. 그만두기로 결정했다면 (즉 무슨 카운터 오퍼를 지금 회사에서 주더라도 그만둘 생각이라면) 먼저 매니저와 이야기를 시작해서 마지막 날 정하고 내 일을 누가 대신 할지 정한다. 특별한 이유가 없는한 2주가 딱 좋은 것 같다. 하지만 당장 일을 대신할 사람을 찾기 힘든 곳이라면 시간을 더 여유있게 잡지만 한달 이상은 너무 길다고 본다.
