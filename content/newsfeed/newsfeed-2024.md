@@ -6,6 +6,19 @@ tags: ["newsfeed"]
 
 # April 2024
 
+## [Every team will have conflict - 4 stages of team development by Hyunsol Park](https://dis.qa/zmorXAU)
+
+> Forming, Storming, Norming, Performing
+
+Right guide for forming a team.
+
+Tasks should be assigned in much greater detail for each role, goal, and process, with the goal of communicating
+frequently and gaining understanding through task performance.
+
+Spend much more time explaining roles, goals, and processes with the expectation that they won't ask questions or voice
+their opinions until they feel comfortable, and actively check in with them to see if they don't understand or need
+clarification. Intentionally do a lot of activities to create a sense of security and bonding.
+
 ## [Beyond Safety and Speed: How Rust Fuels Team Productivity by Lars Bergstrom](https://youtu.be/6mZRWFQRvmw?t=27031)
 
 > Rust teams at Google are as productive as ones using Go, and more than twice as productive as teams using C++.
