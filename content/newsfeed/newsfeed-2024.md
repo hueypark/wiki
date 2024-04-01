@@ -4,6 +4,12 @@ date: "2024-01-01"
 tags: ["newsfeed"]
 ---
 
+# April 2024
+
+## [Beyond Safety and Speed: How Rust Fuels Team Productivity by Lars Bergstrom](https://youtu.be/6mZRWFQRvmw?t=27031)
+
+> Rust teams at Google are as productive as ones using Go, and more than twice as productive as teams using C++.
+
 # March 2024
 
 ## [Money spent, time passed, no impact by HoonLee](https://brunch.co.kr/@seunghoon82/453)
