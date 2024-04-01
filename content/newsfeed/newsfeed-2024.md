@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # April 2024
 
+## [After three weeks of sobriety by KBS Secrets of the birth, old age, disease, death](https://youtu.be/XveOACw4pfU?t=1624)
+
+> The likelihood of alcohol dependence and depression co-existing is 30% to as much as 50%.
+
 ## [Every team will have conflict - 4 stages of team development by Hyunsol Park](https://dis.qa/zmorXAU)
 
 > Forming, Storming, Norming, Performing
