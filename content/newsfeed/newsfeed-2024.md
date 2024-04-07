@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # April 2024
 
+## [Database Fundamentals by tontinton](https://tontinton.com/posts/database-fundementals/)
+
 ## [High-Speed Packet Transmission in Go: From net.Dial to AF_XDP by Andree Toonk](https://toonk.io/sending-network-packets-in-go/)
 
 ## [You are firing people too late by Anton Zaides](https://zaidesanton.substack.com/p/you-are-firing-people-too-late)
