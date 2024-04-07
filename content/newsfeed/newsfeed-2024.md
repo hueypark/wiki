@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # April 2024
 
+## [The 'life-changing questions' from Silicon Valley's top career coach by Keeyong (기용) H](https://youtu.be/HfBP0JvSNX0)
+
 ## [After three weeks of sobriety by KBS Secrets of the birth, old age, disease, death](https://youtu.be/XveOACw4pfU?t=1624)
 
 > The likelihood of alcohol dependence and depression co-existing is 30% to as much as 50%.
