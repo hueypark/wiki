@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # April 2024
 
+## [A year in the life of a platform team to build Japan's largest delivery service by 송재욱](https://techblog.lycorp.co.jp/ko/one-year-retrospective-of-platform-team-at-demaecan)
+
+> Maximize personal and professional self-interest
+
 ## [The 'life-changing questions' from Silicon Valley's top career coach by Keeyong (기용) H](https://youtu.be/HfBP0JvSNX0)
 
 ## [After three weeks of sobriety by KBS Secrets of the birth, old age, disease, death](https://youtu.be/XveOACw4pfU?t=1624)
