@@ -6,6 +6,15 @@ tags: ["newsfeed"]
 
 # April 2024
 
+## [What makes a great technical blog by Phil Eaton](https://notes.eatonphil.com/2024-04-10-what-makes-a-great-tech-blog.html)
+
+> - Tackle hard and confusing topics
+> - Show working code
+> - Make things simpler
+> - Write regularly
+> - Talk about tradeoffs and downsides
+> - Avoid internet slang, memes, swearing, sarcasm, and ranting
+
 ## [Designing potion items correctly by Woojin Kim](https://blog.woojinkim.org/properly-designing-potion-items/)
 
 This approach is highly sophisticated and well-suited.
