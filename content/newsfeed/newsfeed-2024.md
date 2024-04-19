@@ -6,6 +6,11 @@ tags: ["newsfeed"]
 
 # April 2024
 
+## [Designing potion items correctly by Woojin Kim](https://blog.woojinkim.org/properly-designing-potion-items/)
+
+This approach is highly sophisticated and well-suited.
+It almost seems as though he has designed something similar on numerous occasions before.
+
 ## [A year in the life of a platform team to build Japan's largest delivery service by 송재욱](https://techblog.lycorp.co.jp/ko/one-year-retrospective-of-platform-team-at-demaecan)
 
 > Maximize personal and professional self-interest
