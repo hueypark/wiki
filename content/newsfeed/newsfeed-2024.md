@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # April 2024
 
+## [You are firing people too late by Anton Zaides](https://zaidesanton.substack.com/p/you-are-firing-people-too-late)
+
+> If you imagine the scenario of an employee quitting, and you feel relieved, and not upset – that’s a sign you need to let them go.
+
 ## [What makes a great technical blog by Phil Eaton](https://notes.eatonphil.com/2024-04-10-what-makes-a-great-tech-blog.html)
 
 > - Tackle hard and confusing topics
