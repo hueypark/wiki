@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # April 2024
 
+## [High-Speed Packet Transmission in Go: From net.Dial to AF_XDP by Andree Toonk](https://toonk.io/sending-network-packets-in-go/)
+
 ## [You are firing people too late by Anton Zaides](https://zaidesanton.substack.com/p/you-are-firing-people-too-late)
 
 > If you imagine the scenario of an employee quitting, and you feel relieved, and not upset – that’s a sign you need to let them go.
