@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # April 2024
 
+## [Leaving Rust gamedev after 3 years by LogLog Games](https://loglog.games/blog/leaving-rust-gamedev/)
+
 ## [2017 Letter to Shareholders by Jeffrey P. Bezos](https://www.aboutamazon.com/news/company-news/2017-letter-to-shareholders)
 
 > Intrinsic or Teachable?
