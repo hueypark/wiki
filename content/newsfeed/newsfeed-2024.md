@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # April 2024
 
+## [LLVM is Smarter Than Me](https://blog.sulami.xyz/posts/llvm-is-smarter-than-me/)
+
 ## [What is Longevity? | Peter Attia, M.D.](https://youtu.be/orFg7At0_mM)
 
 ## [Database Fundamentals by tontinton](https://tontinton.com/posts/database-fundementals/)
