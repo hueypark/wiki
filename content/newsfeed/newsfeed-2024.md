@@ -6,6 +6,24 @@ tags: ["newsfeed"]
 
 # April 2024
 
+## [2017 Letter to Shareholders by Jeffrey P. Bezos](https://www.aboutamazon.com/news/company-news/2017-letter-to-shareholders)
+
+> Intrinsic or Teachable?
+>
+> First, there’s a foundational question: are high standards intrinsic or teachable?
+> If you take me on your basketball team, you can teach me many things, but you can’t teach me to be taller.
+> Do we first and foremost need to select for “high standards” people?
+> If so, this letter would need to be mostly about hiring practices, but I don’t think so.
+> I believe high standards are teachable.
+> In fact, people are pretty good at learning high standards simply through exposure.
+> High standards are contagious.
+> Bring a new person onto a high standards team, and they’ll quickly adapt.
+> The opposite is also true.
+> If low standards prevail, those too will quickly spread.
+> And though exposure works well to teach high standards,
+> I believe you can accelerate that rate of learning by articulating a few core principles of high standards,
+> which I hope to share in this letter.
+
 ## [Shareholder letter 1998 by Jeffrey P. Bezos](https://media.corporate-ir.net/media_files/irol/97/97664/reports/Shareholderletter98.pdf)
 
 > During our hiring meetings, we ask people to consider three questions before making a decision:
