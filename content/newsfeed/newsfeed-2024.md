@@ -4,6 +4,12 @@ date: "2024-01-01"
 tags: ["newsfeed"]
 ---
 
+# May 2024
+
+## [1997 Letter to Shareholders by Jeffrey P. Bezos](https://media.corporate-ir.net/media_files/irol/97/97664/reports/Shareholderletter97.pdf)
+
+> "You can work long, hard, or smart, but at Amazon.com you can't choose two out of three"
+
 # April 2024
 
 ## [Leaving Rust gamedev after 3 years by LogLog Games](https://loglog.games/blog/leaving-rust-gamedev/)
