@@ -12,6 +12,12 @@ tags: ["go"]
 
 # Performance
 
+## [Inline Heuristics Review](https://docs.google.com/presentation/d/1Lf3WoRyCNicS1K3NCuVl_VnJFhvew_6nAQF_Wx--F54/edit?usp=sharing)
+
+> On Thursday 3/28 we held a design review looking at the new inlining heuristics framework being developed as part of the inlining overhaul effort (this was a separate session from the usual C&R meeting)
+
+From [Go compiler and runtime meeting notes](https://github.com/golang/go/issues/43930#issuecomment-2043535174)
+
 ## [Go 1.22 inlining overhaul](https://docs.google.com/document/d/1a6p7-nbk5PVyM1S2tmccFrrIuGzCyzclstBtaciHxVw)
 
 ## [pprof documentation](https://github.com/google/pprof/tree/main/doc)
