@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # May 2024
 
+## [The billion dollar robotics idea has always been washing dishes. by Jaana Dogan](https://x.com/rakyll/status/1790594259982352690)
+
+Agreed.
+
 ## [What we learned building our SaaS with Rust 🦀](https://dev.to/meteroid/5-lessons-learned-building-our-saas-with-rust-1doj)
 
 ## [1997 Letter to Shareholders by Jeffrey P. Bezos](https://media.corporate-ir.net/media_files/irol/97/97664/reports/Shareholderletter97.pdf)
