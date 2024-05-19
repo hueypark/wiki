@@ -6,6 +6,17 @@ tags: ["newsfeed"]
 
 # May 2024
 
+## [사업성패가 걸린 연봉협상 잘하는 3가지 팁/ 인건비효율 ⬆️ 대표님만 보세요! by 인사해요 위드](https://youtu.be/mYvAqQoa-3o)
+
+- Base Salary:
+    - Should adjust based on changes in work quality and quantity.
+    - Must meet expectations.
+    - Factor in future expectations (revenue) and employee retention.
+- Incentive Bonus:
+    - Should be given even if future work quality and quantity remain unchanged.
+    - Based on performance during the employment period.
+    - Methods include stock options, signing bonuses, and retention bonuses.
+
 ## [The billion dollar robotics idea has always been washing dishes. by Jaana Dogan](https://x.com/rakyll/status/1790594259982352690)
 
 Agreed.
