@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # May 2024
 
+## [How to make an effort](https://www.youtube.com/shorts/IBdA6Q7B-vg?feature=share)
+
+1. You must be convinced to try.
+2. Strive to strengthen your conviction, and if it is genuine,
+3. Your effort will naturally increase.
+
 ## [사업성패가 걸린 연봉협상 잘하는 3가지 팁/ 인건비효율 ⬆️ 대표님만 보세요! by 인사해요 위드](https://youtu.be/mYvAqQoa-3o)
 
 - Base Salary:
