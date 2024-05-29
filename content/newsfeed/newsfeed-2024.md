@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # May 2024
 
+## [How to do what matters well](https://brunch.co.kr/@cleancode/77)
+
+Be innovative in what matters, but minimize the damage of failure.
+
 ## [How to make an effort](https://www.youtube.com/shorts/IBdA6Q7B-vg?feature=share)
 
 1. You must be convinced to try.
