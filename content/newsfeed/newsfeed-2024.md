@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # May 2024
 
+## [Be diligent and uncomfortable by Hoon Lee](https://brunch.co.kr/@seunghoon82/492)
+
+> Especially as you move into management and leadership, it's ultimately how well you engage with your key stakeholders
+> more often and more deeply that will have the biggest impact on your ability to deliver your desired output and create impact.
+> If communication is sporadic, it's only when things go wrong that you realize, "Oh. Nobody is doing what I want them to do".
+
 ## [How to do what matters well](https://brunch.co.kr/@cleancode/77)
 
 Be innovative in what matters, but minimize the damage of failure.
@@ -137,7 +143,7 @@ clarification. Intentionally do a lot of activities to create a sense of securit
 
 ## [Some of My Favourite Query Planning Papers by Justin Jaffray](https://buttondown.email/jaffray/archive/some-of-my-favourite-query-planning-papers/)
 
-## [Money spent, time passed, no impact by HoonLee](https://brunch.co.kr/@seunghoon82/453)
+## [Money spent, time passed, no impact by Hoon Lee](https://brunch.co.kr/@seunghoon82/453)
 
 > A good team uses people skills, not money.
 
