@@ -4,6 +4,14 @@ date: "2024-01-01"
 tags: ["newsfeed"]
 ---
 
+# June 2024
+
+## [Don't miss out on these leaders by Lester](https://www.linkedin.com/posts/%EC%84%A0%EC%9A%B1-%EC%86%A1-5bb04054_reeqys-qvospfsqo-spfsut-activity-7207987991317811200-W0jf?utm_source=share&utm_medium=member_desktop)
+
+1. The leader who thinks about team members' career development.
+2. The leader who explains the background and context of tasks.
+3. The leader who makes it easy to express your thoughts and helps implement them in the organization.
+
 # May 2024
 
 ## [Be diligent and uncomfortable by Hoon Lee](https://brunch.co.kr/@seunghoon82/492)
