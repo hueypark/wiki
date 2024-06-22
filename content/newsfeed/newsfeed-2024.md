@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # June 2024
 
+## [Simple Design by Youngrok Pak](https://youngrok.com/Simple%20Design)
+
+> If extending the project timeline to improve code quality, it shows a misunderstanding of what code quality is. Remember, improving code quality is meant to enable faster development.
+
 ## [Don't miss out on these leaders by Lester](https://www.linkedin.com/posts/%EC%84%A0%EC%9A%B1-%EC%86%A1-5bb04054_reeqys-qvospfsqo-spfsut-activity-7207987991317811200-W0jf?utm_source=share&utm_medium=member_desktop)
 
 1. The leader who thinks about team members' career development.
