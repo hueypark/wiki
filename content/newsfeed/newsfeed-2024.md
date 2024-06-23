@@ -6,6 +6,11 @@ tags: ["newsfeed"]
 
 # June 2024
 
+## [Best GraalVM mug by Christian Humer](https://x.com/grashalm_/status/1803768743580905784)
+
+> WE DO THIS NOT BECAUSE IT IS EASY
+> BUT BECAUSE WE THOUGHT IT WOULD BE EASY
+
 ## [Simple Design by Youngrok Pak](https://youngrok.com/Simple%20Design)
 
 > If extending the project timeline to improve code quality, it shows a misunderstanding of what code quality is. Remember, improving code quality is meant to enable faster development.
