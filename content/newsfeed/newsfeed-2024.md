@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # June 2024
 
+## [Smart Fools by Kihong Bae](https://www.thestartupbible.com/2024/06/cynics-sound-smart-but-vcs-have-to-be-optimists.html)
+
+> Instead of spending time and energy looking for reasons not to invest, spend time and energy looking for reasons to invest.
+
 ## [Best GraalVM mug by Christian Humer](https://x.com/grashalm_/status/1803768743580905784)
 
 > WE DO THIS NOT BECAUSE IT IS EASY
