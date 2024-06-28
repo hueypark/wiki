@@ -36,7 +36,6 @@ languageCode = "en-US"
 paginate = 3
 theme = "hugo-dusk"
 
-googleAnalytics = ""
 disqusShortname = ""
 
 [author]

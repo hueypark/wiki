@@ -8,7 +8,6 @@ theme = "hugo-dusk"
 themesDir = "../.."
 enableRobotsTXT = true
 
-googleAnalytics = ""
 disqusShortname = ""
 
 SectionPagesMenu = "main"

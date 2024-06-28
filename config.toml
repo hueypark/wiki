@@ -4,7 +4,6 @@ title = "Marsettler"
 theme = "hugo-dusk"
 disableHugoGeneratorInject = true
 enableGitInfo = true
-googleAnalytics = "UA-121966234-1"
 
 [params]
 	github = "hueypark"

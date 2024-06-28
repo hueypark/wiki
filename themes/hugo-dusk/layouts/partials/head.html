@@ -20,8 +20,6 @@
 
 <link href="/font/d2coding.css" rel="stylesheet" type="text/css">
 
-{{ template "_internal/google_analytics_async.html" . }}
-
 <title>
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
 {{ if eq $url "/" }}
