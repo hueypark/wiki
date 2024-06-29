@@ -18,14 +18,6 @@ https://en.wikipedia.org/wiki/Online_analytical_processing
 
 ---
 
-### Key words
-
-- multi-dimensional
-- analytical
-- swiftly
-
----
-
 ## OLAP VS. OLTP: THE DIFFERENCES
 
 > OLAP is used for complex data analysis, while OLTP is used for real-time processing of online transactions at scale.
@@ -44,8 +36,8 @@ https://engineering.ab180.co/stories/introducing-luft
 
 Let's take a look at what you'd do if you implemented.
 
-1. Funnel
-2. Retention
+1. Retention
+2. Funnel
 
 ---
 
@@ -66,15 +58,24 @@ https://marsettler.com/go/c++-to-go/
 
 ---
 
-## Luft 성능 리포트 2:  더 많은 코호트에 대한 리텐션 집계
+## 오늘 할 이야기
 
-https://engineering.ab180.co/stories/luft-performance-report-2
+- Luft 성능 리포트 2:  더 많은 코호트에 대한 리텐션 집계
+- 제안서: Luft 의 대형 쿼리 처리에 관하여
+- AWS Lambda 를 활용한 Luft 스케일링
 
 ---
 
-## 제안서: Luft 의 대형 쿼리 처리에 관하여
+## [Luft 성능 리포트 2:  더 많은 코호트에 대한 리텐션 집계](https://engineering.ab180.co/stories/luft-performance-report-2)
+ 
 
-https://engineering.ab180.co/stories/luft-query-optimizer-and-scale
+---
+
+## [제안서: Luft 의 대형 쿼리 처리에 관하여](https://engineering.ab180.co/stories/luft-query-optimizer-and-scale)
+
+---
+
+## [AWS Lambda 를 활용한 Luft 스케일링](https://engineering.ab180.co/stories/luft-task-executor-with-aws-lambda)
 
 ---
 
@@ -86,6 +87,6 @@ https://engineering.ab180.co/stories/luft-query-optimizer-and-scale
 
 - [Luft: 유저 행동 분석에 최적화된 OLAP 데이터베이스](https://engineering.ab180.co/stories/introducing-luft)
 - [C++ to Go: Introducing Ziegel](https://marsettler.com/go/c++-to-go/)
-- [gRPC 101 간단하고 빠르게 게임서버 만들기](https://marsettler.com/distributed-system/grpc/)
 - [Luft 성능 리포트 2:  더 많은 코호트에 대한 리텐션 집계](https://engineering.ab180.co/stories/luft-performance-report-2)
 - [제안서: Luft 의 대형 쿼리 처리에 관하여](https://engineering.ab180.co/stories/luft-query-optimizer-and-scale)
+- [AWS Lambda 를 활용한 Luft 스케일링](https://engineering.ab180.co/stories/luft-task-executor-with-aws-lambda)
