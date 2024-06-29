@@ -3,7 +3,6 @@ title: "OLAP database query optimizer and performance"
 date: "2024-02-23"
 tags: ["database", "luft", "olap"]
 layout: "slide"
-draft: true
 ---
 
 # OLAP database query optimizer and performance
