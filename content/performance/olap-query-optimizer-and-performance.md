@@ -66,16 +66,25 @@ https://marsettler.com/go/c++-to-go/
 
 ---
 
-## [Luft 성능 리포트 2:  더 많은 코호트에 대한 리텐션 집계](https://engineering.ab180.co/stories/luft-performance-report-2)
+## Luft 성능 리포트 2
+## 더 많은 코호트에 대한 리텐션 집계
+
+https://engineering.ab180.co/stories/luft-performance-report-2
  
 
 ---
 
-## [제안서: Luft 의 대형 쿼리 처리에 관하여](https://engineering.ab180.co/stories/luft-query-optimizer-and-scale)
+## 제안서: Luft 의 대형 쿼리
+## 처리에 관하여
+
+https://engineering.ab180.co/stories/luft-query-optimizer-and-scale
 
 ---
 
-## [AWS Lambda 를 활용한 Luft 스케일링](https://engineering.ab180.co/stories/luft-task-executor-with-aws-lambda)
+## AWS Lambda 를 활용한
+## Luft 스케일링
+
+https://engineering.ab180.co/stories/luft-task-executor-with-aws-lambda
 
 ---
 
