@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # June 2024
 
+## [Writing generic collection types in Go: the missing documentation by Zach Musgrave](https://www.dolthub.com/blog/2024-07-01-golang-generic-collections/)
+
 ## [Smart Fools by Kihong Bae](https://www.thestartupbible.com/2024/06/cynics-sound-smart-but-vcs-have-to-be-optimists.html)
 
 > Instead of spending time and energy looking for reasons not to invest, spend time and energy looking for reasons to invest.
