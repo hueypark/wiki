@@ -4,6 +4,16 @@ date: "2024-01-01"
 tags: ["newsfeed"]
 ---
 
+# July 2024
+
+## [Intervention in game design undermines the designer's ownership by Woojin Kim](https://blog.woojinkim.org/intervention-in-game-design-destroys-designer-ownership)
+
+> Designs that are created with one's own ownership are better able to handle the difficulties of the development process.
+> If the outcome differs from the initial intention, they can adapt accordingly.
+> This process will undoubtedly help the individual grow and become a reliable teammate for the next project.
+> However, if someone loses their ownership and exhausts themselves trying to achieve the intended result, they might lose the opportunity to work together again in the future.
+> I believe the former situation is preferable.
+
 # June 2024
 
 ## [Writing generic collection types in Go: the missing documentation by Zach Musgrave](https://www.dolthub.com/blog/2024-07-01-golang-generic-collections/)
