@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # July 2024
 
+## [35% Faster Than The Filesystem by SQLite](https://sqlite.org/fasterthanfs.html)
+
+> It appears that the overhead of calling open() and close() is greater than the overhead of using the database.
+
+It's a reasonable guess.
+
 ## [As a senior individual contributor, part of how you get things done is always going to be black magic by Jaana Dogan](https://x.com/rakyll/status/1815883628842537228)
 
 > As a senior individual contributor, part of how you get things done is always going to be black magic.
