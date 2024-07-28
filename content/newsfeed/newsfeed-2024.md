@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # July 2024
 
+## [As a senior individual contributor, part of how you get things done is always going to be black magic by Jaana Dogan](https://x.com/rakyll/status/1815883628842537228)
+
+> As a senior individual contributor, part of how you get things done is always going to be black magic.
+> In companies where there is an established senior IC population, this is a pretty well understood reality.
+> In others, management will try to micromanage you or count some arbitrary artifacts.
+
 ## [Intervention in game design undermines the designer's ownership by Woojin Kim](https://blog.woojinkim.org/intervention-in-game-design-destroys-designer-ownership)
 
 > Designs that are created with one's own ownership are better able to handle the difficulties of the development process.
