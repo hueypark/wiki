@@ -4,6 +4,14 @@ date: "2024-01-01"
 tags: ["newsfeed"]
 ---
 
+# August 2024
+
+## [The Philosophy of Kazuo Inamori by Kidae Lee](https://www.linkedin.com/posts/kidaelee_hr-activity-7227492216661848064-qKtn/)
+
+> 現在の能力でできる、できないを判断してしまっては、新しいことや困難なことはいつまでたってもやりとげられません。
+
+If we judge what we can or cannot do based on our current abilities, we will never be able to accomplish anything new or difficult.
+
 # July 2024
 
 ## [35% Faster Than The Filesystem by SQLite](https://sqlite.org/fasterthanfs.html)
