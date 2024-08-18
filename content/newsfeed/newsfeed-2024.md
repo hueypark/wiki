@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # August 2024
 
+## [Game Studio Gambles by @PriateSoftware](https://youtube.com/shorts/NLb9-DPspgA?si=m-uTeVvv0jOyJLZI)
+
 ## [내가 김나박이에 못 들어가는 이유 by 성시경](https://youtube.com/shorts/G21UmShyv6I?si=BxxlEgddvj6zAhKh)
 
 > 너 왜 내가 골드버튼이고 너는 목이 좋은 줄 알아?
