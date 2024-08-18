@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # August 2024
 
+## [For the Love of God, Stop Using CPU Limits on Kubernetes by Natan Yellin](https://home.robusta.dev/blog/stop-using-cpu-limits)
+
 ## [Breaking even is a critical milestone for your business. by 김영재](https://www.facebook.com/story.php/?story_fbid=10160379583507794&id=531322793)
 
 > 이 과정은 뼈를 깎을 정도로 힘들다기보다는 짜증이 나는 경우가 많다. 
