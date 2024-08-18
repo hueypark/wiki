@@ -6,6 +6,11 @@ tags: ["newsfeed"]
 
 # August 2024
 
+## [내가 김나박이에 못 들어가는 이유 by 성시경](https://youtube.com/shorts/G21UmShyv6I?si=BxxlEgddvj6zAhKh)
+
+> 너 왜 내가 골드버튼이고 너는 목이 좋은 줄 알아?
+> 난 내려가는 길에도 순댓국을 찍고 갔어
+
 ## [The Philosophy of Kazuo Inamori by Kidae Lee](https://www.linkedin.com/posts/kidaelee_hr-activity-7227492216661848064-qKtn/)
 
 > 現在の能力でできる、できないを判断してしまっては、新しいことや困難なことはいつまでたってもやりとげられません。
