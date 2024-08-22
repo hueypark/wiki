@@ -98,3 +98,5 @@ Despite the tradeoffs, arena is a very cool feature.
 ## [GopherCon 2019: Dave Cheney - Two Go Programs, Three Different Profiling Techniques](https://youtu.be/nok0aYiGiYA)
 
 - [Trace tool](https://youtu.be/nok0aYiGiYA?t=1485)
+
+## [Mythfall Devlog: Hacking Go Plugins for hot code reloading by UnitOfTime](https://youtu.be/Hfnpupo6yBE)
