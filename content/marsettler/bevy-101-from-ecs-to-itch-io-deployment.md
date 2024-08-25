@@ -3,19 +3,24 @@ title: "Bevy 101 - ECS 부터 itch.io 배포까지"
 date: "2024-08-18"
 tags: ["marsettler", "rust", "bevy", "game", "itchio", "github"]
 layout: "slide"
-draft: true
 ---
 
 # Bevy 101 - ECS 부터 itch.io 배포까지
 
 ---
 
+## 박재완
+
+- 여러 게임회사를 다닌 후
+- 지금은 [OLAP 데이터베이스](http://abit.ly/luft) 개발하고 있음
+- Bevy 로 캐주얼 게임 만들기 시도 중
+
+---
+
 ## 목차
 
-- Bevy
-- Bevy ECS
-- itch.io
-- itch.io 배포
+- Bevy Game Engine 기초
+- itch.io 에 게임 배포하기
 
 ---
 
@@ -27,6 +32,8 @@ draft: true
 https://bevyengine.org/
 
 ---
+
+## Bevy 주요 기능
 
 - Data Driven
 - 2D, 3D Renderer, Render Graph, Animation
@@ -66,7 +73,15 @@ Bevy Component 와 System
 
 ---
 
-## Bevy Hello World
+## Bevy Warning
+
+> Bevy is still in the early stages of development.
+
+https://github.com/bevyengine/bevy?tab=readme-ov-file#warning
+
+---
+
+<!-- ## Bevy Hello World
 
 ```rust
 use bevy::prelude::*;
@@ -82,7 +97,7 @@ fn hello_world() {
 }
 ```
 
----
+--- -->
 
 ## Bevy ECS
 
@@ -94,53 +109,66 @@ fn hello_world() {
 
 ## [Entity component system in wikipedia](https://en.wikipedia.org/wiki/Entity_component_system)
 
-> Entity–component–system (ECS) is a software architectural pattern mostly used in video game development for the representation of game world objects.
->
-> An ECS comprises entities composed from components of data, with systems which operate on the components.
+- Entity–component–system (ECS) is a software architectural pattern mostly used in video game development for the representation of game world objects.
+- An ECS comprises entities composed from components of data, with systems which operate on the components.
 
 ---
 
-## [Go 1.18 Generic으로 만들어본 ECS 시스템](https://www.youtube.com/watch?v=FylHURMCpPU&t=410s)
+## [History of ECS](https://en.wikipedia.org/wiki/Entity_component_system#History)
 
-MVC 패턴과 비슷한 것 같기도 하지만
+- In 1998, Thief: The Dark Project pioneered an ECS.
+- ...
+- In October 2018 the company Unity released its megacity demo that utilized a tech stack built on an ECS.
 
-디커플링이 목적이 아니라
+---
 
-**성능 향상이 목적**
+## [Go Generic 으로 만들어본 ECS 시스템](https://www.youtube.com/watch?v=FylHURMCpPU&t=410s)
+
+- MVC 패턴과 비슷한 것 같기도 하지만
+- 디커플링이 목적이 아니라
+- **성능 향상이 목적**
+
+---
+
+## Unity
+
+- [ECS for Unity](https://unity.com/ecs)
+    - Game code based on an ECS architecture pattern can avoid the drawbacks of object-oriented programming with GameObjects.
+    - And by leveraging game code based on ECS, Burst Compiler, and the C# Job System, development teams can maximize the performance of target platform hardware resources at the memory and CPU level.
+- [Unity ECS로 속도 향상, 캐릭터 5000개 만들어 보기](https://youtu.be/LVjb_fQs2J8)
+
+---
+
+## Unreal Engine
+
+- [Engine Level ECS System Needed](https://forums.unrealengine.com/t/engine-level-ecs-system-needed/499939/2)
+    - TL;DR Unreal does take benefit of CPU threads.
+    - It does already uses ECS where it makes sense, instead of forcing everyone to some trend.
 
 ---
 
 ## [Bevy ECS](https://github.com/bevyengine/bevy/tree/main/crates/bevy_ecs)
 
-### What is Bevy ECS?
-
-> Bevy ECS is an Entity Component System custom-built for the Bevy game engine.
->
-> It aims to be simple to use, ergonomic, fast, massively parallel, opinionated, and featureful.
->
-> It was created specifically for Bevy's needs, but it can easily be used as a standalone crate in other projects
+- Bevy ECS is an Entity Component System custom-built for the Bevy game engine.
+- It aims to be simple to use, ergonomic, fast, massively parallel, opinionated, and featureful.
+- It was created specifically for Bevy's needs, but it can easily be used as a standalone crate in other projects
 
 ---
 
-### ECS
+## [Bevy ECS Concepts](https://github.com/bevyengine/bevy/tree/main/crates/bevy_ecs#concepts)
 
-> All app logic in Bevy uses the Entity Component System paradigm, which is often shortened to ECS.
-> 
-> ECS is a software pattern that involves breaking your program up into Entities, Components, and Systems.
->
-> Entities are unique "things" that are assigned groups of Components, which are then processed using Systems.
-
----
-
-### Concepts
+- Bevy ECS Concepts 중 핵심적인 몇가지 소개
+    - Components
+    - Entities
+    - Systems
+- 이 외에도 Worlds, Schedules 등의 개념이 있음
 
 ---
 
-#### Components
+### [Components](https://github.com/bevyengine/bevy/tree/main/crates/bevy_ecs#components)
 
-> Components are normal Rust structs.
->
-> They are data stored in a World and specific instances of Components correlate to Entities.
+- Components are normal Rust structs.
+- They are data stored in a World and specific instances of Components correlate to Entities.
 
 ```rust
 use bevy_ecs::prelude::*;
@@ -151,9 +179,9 @@ struct Position { x: f32, y: f32 }
 
 ---
 
-#### Entities
+### [Entities](https://github.com/bevyengine/bevy/tree/main/crates/bevy_ecs#entities)
 
-> Entities are unique identifiers that correlate to zero or more Components.
+- Entities are unique identifiers that correlate to zero or more Components.
 
 ```rust
 use bevy_ecs::prelude::*;
@@ -166,24 +194,22 @@ struct Velocity { x: f32, y: f32 }
 
 let mut world = World::new();
 
-let entity_id = world
+let entity = world
     .spawn((Position { x: 0.0, y: 0.0 }, Velocity { x: 1.0, y: 0.0 }))
     .id();
 
-let entity_ref = world.entity(entity_id);
+let entity_ref = world.entity(entity);
 let position = entity_ref.get::<Position>().unwrap();
 let velocity = entity_ref.get::<Velocity>().unwrap();
 ```
 
 ---
 
-#### Systems
+### [Systems](https://github.com/bevyengine/bevy/tree/main/crates/bevy_ecs#systems)
 
-> Systems are normal Rust functions.
->
-> Thanks to the Rust type system, Bevy ECS can use function parameter types to determine what data needs to be sent to the system.
->
-> It also uses this "data access" information to determine what Systems can run in parallel with each other.
+- Systems are normal Rust functions.
+- Thanks to the Rust type system, Bevy ECS can use function parameter types to determine what data needs to be sent to the system.
+- It also uses this "data access" information to determine what Systems can run in parallel with each other.
 
 ```rust
 use bevy_ecs::prelude::*;
@@ -198,12 +224,11 @@ fn print_position(query: Query<(Entity, &Position)>) {
 }
 ```
 
-
 ---
 
-## [Build Your First Game in Bevy and Rust - Step by Step Tutorial](https://youtu.be/E9SzRc9HkOg)
+## OOP vs ECS
 
-OOP vs ECS
+- [Build Your First Game in Bevy and Rust - Step by Step Tutorial](https://youtu.be/E9SzRc9HkOg)
 
 ---
 
@@ -244,28 +269,7 @@ fn velocity_system(
 
 ---
 
-## 다른 엔진의 ECS 활용
-
----
-
-### Unity
-
-- [ECS for Unity](https://unity.com/ecs)
-- [[ECS/DOTS #2] Unity ECS로 속도 향상, 캐릭터 5000개 만들어 보기](https://youtu.be/LVjb_fQs2J8)
-
----
-
-### Unreal Engine
-
-- [Engine Level ECS System Needed](https://forums.unrealengine.com/t/engine-level-ecs-system-needed/499939/2)
-
-> TL;DR Unreal does take benefit of CPU threads.
-> 
-> It does already uses ECS where it makes sense, instead of forcing everyone to some trend.
-
----
-
-## 자 이제 Bevy 로 게임을 만들었습니다.
+## 자! 이제 Bevy 로 게임을 만들었습니다.
 
 ## 그 다음은? 배포!
 
@@ -273,11 +277,13 @@ fn velocity_system(
 
 ## 주요 고려사항
 
-1. 사용자에게 가깝다. 
-2. 쉽게 사용할 수 있다.
-3. 개발자의 노력이 적다.
+1. 사용자가 접근하기 쉬워야 함
+2. 개발자가 쉽게 사용할 수 있어야 함
+3. 배포 주기가 짧아야 함
 
 ---
+
+## 플랫폼들
 
 - Google Play
 - App Store
@@ -289,10 +295,20 @@ fn velocity_system(
 
 ## itch.io
 
-> itch.io is an open marketplace for independent digital creators with a focus on independent video games.
+- itch.io is an open marketplace for independent digital creators with a focus on independent video games.
 
-https://itch.io/docs/general/about
+https://itch.io/
 
+---
+
+## 왜 itch.io 인가?
+
+1. 사용자가 접근하기 쉬워야 함
+    - 다운로드 없이 웹에서 바로 실행됨
+2. 개발자가 쉽게 사용할 수 있어야 함
+    - 하루 정도 걸려서 배포 성공
+3. 배포 주기가 짧아야 함
+    - GitHub 에서 자동화된 배포 가능
 ---
 
 ## Snake v2
@@ -301,18 +317,41 @@ https://hueypark.itch.io/snake-v2
 
 ---
 
-## itch.io 배포 with bevy
+## GitHub Actions
 
-https://github.com/hueypark/marsettler/blob/b0a93930b057b9c9141b36dd8d9c891c275da456/.github/workflows/release.yaml
+- Automate your workflow from idea to production
 
-## GitHub Actions workflow
+https://github.com/features/actions
+
+---
+
+## Butler
+
+butler is a small command-line tool that lets you:
+
+- Upload builds of your games quickly & reliably to itch.io
+- Generate patches and apply them offline
+- Run a few other utility commands
+
+https://github.com/itchio/butler
+
+---
+
+## Bevy 로 itch.io 배포하기
 
 1. Checkout code
+2. Install Rust toolchain
+3. Install wasm related tools
+4. Install butler
+5. Upload package to Itch.io
 
-```
-- name: Checkout code
-  uses: actions/checkout@v4
-```
+[전체 Workflow](https://github.com/hueypark/marsettler/blob/b0a93930b057b9c9141b36dd8d9c891c275da456/.github/workflows/release.yaml)
+
+---
+
+## Q & A
+
+---
 
 ## 참고자료
 
