@@ -12,6 +12,12 @@ tags: ["go"]
 
 # Performance
 
+## [New unique package by Michael Knyszek](https://go.dev/blog/unique)
+
+> This work also led us to reexamine finalizers, resulting in another proposal for an easier-to-use and more efficient replacement for finalizers. With a hash function for comparable values on the way as well, the future of building memory-efficient caches in Go is bright!
+
+It is wonderful to see that the Go team is working on improving the memory management of Go.
+
 ## [Inline Heuristics Review](https://docs.google.com/presentation/d/1Lf3WoRyCNicS1K3NCuVl_VnJFhvew_6nAQF_Wx--F54/edit?usp=sharing)
 
 > On Thursday 3/28 we held a design review looking at the new inlining heuristics framework being developed as part of the inlining overhaul effort (this was a separate session from the usual C&R meeting)
