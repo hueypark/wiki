@@ -4,6 +4,12 @@ date: "2024-01-01"
 tags: ["newsfeed"]
 ---
 
+# September 2024
+
+## [The common denominator of businesses that I found out after losing 1.3 billion KRW by joo earn gyu](https://www.youtube.com/watch?v=jESpUSLNrfk&t=990s)
+
+When lacking confidence in long-term success, we tend to focus only on short-term gains.
+
 # August 2024
 
 ## [For the Love of God, Stop Using CPU Limits on Kubernetes by Natan Yellin](https://home.robusta.dev/blog/stop-using-cpu-limits)
