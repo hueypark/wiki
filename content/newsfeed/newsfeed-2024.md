@@ -4,6 +4,12 @@ date: "2024-01-01"
 tags: ["newsfeed"]
 ---
 
+# October 2024
+
+## [Drinking guidelines for modern people by 정희원](https://youtu.be/-noVmiIYBoc)
+
+> Alcohol is, in a word, brain poison.
+
 # September 2024
 
 ## [The common denominator of businesses that I found out after losing 1.3 billion KRW by joo earn gyu](https://www.youtube.com/watch?v=jESpUSLNrfk&t=990s)
