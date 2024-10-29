@@ -12,6 +12,8 @@ tags: ["go"]
 
 # Performance
 
+## [Benchmarks and performance testing](https://www.willem.dev/articles/benchmarks-performance-testing/)
+
 ## [New unique package by Michael Knyszek](https://go.dev/blog/unique)
 
 > This work also led us to reexamine finalizers, resulting in another proposal for an easier-to-use and more efficient replacement for finalizers. With a hash function for comparable values on the way as well, the future of building memory-efficient caches in Go is bright!
