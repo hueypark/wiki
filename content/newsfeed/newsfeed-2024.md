@@ -4,6 +4,14 @@ date: "2024-01-01"
 tags: ["newsfeed"]
 ---
 
+# November 2024
+
+## [그 규칙은 말이 됩니다. 그런데 고객에게 어떤 경험을 주나요?](https://blog.woojinkim.org/the-rule-makes-sense-but-what-kind-of-experience-does-it-give-the-customer/)
+
+Prioritizing the implementation of the mail system over a temporary solution as an alternative to an infinite inventory was a smart and effective choice.
+
+However, it would be beneficial if the mail system could be reused for future games.
+
 # October 2024
 
 ## [Drinking guidelines for modern people by 정희원](https://youtu.be/-noVmiIYBoc)
