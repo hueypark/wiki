@@ -12,6 +12,8 @@ tags: ["go"]
 
 # Performance
 
+## [Leveraging benchstat Projections in Go Benchmark Analysis!](https://www.bwplotka.dev/2024/go-microbenchmarks-benchstat/)
+
 ## [Benchmarks and performance testing](https://www.willem.dev/articles/benchmarks-performance-testing/)
 
 ## [New unique package by Michael Knyszek](https://go.dev/blog/unique)
