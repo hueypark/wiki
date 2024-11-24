@@ -12,6 +12,8 @@ tags: ["go"]
 
 # Performance
 
+## [Optimising and Visualising Go Tests Parallelism: Why more cores don't speed up your Go tests](https://threedots.tech/post/go-test-parallelism/)
+
 ## [Leveraging benchstat Projections in Go Benchmark Analysis!](https://www.bwplotka.dev/2024/go-microbenchmarks-benchstat/)
 
 ## [Benchmarks and performance testing](https://www.willem.dev/articles/benchmarks-performance-testing/)
