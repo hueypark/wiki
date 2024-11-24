@@ -6,6 +6,31 @@ tags: ["newsfeed"]
 
 # November 2024
 
+## [퇴사했으면 하는 직원과 붙잡아야 할 직원에게 해야하는 말 | 경영벙커 by 가인지TV](https://youtu.be/4LCjdHjRMdM)
+
+### What managers can do to retain key employees
+
+1. Confidentiality agreements through HR/Finance departments
+2. Salary Adjustments
+    - Individual performance bonuses
+    - Allowances
+    - Salary increases
+    - Signing bonuses
+3. Job Adjustments
+    - Redistributing roles and responsibilities
+    - Hiring additional staff
+    - Job rotation or reassignment
+4. Work Environment Adjustments
+    - Flexible working hours
+    - Adjusting work schedules
+    - Remote work options
+
+### Essential steps before and after implementation
+
+1. Communicate effectively with team leaders
+2. Focus on performance
+3. Establish clear communication with all employees to ensure transparency and purpose
+
 ## [그 규칙은 말이 됩니다. 그런데 고객에게 어떤 경험을 주나요?](https://blog.woojinkim.org/the-rule-makes-sense-but-what-kind-of-experience-does-it-give-the-customer/)
 
 Prioritizing the implementation of the mail system over a temporary solution as an alternative to an infinite inventory was a smart and effective choice.
