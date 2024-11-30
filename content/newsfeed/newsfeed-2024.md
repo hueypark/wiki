@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # November 2024
 
+## [요즘 담배회사가 돈 버는 방법 by 슈카월드](https://youtu.be/t6UsCraZijc)
+
 ## [퇴사했으면 하는 직원과 붙잡아야 할 직원에게 해야하는 말 | 경영벙커 by 가인지TV](https://youtu.be/4LCjdHjRMdM)
 
 ### What managers can do to retain key employees
