@@ -4,6 +4,19 @@ date: "2024-01-01"
 tags: ["newsfeed"]
 ---
 
+# December 202
+
+## [The common traits of team leaders who are recognized by their leadership and team members by Seunghoon Lee](https://www.linkedin.com/posts/seunghoon-lee-30935520_%EB%A6%AC%EB%8D%94%EC%8B%AD%ED%8C%80%EC%9B%90%EC%97%90%EA%B2%8C-%EC%9D%B8%EC%A0%95%EB%B0%9B%EB%8A%94-%ED%8C%80%EC%9E%A5%EB%8B%98%EB%93%A4%EC%9D%98-%EA%B3%B5%ED%86%B5%EC%A0%90-activity-7272970523939106816-DRPt?utm_source=share&utm_medium=member_desktop)
+
+> Goot at XXX.
+>
+> 1. Showing
+> 2. Planning
+> 3. Listening
+> 4. Questioning
+> 5. Organizing
+> 6. Aligning
+
 # November 2024
 
 ## [요즘 담배회사가 돈 버는 방법 by 슈카월드](https://youtu.be/t6UsCraZijc)
