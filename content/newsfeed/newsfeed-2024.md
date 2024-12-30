@@ -4,7 +4,17 @@ date: "2024-01-01"
 tags: ["newsfeed"]
 ---
 
-# December 202
+# December 2024
+
+## [2024년 CTO 회고 by 향로](https://jojoldu.tistory.com/815?trk=feed_main-feed-card_feed-article-content)
+
+> 대부분의 회사가 그렇겠지만, 퇴사하는 팀원을 막는 것은 대단히 어려운 일이다.
+> 그래서 팀원의 근속 기간을 늘리는 것도 중요하지만, 팀원이 빠르게 적응해서 기여 기간을 늘리는 것이 훨씬 제어가능하다.
+
+> Like most companies, preventing a team member from leaving is extremely difficult.
+> Therefore, while increasing the retention period of team members is important, enabling them to adapt quickly and extend their contribution period is much more manageable.
+
+Agreed.
 
 ## [The common traits of team leaders who are recognized by their leadership and team members by Seunghoon Lee](https://www.linkedin.com/posts/seunghoon-lee-30935520_%EB%A6%AC%EB%8D%94%EC%8B%AD%ED%8C%80%EC%9B%90%EC%97%90%EA%B2%8C-%EC%9D%B8%EC%A0%95%EB%B0%9B%EB%8A%94-%ED%8C%80%EC%9E%A5%EB%8B%98%EB%93%A4%EC%9D%98-%EA%B3%B5%ED%86%B5%EC%A0%90-activity-7272970523939106816-DRPt?utm_source=share&utm_medium=member_desktop)
 
