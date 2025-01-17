@@ -82,6 +82,8 @@ Go 메모리 관련 OOM 버그를 수정하는 여정에 관한 이야기
 
 # Others
 
+## [Common Go Mistakes](https://100go.co/)
+
 ## [Go compiler and runtime meeting notes](https://github.com/golang/go/issues/43930)
 
 ## [go HACKING.md](https://github.com/golang/go/blob/master/src/runtime/HACKING.md)
