@@ -14,3 +14,7 @@ tags: ["rust"]
 > But that's not true.
 >
 > The hardest thing in the world is finding a rust job position.
+
+## [Ragnar {Groot Koerkamp}](https://curiouscoding.nl/)
+
+> PhD High Throughput Bioinformatics @BMI ETH Zurich
