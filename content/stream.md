@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "라이브 방송"
-date: "2020-05-28 "
+date: "2020-05-28"
 tags: ["stream"]
 draft: true
 ---

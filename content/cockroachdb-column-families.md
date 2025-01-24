@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "카크로치디비의 컬럼 패밀리"
-date: "2020-05-26 "
+date: "2020-05-26"
 tags: ["cockroachdb"]
 ---
 
