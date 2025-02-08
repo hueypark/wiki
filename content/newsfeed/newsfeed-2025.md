@@ -6,6 +6,16 @@ tags: ["newsfeed"]
 
 # February 2025
 
+## [2024년 회고 by Sigrid Jin](https://brunch.co.kr/@jypthemiracle/27)
+
+> ML Product & DevRel Engineer 정체성을 발견하다
+
+> 대부분의 엔지니어는 리서쳐를 어려워한다. 리서쳐는 석사, 박사를 취득한 공부쟁이이며 서비스를 모른다고 생각한다.
+> 리서쳐는 엔지니어를 어려워한다. 코딩을 안해봤고 못할 것이라고 전제하기 때문이다.
+> 이 둘 사이를 이어준다면 정말 엄청난 혁신이 일어날 수 있다.
+> ...
+> 나는 리서치를 이해하는, 엔지니어가 되어야 한다고 생각하게 되었다.
+
 ## [Mind The convT by Max Hoffman](https://www.dolthub.com/blog/2025-01-17-convt-perf/)
 
 ## [Implement FROM-first selects by mitsuhiko](https://github.com/apache/datafusion-sqlparser-rs/pull/1713)
