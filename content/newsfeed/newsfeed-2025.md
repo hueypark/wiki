@@ -6,6 +6,14 @@ tags: ["newsfeed"]
 
 # February 2025
 
+## [Your Perfect Code Won’t Save You: The Real Reason I Got Fired by by Saul Burgos Davila](https://www.linkedin.com/posts/saul-burgos_your-perfect-code-wont-save-you-the-real-activity-7289845497891074048-J0F4)
+
+> Times of War: There is a heavy workload, with rapid and frequent deliveries, strict deadlines, and a less relevant hierarchy. The key is to launch the product or feature as quickly as possible, even if it isn’t perfect.
+>
+> Times of Peace: There is more stability and planning. Deployments happen weekly or at a slower pace, with better documentation, validation of functionalities, thorough research, and a more careful process. This scenario also tends to offer a better work-life balance.
+
+> This experience taught me that success isn’t solely about your technical mastery, but also about your ability to adapt to the pace and priorities around you—and understanding what the company truly needs.
+
 ## [평창 1박2일 여행명소 by 발로뛰어](https://youtu.be/K8ytTOw2UVk)
 
 ## [GitHub Copilot: The agent awakens](https://github.blog/news-insights/product-news/github-copilot-the-agent-awakens/)
