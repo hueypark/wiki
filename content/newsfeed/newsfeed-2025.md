@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # February 2025
 
+## [평창 1박2일 여행명소 by 발로뛰어](https://youtu.be/K8ytTOw2UVk)
+
 ## [GitHub Copilot: The agent awakens](https://github.blog/news-insights/product-news/github-copilot-the-agent-awakens/)
 
 # January 2025
