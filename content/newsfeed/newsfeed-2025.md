@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # February 2025
 
+## [Implement FROM-first selects by mitsuhiko](https://github.com/apache/datafusion-sqlparser-rs/pull/1713)
+
 ## [Your Perfect Code Won’t Save You: The Real Reason I Got Fired by by Saul Burgos Davila](https://www.linkedin.com/posts/saul-burgos_your-perfect-code-wont-save-you-the-real-activity-7289845497891074048-J0F4)
 
 > Times of War: There is a heavy workload, with rapid and frequent deliveries, strict deadlines, and a less relevant hierarchy. The key is to launch the product or feature as quickly as possible, even if it isn’t perfect.
