@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # February 2025
 
+## [Mind The convT by Max Hoffman](https://www.dolthub.com/blog/2025-01-17-convt-perf/)
+
 ## [Implement FROM-first selects by mitsuhiko](https://github.com/apache/datafusion-sqlparser-rs/pull/1713)
 
 ## [Your Perfect Code Won’t Save You: The Real Reason I Got Fired by by Saul Burgos Davila](https://www.linkedin.com/posts/saul-burgos_your-perfect-code-wont-save-you-the-real-activity-7289845497891074048-J0F4)
