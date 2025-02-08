@@ -4,6 +4,10 @@ date: "2025-01-01"
 tags: ["newsfeed"]
 ---
 
+# February 2025
+
+## [GitHub Copilot: The agent awakens](https://github.blog/news-insights/product-news/github-copilot-the-agent-awakens/)
+
 # January 2025
 
 ## [이직이 가능한 상태를 유지하자 by 취한하늘](https://brunch.co.kr/@drunkensky/679?trk=feed_main-feed-card_feed-article-content)
