@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # February 2025
 
+## [Rust vs. Go (Golang): Performance 2025 by Anton Putra](https://youtu.be/CsKNTwS9kic)
+
 ## [Does AI actually help leads get back into programming? by Jeremy Manson](https://www.linkedin.com/feed/update/urn:li:activity:7293822602899247104/)
 
 ## [2024년 회고 by Sigrid Jin](https://brunch.co.kr/@jypthemiracle/27)
