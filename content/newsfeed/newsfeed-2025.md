@@ -6,6 +6,14 @@ tags: ["newsfeed"]
 
 # February 2025
 
+## [Excuses for the company by Woojin Kim (Translated from Korean)](https://blog.woojinkim.org/excuses-for-the-company/)
+
+> ...
+> I could personally feel just how overwhelmingly superior many of Lineage M’s features were compared to the other obvious competitors in the market at the time.
+> ...
+> Because of my personal experience, I wanted to make a completely meaningless 'Excuses for the company' at least once.
+> ...
+
 ## [Rust vs. Go (Golang): Performance 2025 by Anton Putra](https://youtu.be/CsKNTwS9kic)
 
 ## [Does AI actually help leads get back into programming? by Jeremy Manson](https://www.linkedin.com/feed/update/urn:li:activity:7293822602899247104/)
