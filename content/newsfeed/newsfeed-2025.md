@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # February 2025
 
+## [Loyalty is destroying your career by Constantine Zaitcev](https://x.com/constantine_rm/status/1887886570113712271)
+
+> What if loyalty wasn't about length of service, but impact made?
+
 ## [Excuses for the company by Woojin Kim (Translated from Korean)](https://blog.woojinkim.org/excuses-for-the-company/)
 
 > ...
