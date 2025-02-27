@@ -6,6 +6,26 @@ tags: ["newsfeed"]
 
 # February 2025
 
+## [Rust adoption in Linux is NOT going well… by Let's Get Rusty](https://youtu.be/n2LUFpgqxdY)
+
+### [[PATCH v8 2/2] rust: add dma coherent allocator abstraction.](https://lwn.net/ml/all/20250108122825.136021-3-abdiel.janulgue@gmail.com/)
+
+### [Re: On community influencing (was Re: [PATCH v8 2/2] rust: add dma coherent allocator abstraction.) by Linus Torvalds](https://lwn.net/ml/all/CAHk-=wi=ZmP2=TmHsFSUGq8vUZAOWWSK1vrJarMaOhReDRQRYQ@mail.gmail.com/)
+
+> It has problems but problems are a fact of life. There is no perfect.
+
+> Technical patches and discussions matter. Social media brigading - no thank\k you.
+
+### [Re: Rust kernel policy by Greg KH](https://lore.kernel.org/rust-for-linux/2025021954-flaccid-pucker-f7d9@gregkh/)
+
+> Rust isn't a "silver bullet" that will solve all of our problems, but it
+> sure will help in a huge number of places, so for new stuff going
+> forward, why wouldn't we want that?
+
+> Yes, mixed language codebases are rough, and hard to maintain, but we
+> are kernel developers dammit, we've been maintaining and strengthening
+> Linux for longer than anyone ever thought was going to be possible.
+
 ## [Loyalty is destroying your career by Constantine Zaitcev](https://x.com/constantine_rm/status/1887886570113712271)
 
 > What if loyalty wasn't about length of service, but impact made?
