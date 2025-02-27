@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # February 2025
 
+## [[Handy Economy][Coffee Time] Most gukbap restaurants will struggle to survive - with Lee Jin-woo, Kim Hyun-woo, Park Se-hoon & Director Moon Jun-ho (Passion Gukbap) by Handy Economy (Translated from Korean)](https://youtu.be/uUqFaauUm2M)
+
 ## [Rust adoption in Linux is NOT going well… by Let's Get Rusty](https://youtu.be/n2LUFpgqxdY)
 
 ### [[PATCH v8 2/2] rust: add dma coherent allocator abstraction.](https://lwn.net/ml/all/20250108122825.136021-3-abdiel.janulgue@gmail.com/)
