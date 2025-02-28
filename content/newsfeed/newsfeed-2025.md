@@ -4,6 +4,12 @@ date: "2025-01-01"
 tags: ["newsfeed"]
 ---
 
+# March 2025
+
+## [(comic) Focus area for the quarter by Work Chronicles](https://workchronicles.substack.com/p/comic-focus-area-for-the-quarter)
+
+> SO FOCUS ON EVERYTHING?
+
 # February 2025
 
 ## [[Handy Economy][Coffee Time] Most gukbap restaurants will struggle to survive - with Lee Jin-woo, Kim Hyun-woo, Park Se-hoon & Director Moon Jun-ho (Passion Gukbap) by Handy Economy (Translated from Korean)](https://youtu.be/uUqFaauUm2M)
