@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # March 2025
 
+## [The Power of AI: From Struggle to Leverage by Pascal BORNET](https://www.linkedin.com/posts/pascalbornet_happyfriday-ai-futureofwork-activity-7298642666504769537-jrGx)
+
+> AI isn’t just a tool. It’s leverage. It amplifies individual strengths, making one person as powerful as a team.
+
 ## [Positions responsible for building products are already evolving overseas by Tae Hyun Kim (Translated from Korean)](https://www.linkedin.com/posts/tae-hyun-kim_%ED%95%B4%EC%99%B8%EC%97%90%EC%84%A0-%EB%B2%8C%EC%8D%A8-%ED%94%84%EB%A1%9C%EB%8D%95%ED%8A%B8%EB%A5%BC-%EB%A7%8C%EB%93%9C%EB%8A%94-%ED%8F%AC%EC%A7%80%EC%85%98%EC%9D%B4-%EB%B3%80%ED%99%94%ED%95%98%EA%B3%A0-%EC%9E%88%EB%84%A4%EC%9A%94-%EC%A0%84%ED%86%B5%EC%A0%81%EC%9D%B8-%EB%B0%B1%EC%97%94%EB%93%9C-activity-7298979355634847744-fROv)
 
 > - Frontend Developer → Product Engineer
