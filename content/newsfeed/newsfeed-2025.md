@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # March 2025
 
+## [The cost of Go’s panic and recover by Julien Cretel](https://jub0bs.com/posts/2025-02-28-cost-of-panic-recover/)
+
 ## [Tips to debug hanging Go programs by Michael Stapelberg](https://michael.stapelberg.ch/posts/2025-02-27-debug-hanging-go-programs/)
 
 ## [The Power of AI: From Struggle to Leverage by Pascal BORNET](https://www.linkedin.com/posts/pascalbornet_happyfriday-ai-futureofwork-activity-7298642666504769537-jrGx)
