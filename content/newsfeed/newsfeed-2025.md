@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # March 2025
 
+## [Hooking elements of the Luck Battle game by Dong Hun Lee (Translated from Korean)](https://www.linkedin.com/posts/chauchau0_%EB%9F%AD-%EB%B0%B0%ED%8B%80luck-battle-%EA%B2%8C%EC%9E%84%EC%9D%98-%ED%9B%84%ED%82%B9-%EC%9A%94%EC%86%8C-%EB%AF%B8%EA%B5%AD-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EA%B2%8C%EC%9E%84-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-activity-7302978210357542912-Cnay)
+
 ## [The cost of Go’s panic and recover by Julien Cretel](https://jub0bs.com/posts/2025-02-28-cost-of-panic-recover/)
 
 ## [Tips to debug hanging Go programs by Michael Stapelberg](https://michael.stapelberg.ch/posts/2025-02-27-debug-hanging-go-programs/)
