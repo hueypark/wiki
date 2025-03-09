@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # March 2025
 
+## [Tips to debug hanging Go programs by Michael Stapelberg](https://michael.stapelberg.ch/posts/2025-02-27-debug-hanging-go-programs/)
+
 ## [The Power of AI: From Struggle to Leverage by Pascal BORNET](https://www.linkedin.com/posts/pascalbornet_happyfriday-ai-futureofwork-activity-7298642666504769537-jrGx)
 
 > AI isn’t just a tool. It’s leverage. It amplifies individual strengths, making one person as powerful as a team.
