@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # March 2025
 
+## [✨ A new record of 31,000 players online today at http://fly.pieter.com by @levelsio](https://x.com/levelsio/status/1899166414667178314)
+
+> No vision, just fun
+
+He is really cool.
+
 ## [Promise less; deliver more by Kihong Bae (Translated from Korean)](https://www.thestartupbible.com/2025/03/underpromise-overdeliver.html)
 
 > We calculated the revenue we can achieve without investment, and if it looks too insignificant, then it simply means we are currently running a miserable and inadequate business that relies on external investment.
