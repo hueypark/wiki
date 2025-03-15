@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # March 2025
 
+## [Rust is the New C by No Boilerplate](https://www.youtube.com/watch?v=3e-nauaCkgo)
+
 ## [Software development topics I've changed my mind on after 10 years in the industry by Chris](https://chriskiehl.com/article/thoughts-after-10-years)
 
 > Simple is not given. It takes constant work
