@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # March 2025
 
+## [Trimodal Nature of Tech Compensation in the US, UK and India by The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/trimodal)
+
 ## [✨ A new record of 31,000 players online today at http://fly.pieter.com by @levelsio](https://x.com/levelsio/status/1899166414667178314)
 
 > No vision, just fun
