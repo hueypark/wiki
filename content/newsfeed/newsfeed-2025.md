@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # March 2025
 
+## [I need you. Would you like to work together? by Hyungsuk Kim(Translated from Korean)](https://www.linkedin.com/feed/update/urn:li:activity:7305005518282973194/)
+
 ## [Trimodal Nature of Tech Compensation in the US, UK and India by The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/trimodal)
 
 ## [✨ A new record of 31,000 players online today at http://fly.pieter.com by @levelsio](https://x.com/levelsio/status/1899166414667178314)
