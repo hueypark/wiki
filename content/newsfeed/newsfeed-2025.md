@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # March 2025
 
+## [How to influence query planning in Postgresql by Chris](https://chriskiehl.com/article/query-plan-management)
+
 ## [From unique to cleanups and weak: new low-level tools for efficiency by Michael Knyszek](https://go.dev/blog/cleanups-and-weak)
 
 ## [I need you. Would you like to work together? by Hyungsuk Kim(Translated from Korean)](https://www.linkedin.com/feed/update/urn:li:activity:7305005518282973194/)
