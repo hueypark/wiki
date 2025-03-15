@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # March 2025
 
+## [Software development topics I've changed my mind on after 10 years in the industry by Chris](https://chriskiehl.com/article/thoughts-after-10-years)
+
+> Simple is not given. It takes constant work
+
 ## [How to influence query planning in Postgresql by Chris](https://chriskiehl.com/article/query-plan-management)
 
 ## [From unique to cleanups and weak: new low-level tools for efficiency by Michael Knyszek](https://go.dev/blog/cleanups-and-weak)
