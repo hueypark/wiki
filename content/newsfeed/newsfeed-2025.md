@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # March 2025
 
+## [A job interview for software developers by @_a6g_ (Translated from Korean)](https://wiki.g15e.com/pages/Software%20developer%20job%20interview#v8a3wg)
+
+> Use any means necessary (ChatGPT usage recommended) to solve the problem.
+
 ## [Try sales. Don't be afraid. by Hyungsuk Kim (Translated from Korean)](https://www.linkedin.com/posts/divercity_%EC%84%B8%EC%9D%BC%EC%A6%88%EB%A5%BC-%ED%95%B4%EB%B4%90%EC%9A%94-%EB%91%90%EB%A0%A4%EC%9B%8C%ED%95%98%EC%A7%80-%EB%A7%90%EA%B3%A0-%EA%B8%B0%ED%9A%8C%EA%B0%80-%EB%90%A0-%EB%95%8C%EB%A7%88%EB%8B%A4-%EC%84%B8%EC%9D%BC%EC%A6%88%EB%A5%BC-%ED%95%B4%EB%B3%B4%EB%9D%BC-activity-7305729134909960192-OSg2)
 
 > 3. What do you think sales is?
