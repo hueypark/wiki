@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # March 2025
 
+## [Faster interpreters in Go: Catching up with C++ by Vicent Martí](https://planetscale.com/blog/faster-interpreters-in-go-catching-up-with-cpp)
+
 ## [It's Useless to Speak Anyway by Hyungsuk Kim (Translated from Korean)](https://www.linkedin.com/feed/update/urn:li:activity:7309723746351624192/)
 
 > Expressing one's thoughts is the beginning of such change.
