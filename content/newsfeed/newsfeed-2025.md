@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # March 2025
 
+## [On the illusion that good products sell themselves by Minwoong Seo (Translated from Korean)](https://www.linkedin.com/posts/minwoong-seo-539a5386_%EC%A0%9C%ED%92%88%EC%9D%B4-%EC%A2%8B%EC%9C%BC%EB%A9%B4-%EC%95%8C%EC%95%84%EC%84%9C-%ED%8C%94%EB%A6%B0%EB%8B%A4%EB%8A%94-%ED%99%98%EC%83%81%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-1-%EC%A2%8B%EC%9D%80-%EC%A0%9C%ED%92%88%EC%9D%80-%EC%95%8C%EC%95%84%EC%84%9C-activity-7305744005563068416-ZJXt)
+
+> Even if a product is excellent, without a brand, it will inevitably become "just one among similar products."
+
 ## [Faster interpreters in Go: Catching up with C++ by Vicent Martí](https://planetscale.com/blog/faster-interpreters-in-go-catching-up-with-cpp)
 
 ## [It's Useless to Speak Anyway by Hyungsuk Kim (Translated from Korean)](https://www.linkedin.com/feed/update/urn:li:activity:7309723746351624192/)
