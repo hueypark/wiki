@@ -4,6 +4,13 @@ date: "2025-01-01"
 tags: ["newsfeed"]
 ---
 
+# April 2025
+
+## [Interview Questions for Hiring Managers - What Should You Ask When Hiring a Manager? by Keeyong H.](https://www.linkedin.com/feed/update/urn:li:activity:7306838617149030402/)
+
+> - Who was the best hire you have ever made?  
+> - Who was the most regrettable hire you have ever made?  
+
 # March 2025
 
 ## [On the illusion that good products sell themselves by Minwoong Seo (Translated from Korean)](https://www.linkedin.com/posts/minwoong-seo-539a5386_%EC%A0%9C%ED%92%88%EC%9D%B4-%EC%A2%8B%EC%9C%BC%EB%A9%B4-%EC%95%8C%EC%95%84%EC%84%9C-%ED%8C%94%EB%A6%B0%EB%8B%A4%EB%8A%94-%ED%99%98%EC%83%81%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-1-%EC%A2%8B%EC%9D%80-%EC%A0%9C%ED%92%88%EC%9D%80-%EC%95%8C%EC%95%84%EC%84%9C-activity-7305744005563068416-ZJXt)
