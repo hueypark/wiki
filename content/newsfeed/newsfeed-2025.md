@@ -6,6 +6,18 @@ tags: ["newsfeed"]
 
 # April 2025
 
+## [Rust with LLM by Jaana Dogan](https://x.com/rakyll/status/1906072102907834570)
+
+> Coworker: We can’t do this in C++.
+> Coworker: We can’t do this in Go.
+> Coworker: We need Rust.
+> 
+> Me: No one knows how to deal with Rust or Tokio on the team.
+> 
+> (after a few hours with an LLM)
+> 
+> Me: Shoot, I have a working version in Rust.
+
 ## [Inside Google’s Two-Year Frenzy to Catch Up With OpenAI by Paresh Dave & Arielle Pardes](https://www.wired.com/story/google-openai-gemini-chatgpt-artificial-intelligence/)
 
 > Quality over speed, but fast.
