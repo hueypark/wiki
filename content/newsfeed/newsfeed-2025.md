@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # April 2025
 
+## [Inside Google’s Two-Year Frenzy to Catch Up With OpenAI by Paresh Dave & Arielle Pardes](https://www.wired.com/story/google-openai-gemini-chatgpt-artificial-intelligence/)
+
+> Quality over speed, but fast.
+
 ## [Interview Questions for Hiring Managers - What Should You Ask When Hiring a Manager? by Keeyong H.](https://www.linkedin.com/feed/update/urn:li:activity:7306838617149030402/)
 
 > - Who was the best hire you have ever made?  
