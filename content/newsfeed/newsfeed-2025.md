@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # April 2025
 
+## [Microsoft is Getting Rusty: A Review of Successes and Challenges by Mark Russinovich](https://youtu.be/1VgptLwP588)
+
+> If it compiles, it works, ...
+
 ## [A Year of Rust in ClickHouse by Alexey Milovidov](https://clickhouse.com/blog/rust)
 
 > no C++ engineer can be excited by the task of "read this JSON file and follow the spec precisely"
