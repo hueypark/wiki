@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # April 2025
 
+## [Inside Go's Unique Package: String Interning Simplified by Phuong Le](https://victoriametrics.com/blog/go-unique-package-intern-string/)
+
 ## [Microsoft is Getting Rusty: A Review of Successes and Challenges by Mark Russinovich](https://youtu.be/1VgptLwP588)
 
 > If it compiles, it works, ...
