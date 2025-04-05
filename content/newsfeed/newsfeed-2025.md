@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # April 2025
 
+## [A Year of Rust in ClickHouse by Alexey Milovidov](https://clickhouse.com/blog/rust)
+
+> no C++ engineer can be excited by the task of "read this JSON file and follow the spec precisely"
+
 ## [Rust with LLM by Jaana Dogan](https://x.com/rakyll/status/1906072102907834570)
 
 > Coworker: We can’t do this in C++.
