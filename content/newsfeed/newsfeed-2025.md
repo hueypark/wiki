@@ -6,6 +6,17 @@ tags: ["newsfeed"]
 
 # April 2025
 
+## [Thoughts on Tech Debt (Career Q&A: Part of the Future of Coding) by Keeyong H. (Translated from Korean)](https://www.youtube.com/watch?v=APOEfL3RG9A&t=2850)
+
+> I love major incidents, the kind that don't bankrupt the company.
+> ...
+> Everyone gets aligned in one goal.
+> If we continue like this, we'll fail. Let's pay off the technical debt.
+> ...
+> Trying to pay it off preemptively without evidence increases the likelihood of premature abstraction.
+> ...
+> Respond quickly... and turn the actual large and small incidents that occur into evidence.
+
 ## [Inside Go's Unique Package: String Interning Simplified by Phuong Le](https://victoriametrics.com/blog/go-unique-package-intern-string/)
 
 ## [Microsoft is Getting Rusty: A Review of Successes and Challenges by Mark Russinovich](https://youtu.be/1VgptLwP588)
