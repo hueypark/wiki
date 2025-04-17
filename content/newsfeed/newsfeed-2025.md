@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # April 2025
 
+## [The Illusion of Interviews by Kihong Bae (Translated from Korean)](https://www.thestartupbible.com/2025/04/stop-wasting-too-much-energy-on-interviews.html)
+
+> A good person is someone who is good at their job.
+> Someone who is good at their job is someone who can handle any task they're given on their own.
+> Not someone who needs to hire another person to do it.
+
 ## [Thoughts on Tech Debt (Career Q&A: Part of the Future of Coding) by Keeyong H. (Translated from Korean)](https://www.youtube.com/watch?v=APOEfL3RG9A&t=2850)
 
 > I love major incidents, the kind that don't bankrupt the company.
