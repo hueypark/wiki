@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # April 2025
 
+## [Preventing accidental struct copies in Go by Redowan](https://rednafi.com/go/prevent_struct_copies/)
+
 ## [What is OKR? by Spike Jee (Translated from Korean)](https://www.linkedin.com/posts/spike-jee-480225a_okr%EC%97%90-%EB%8C%80%ED%95%9C-%EC%B1%85%EB%8F%84-%EA%B0%95%EC%9D%98%EB%8F%84-%EB%A7%8E%EC%A7%80%EB%A7%8C-%EB%82%98%EB%8A%94-%EA%B7%B8%EB%9F%B0-%EA%B1%B8-%EC%9D%BD%EA%B1%B0%EB%82%98-%EC%88%98%EA%B0%95%ED%95%B4-%EB%B3%B8-%EC%A0%81%EC%9D%B4-%EC%97%86%EB%8B%A4-activity-7315888105566130177-kIhw?utm_source=share&utm_medium=member_desktop&rcm=ACoAABSjspgBLaworIQjzZyO5CJmXIsDApO0tOU)
 
 > OKRs are typically set aggressively, aiming high, so that achieving around 70% with hard work is the goal.
