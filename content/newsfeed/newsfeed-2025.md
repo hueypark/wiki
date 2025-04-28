@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # April 2025
 
+## [The Reality of Tech Interviews in 2025 by Gergely Orosz, Evan King, and Stefan Mai](https://newsletter.pragmaticengineer.com/p/the-reality-of-tech-interviews?utm_campaign=post&utm_medium=web)
+
 ## [Iggy joins the Apache Incubator. by Piotr Gankiewicz](https://blog.iggy.rs/posts/apache-incubator/)
 
 ## [Preventing accidental struct copies in Go by Redowan](https://rednafi.com/go/prevent_struct_copies/)
