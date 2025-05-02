@@ -6,6 +6,19 @@ tags: ["newsfeed"]
 
 # May 2025
 
+## [Ten Rules for Negotiating a Job Offer by Haseeb](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
+
+> 1. Get everything in writing
+> 2. Always keep the door open
+> 3. Information is power
+> 4. Always be positive
+> 5. Don’t be the decision maker
+> 6. Have alternatives
+> 7. Proclaim reasons for everything
+> 8. Be motivated by more than just money
+> 9. Understand what they value
+> 10. Be winnable
+
 ## [More predictable benchmarking with testing.B.Loop by Junyang Shao](https://go.dev/blog/testing-b-loop)
 
 # April 2025
