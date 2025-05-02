@@ -4,6 +4,10 @@ date: "2025-01-01"
 tags: ["newsfeed"]
 ---
 
+# May 2025
+
+## [More predictable benchmarking with testing.B.Loop by Junyang Shao](https://go.dev/blog/testing-b-loop)
+
 # April 2025
 
 ## [The Reality of Tech Interviews in 2025 by Gergely Orosz, Evan King, and Stefan Mai](https://newsletter.pragmaticengineer.com/p/the-reality-of-tech-interviews?utm_campaign=post&utm_medium=web)
