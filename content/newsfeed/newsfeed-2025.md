@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # May 2025
 
+## [Container CPU Requests & Limits Explained with GOMAXPROCS Tuning by Phuong Le](https://victoriametrics.com/blog/kubernetes-cpu-go-gomaxprocs/)
+
 ## [Migrating away from Rust. by BrandonReinhart](https://deadmoney.gg/news/articles/migrating-away-from-rust)
 
 ## [Ten Rules for Negotiating a Job Offer by Haseeb](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
