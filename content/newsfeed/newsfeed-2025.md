@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # May 2025
 
+## [Getting things "done" in large tech companies by sean goedecke](https://www.seangoedecke.com/getting-things-done/)
+
+> (a) executives at the company understand what’s happened, and (b) are happy with it
+
 ## [Container CPU Requests & Limits Explained with GOMAXPROCS Tuning by Phuong Le](https://victoriametrics.com/blog/kubernetes-cpu-go-gomaxprocs/)
 
 ## [Migrating away from Rust. by BrandonReinhart](https://deadmoney.gg/news/articles/migrating-away-from-rust)
