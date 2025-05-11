@@ -82,6 +82,8 @@ Go 메모리 관련 OOM 버그를 수정하는 여정에 관한 이야기
 
 # Others
 
+## [Organize your Go middleware without dependencies by Alex Edwards](https://www.alexedwards.net/blog/organize-your-go-middleware-without-dependencies)
+
 ## [We Replaced Our React Frontend with Go and WebAssembly by Alex Suraci](https://dagger.io/blog/replaced-react-with-go)
 
 ## [Common Go Mistakes](https://100go.co/)
