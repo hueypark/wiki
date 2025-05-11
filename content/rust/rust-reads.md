@@ -1,11 +1,15 @@
 ---
 layout: post
-title: "Rust Programming Language"
+title: "Rust good reads"
 date: "2024-08-22"
 tags: ["rust"]
 ---
 
-# Good reads
+# Rust good reads
+
+## [Two Years of Rust by Fernando Borretti](https://borretti.me/article/two-years-of-rust)
+
+> The way I would summarize Rust is: it’s a better Go, or a faster Python.
 
 ## [Where is Rust being used? by Let's Get Rusty](https://youtu.be/42FhQWQ6SVA)
 
