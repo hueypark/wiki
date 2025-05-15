@@ -80,9 +80,13 @@ Go 메모리 관련 OOM 버그를 수정하는 여정에 관한 이야기
 
 ## [NilAway: Practical Nil Panic Detection for Go by the Uber engineering blog](https://www.uber.com/en-NL/blog/nilaway-practical-nil-panic-detection-for-go/)
 
-# Others
+# HTTP
+
+## [Which Go router should I use? by Alex Edwards](https://www.alexedwards.net/blog/which-go-router-should-i-use)
 
 ## [Organize your Go middleware without dependencies by Alex Edwards](https://www.alexedwards.net/blog/organize-your-go-middleware-without-dependencies)
+
+# Others
 
 ## [We Replaced Our React Frontend with Go and WebAssembly by Alex Suraci](https://dagger.io/blog/replaced-react-with-go)
 
