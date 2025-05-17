@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # May 2025
 
+## [Everything I Know About Vibe Coding by Heabom (Translated from Korean)](https://haebom.dev/vibecoding)
+
+> 8th Commandment: Don’t gloss over things.
+> 9th Commandment: Apply a test-first approach.
+> 10th Commandment: Come up with ideas + turn them into businesses.
+
 ## [It's not about AI, it's about the business by Kihong Bae](https://www.thestartupbible.com/2025/05/its-the-business-that-matters-not-the-ai.html?jetpack_skip_subscription_popup)
 
 ## [Getting things "done" in large tech companies by sean goedecke](https://www.seangoedecke.com/getting-things-done/)
