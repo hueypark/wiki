@@ -72,6 +72,10 @@ Go 메모리 관련 OOM 버그를 수정하는 여정에 관한 이야기
 - [Profile Guided optimisation by Andrew Phillips](https://andrewwphillips.github.io/blog/pgo.html)
 - [cmd/compile: PGO opportunities umbrella issue in github.com/golang/go Issuues](https://github.com/golang/go/issues/62463)
 
+# Concurrency
+
+## [Go synctest: Solving Flaky Tests by Phuong Le](https://victoriametrics.com/blog/go-synctest/)
+
 # Generics
 
 ## [Deconstructing Type Parameters by The Go Blog](https://go.dev/blog/deconstructing-type-parameters)
