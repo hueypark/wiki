@@ -6,6 +6,13 @@ tags: ["newsfeed"]
 
 # May 2025
 
+## [Why the thought "Isn't that just how things are?" is dangerous by Demo Day (Translated from Korean)](https://youtu.be/j49m4TjUMMY)
+
+This video explains the dangers of fixed mindsets using two powerful examples:
+
+- How AlphaGo revolutionized the game of Go
+- How data-driven strategies transformed basketball with the rise of three-point shooting
+
 ## [Everything I Know About Vibe Coding by Heabom (Translated from Korean)](https://haebom.dev/vibecoding)
 
 > 8th Commandment: Don’t gloss over things.
