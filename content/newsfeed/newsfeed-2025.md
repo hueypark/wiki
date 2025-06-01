@@ -4,6 +4,10 @@ date: "2025-01-01"
 tags: ["newsfeed"]
 ---
 
+# June 2025
+
+## [양복구 - 양복 만드는 남자 구본석](https://www.youtube.com/@ybkoo/featured)
+
 # May 2025
 
 ## [Why the thought "Isn't that just how things are?" is dangerous by Demo Day (Translated from Korean)](https://youtu.be/j49m4TjUMMY)
