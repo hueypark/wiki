@@ -6,7 +6,7 @@ tags: ["newsfeed"]
 
 # June 2025
 
-## [Discuss together, but one person decides. by Hyungsuk Kim](https://www.linkedin.com/posts/divercity_%EA%B0%99%EC%9D%B4-%EC%9D%98%EB%85%BC%ED%95%98%EA%B3%A0-%ED%95%9C-%EB%AA%85%EC%9D%B4-%EA%B2%B0%EC%A0%95%ED%95%9C%EB%8B%A4-1%EC%9C%84%EC%9E%84%EC%9D%B4%EB%9E%80-%EC%9C%84%EC%9E%84%EC%9D%80-%EC%9E%90%EC%8B%A0%EC%9D%B4-%EA%B2%B0%EC%A0%95%ED%95%A0-activity-7320185650522046466-yxks?utm_source=share&utm_medium=member_desktop&rcm=ACoAABSjspgBLaworIQjzZyO5CJmXIsDApO0tOU)
+## [Discuss together, but one person decides. by Hyungsuk Kim (Translated from Korean)](https://www.linkedin.com/posts/divercity_%EA%B0%99%EC%9D%B4-%EC%9D%98%EB%85%BC%ED%95%98%EA%B3%A0-%ED%95%9C-%EB%AA%85%EC%9D%B4-%EA%B2%B0%EC%A0%95%ED%95%9C%EB%8B%A4-1%EC%9C%84%EC%9E%84%EC%9D%B4%EB%9E%80-%EC%9C%84%EC%9E%84%EC%9D%80-%EC%9E%90%EC%8B%A0%EC%9D%B4-%EA%B2%B0%EC%A0%95%ED%95%A0-activity-7320185650522046466-yxks?utm_source=share&utm_medium=member_desktop&rcm=ACoAABSjspgBLaworIQjzZyO5CJmXIsDApO0tOU)
 
 > 1. What is delegation?
 > 2. Each person should increase the proportion of decisions they make on their own.
