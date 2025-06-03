@@ -6,6 +6,28 @@ tags: ["newsfeed"]
 
 # June 2025
 
+## [Building a Distributed Cache for S3 by Tom Schreiber](https://clickhouse.com/blog/building-a-distributed-cache-for-s3)
+
+> Stage 1: Local OS page cache
+> Stage 2: Local cache on cloud compute nodes
+> Stage 3: The distributed cache
+
+> That’s why latency becomes the dominant bottleneck in many real-world analytical queries. You simply can’t fan out enough I/O to hide the delay.
+>
+> - Short-running queries often touch just a few compressed blocks.
+> - Scattered access patterns involve many small, disjoint reads.
+>
+> In both cases, bandwidth doesn’t help, latency is the limit.
+
+| Layer   | Latency    | IOPS   | Throughput         |
+|---------|------------|--------|--------------------|
+| S3      | 500 ms     | 5K     | 2 GB/sec           |
+| SSD     | 1 ms       | 100K   | 4 GB/sec           |
+| Memory  | 250 ns     | 100M   | 100 GB/sec         |
+| Network | 100–250 µs |        | 1.5–12.5 GB/sec    |
+
+> Thanks to these characteristics, the distributed cache, accessed over the network, delivers latencies that fall neatly between SSD and memory. And like the local filesystem cache before it, it solves the core bottleneck of object storage: latency.
+
 ## [Discuss together, but one person decides. by Hyungsuk Kim (Translated from Korean)](https://www.linkedin.com/posts/divercity_%EA%B0%99%EC%9D%B4-%EC%9D%98%EB%85%BC%ED%95%98%EA%B3%A0-%ED%95%9C-%EB%AA%85%EC%9D%B4-%EA%B2%B0%EC%A0%95%ED%95%9C%EB%8B%A4-1%EC%9C%84%EC%9E%84%EC%9D%B4%EB%9E%80-%EC%9C%84%EC%9E%84%EC%9D%80-%EC%9E%90%EC%8B%A0%EC%9D%B4-%EA%B2%B0%EC%A0%95%ED%95%A0-activity-7320185650522046466-yxks?utm_source=share&utm_medium=member_desktop&rcm=ACoAABSjspgBLaworIQjzZyO5CJmXIsDApO0tOU)
 
 > 1. What is delegation?
