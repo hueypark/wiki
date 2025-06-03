@@ -6,6 +6,11 @@ tags: ["newsfeed"]
 
 # June 2025
 
+## [Tales About Performance Optimizations in ClickHouse by Alexey Milovidov](https://presentations.clickhouse.com/meetup53/optimizations/)
+
+> Episode 1: MergeTree vs Memory
+> Episode 2: is compression slow?
+
 ## [Why OpenAI Spent $3B on a VS Code Fork by Barely Thinking](https://youtu.be/y__FNi7klwM)
 
 > Things money cannot buy
