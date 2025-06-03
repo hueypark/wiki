@@ -6,6 +6,18 @@ tags: ["newsfeed"]
 
 # June 2025
 
+## [Why OpenAI Spent $3B on a VS Code Fork by Barely Thinking](https://youtu.be/y__FNi7klwM)
+
+> Things money cannot buy
+>
+> 1. Happiness
+> 2. Fit body
+> 3. Fast time to market
+
+> Better product -> More usage -> More data -> Better algorithm -> Better product
+
+Cyclical growth.
+
 ## [Building a Distributed Cache for S3 by Tom Schreiber](https://clickhouse.com/blog/building-a-distributed-cache-for-s3)
 
 > Stage 1: Local OS page cache
