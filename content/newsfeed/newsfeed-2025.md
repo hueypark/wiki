@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # June 2025
 
+## [Thrive in obscurity by Jeet Mehta](https://www.jeetmehta.com/posts/thrive-in-obscurity)
+
+> 1 — Do things you like, and sometimes the world will agree
+> 2 — Push yourself out
+> 3 — Build your Binge Bank
+
 ## [Tales About Performance Optimizations in ClickHouse by Alexey Milovidov](https://presentations.clickhouse.com/meetup53/optimizations/)
 
 > Episode 1: MergeTree vs Memory
