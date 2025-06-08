@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # June 2025
 
+## [The Generics Way to Use GORM](https://gorm.io/docs/the_generics_way.html)
+
 ## [Thank You, DataFusion: Queries in Rust, Without the Pain by Pierre Zemb](https://pierrezemb.fr/posts/thank-you-datafusion/)
 
 ## [Simpler backoff by Josh Bleecher Snyder](https://commaok.xyz/post/simple-backoff/)
