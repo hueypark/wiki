@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # June 2025
 
+## [Thank You, DataFusion: Queries in Rust, Without the Pain by Pierre Zemb](https://pierrezemb.fr/posts/thank-you-datafusion/)
+
 ## [Simpler backoff by Josh Bleecher Snyder](https://commaok.xyz/post/simple-backoff/)
 
 > Don’t write code that generates a small, fixed set of values. Use a lookup table instead.
