@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # June 2025
 
+## [Simpler backoff by Josh Bleecher Snyder](https://commaok.xyz/post/simple-backoff/)
+
+> Don’t write code that generates a small, fixed set of values. Use a lookup table instead.
+
 ## [Thrive in obscurity by Jeet Mehta](https://www.jeetmehta.com/posts/thrive-in-obscurity)
 
 > 1 — Do things you like, and sometimes the world will agree
