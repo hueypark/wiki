@@ -4,6 +4,10 @@ date: "2025-06-08"
 tags: ["rust", "game"]
 ---
 
+## [vleue/vleue_navigator](https://github.com/vleue/vleue_navigator)
+
+> Navigation for Bevy with NavMesh
+
 ## [Avian Physics 0.3 by Joona Aalto](https://joonaa.dev/blog/08/avian-0-3)
 
 My highlights:
