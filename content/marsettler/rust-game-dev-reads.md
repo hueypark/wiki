@@ -4,6 +4,8 @@ date: "2025-06-08"
 tags: ["rust", "game"]
 ---
 
+# News
+
 ## [vleue/vleue_navigator](https://github.com/vleue/vleue_navigator)
 
 > Navigation for Bevy with NavMesh
@@ -16,3 +18,6 @@ My highlights:
 > - Physics Picking Filter
 > - Physics Diagnostics
 
+# Development Environment
+
+## [Fixing Rust memory allocation slowdown in VS Code on Windows](https://zaynar.co.uk/posts/vs-code-debug-heap/)
