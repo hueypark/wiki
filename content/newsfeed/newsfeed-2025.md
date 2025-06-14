@@ -6,6 +6,14 @@ tags: ["newsfeed"]
 
 # June 2025
 
+## [Airbnb ft Brian Chesky - Battling a Copycat Clone and Rebuilding User Trust to Revolutionize Travel](https://youtu.be/EDjUTzE8M1I)
+
+> I thought the best revenge against the clone isn't to beat them
+> it's just to make them run the company long term
+> you had the baby you raised the baby
+> I'm not adopting your baby you raise the baby
+> and I thought there's no way they're going to raise this baby for 18 years
+
 ## [The Generics Way to Use GORM](https://gorm.io/docs/the_generics_way.html)
 
 ## [Thank You, DataFusion: Queries in Rust, Without the Pain by Pierre Zemb](https://pierrezemb.fr/posts/thank-you-datafusion/)
