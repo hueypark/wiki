@@ -6,6 +6,28 @@ tags: ["newsfeed"]
 
 # June 2025
 
+## [Multiple GCP products are experiencing Service issues](https://status.cloud.google.com/incidents/ow5i3PPK96RduMcb1SsW)
+
+> Incident began at 2025-06-12 10:51 and ended at 2025-06-12 18:18 (all times are US/Pacific).
+
+> Summary
+>
+> Google Cloud, Google Workspace and Google Security Operations products experienced increased 503 errors in external API requests, impacting customers.
+>
+> We deeply apologize for the impact this outage has had. Google Cloud customers and their users trust their businesses to Google, and we will do better. We apologize for the impact this has had not only on our customers’ businesses and their users but also on the trust of our systems. We are committed to making improvements to help avoid outages like this moving forward.
+>
+> What happened?
+>
+> Google and Google Cloud APIs are served through our Google API management and control planes. Distributed regionally, these management and control planes are responsible for ensuring each API request that comes in is authorized, has the policy and appropriate checks (like quota) to meet their endpoints. The core binary that is part of this policy check system is known as Service Control. Service Control is a regional service that has a regional datastore that it reads quota and policy information from. This datastore metadata gets replicated almost instantly globally to manage quota policies for Google Cloud and our customers.
+>
+> On May 29, 2025, a new feature was added to Service Control for additional quota policy checks. This code change and binary release went through our region by region rollout, but the code path that failed was never exercised during this rollout due to needing a policy change that would trigger the code. As a safety precaution, this code change came with a red-button to turn off that particular policy serving path. The issue with this change was that it did not have appropriate error handling nor was it feature flag protected. Without the appropriate error handling, the null pointer caused the binary to crash. Feature flags are used to gradually enable the feature region by region per project, starting with internal projects, to enable us to catch issues. If this had been flag protected, the issue would have been caught in staging.
+>
+> On June 12, 2025 at ~10:45am PDT, a policy change was inserted into the regional Spanner tables that Service Control uses for policies. Given the global nature of quota management, this metadata was replicated globally within seconds. This policy data contained unintended blank fields. Service Control, then regionally exercised quota checks on policies in each regional datastore. This pulled in blank fields for this respective policy change and exercised the code path that hit the null pointer causing the binaries to go into a crash loop. This occurred globally given each regional deployment.
+>
+> Within 2 minutes, our Site Reliability Engineering team was triaging the incident. Within 10 minutes, the root cause was identified and the red-button (to disable the serving path) was being put in place. The red-button was ready to roll out ~25 minutes from the start of the incident. Within 40 minutes of the incident, the red-button rollout was completed, and we started seeing recovery across regions, starting with the smaller ones first.
+>
+> Within some of our larger regions, such as us-central-1, as Service Control tasks restarted, it created a herd effect on the underlying infrastructure it depends on (i.e. that Spanner table), overloading the infrastructure. Service Control did not have the appropriate randomized exponential backoff implemented to avoid this. It took up to ~2h 40 mins to fully resolve in us-central-1 as we throttled task creation to minimize the impact on the underlying infrastructure and routed traffic to multi-regional databases to reduce the load. At that point, Service Control and API serving was fully recovered across all regions. Corresponding Google and Google Cloud products started recovering with some taking longer depending upon their architecture.
+
 ## [Airbnb ft Brian Chesky - Battling a Copycat Clone and Rebuilding User Trust to Revolutionize Travel](https://youtu.be/EDjUTzE8M1I)
 
 > I thought the best revenge against the clone isn't to beat them
