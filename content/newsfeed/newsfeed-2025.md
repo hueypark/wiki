@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # June 2025
 
+## [Boomerang by Kung Fun No (Translated from Korean)](https://www.linkedin.com/posts/kungfunno_amazon%EC%9D%80-%ED%87%B4%EC%82%AC%ED%96%88%EB%8B%A4%EA%B0%80-%EB%8B%A4%EC%8B%9C-%EC%9E%AC%EC%9E%85%EC%82%AC%ED%95%98%EB%8A%94-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%84-%EB%B6%80%EB%A9%94%EB%9E%91boomerang-activity-7339618503982817280-vdsU?utm_source=share&utm_medium=member_desktop&rcm=ACoAABSjspgBLaworIQjzZyO5CJmXIsDApO0tOU)
+
+> When I told someone from headquarters that I had returned, they didn't ask any questions and simply said, "Thanks for coming back." Then they immediately moved on to the next topic. That day, I kept thinking about those words. My heart felt warm, I was glad I came back, and I felt motivated to do even better going forward.
+
 ## [Taking a step back by Jaana Dogan](https://x.com/rakyll/status/1934478708108394708)
 
 > When you work for 12+ hours a day, you become too obsessed about what you are building. Obsessions somewhat end up being defeating because pivoting frequently is the most important tool. Taking a step back from time to time is actually useful.
