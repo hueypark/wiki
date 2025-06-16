@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # June 2025
 
+## [Taking a step back by Jaana Dogan](https://x.com/rakyll/status/1934478708108394708)
+
+> When you work for 12+ hours a day, you become too obsessed about what you are building. Obsessions somewhat end up being defeating because pivoting frequently is the most important tool. Taking a step back from time to time is actually useful.
+
 ## [Multiple GCP products are experiencing Service issues](https://status.cloud.google.com/incidents/ow5i3PPK96RduMcb1SsW)
 
 > Incident began at 2025-06-12 10:51 and ended at 2025-06-12 18:18 (all times are US/Pacific).
