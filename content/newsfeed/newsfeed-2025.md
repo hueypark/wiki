@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # June 2025
 
+## [Is it Helpful Advice or Discouraging Criticism? by Soojung Shin](https://www.linkedin.com/posts/soojung-shin-%EC%8B%A0%EC%88%98%EC%A0%95-30398b75_%EB%8F%84%EC%9B%80%EC%9D%B4-%EB%90%98%EB%8A%94-%EC%A1%B0%EC%96%B8%EC%9D%B8%EA%B0%80-%EC%9D%98%EC%A7%80%EB%A5%BC-%EA%BA%BD%EB%8A%94-%EB%B9%84%ED%8C%90%EC%9D%B8%EA%B0%80-1-%EC%9E%90%EC%8B%A0%EC%9D%98-%EC%84%B1%EC%9E%A5%EC%9D%84-activity-7339892875758878720-2_qQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAABSjspgBLaworIQjzZyO5CJmXIsDApO0tOU)
+
+> Highlight the greatness.
+
 ## [Boomerang by Kung Fun No (Translated from Korean)](https://www.linkedin.com/posts/kungfunno_amazon%EC%9D%80-%ED%87%B4%EC%82%AC%ED%96%88%EB%8B%A4%EA%B0%80-%EB%8B%A4%EC%8B%9C-%EC%9E%AC%EC%9E%85%EC%82%AC%ED%95%98%EB%8A%94-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%84-%EB%B6%80%EB%A9%94%EB%9E%91boomerang-activity-7339618503982817280-vdsU?utm_source=share&utm_medium=member_desktop&rcm=ACoAABSjspgBLaworIQjzZyO5CJmXIsDApO0tOU)
 
 > When I told someone from headquarters that I had returned, they didn't ask any questions and simply said, "Thanks for coming back." Then they immediately moved on to the next topic. That day, I kept thinking about those words. My heart felt warm, I was glad I came back, and I felt motivated to do even better going forward.
