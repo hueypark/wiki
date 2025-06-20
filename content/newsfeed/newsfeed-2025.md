@@ -6,6 +6,16 @@ tags: ["newsfeed"]
 
 # June 2025
 
+## [(Fairly Important) Communicating with Investors by Kihong Bae (Translated from Korean)](https://www.thestartupbible.com/2025/06/why-regular-communication-with-your-investors-matters-more-than-you-think.html)
+
+> 1. Key KPIs the company is focusing on (e.g., revenue, UV, MAU, etc.)
+> 2. Notable positive or negative updates in sales, marketing, distribution, manufacturing, etc.
+> 3. Special notes or unusual events
+> 4. Number of full-time employees
+> 5. Total investment raised to date
+> 6. Current cash position of the company
+> 7. Requests or asks for Strong Ventures (or other investors)
+
 ## [Is it Helpful Advice or Discouraging Criticism? by Soojung Shin](https://www.linkedin.com/posts/soojung-shin-%EC%8B%A0%EC%88%98%EC%A0%95-30398b75_%EB%8F%84%EC%9B%80%EC%9D%B4-%EB%90%98%EB%8A%94-%EC%A1%B0%EC%96%B8%EC%9D%B8%EA%B0%80-%EC%9D%98%EC%A7%80%EB%A5%BC-%EA%BA%BD%EB%8A%94-%EB%B9%84%ED%8C%90%EC%9D%B8%EA%B0%80-1-%EC%9E%90%EC%8B%A0%EC%9D%98-%EC%84%B1%EC%9E%A5%EC%9D%84-activity-7339892875758878720-2_qQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAABSjspgBLaworIQjzZyO5CJmXIsDApO0tOU)
 
 > Highlight the greatness.
