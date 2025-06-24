@@ -6,6 +6,14 @@ tags: ["newsfeed"]
 
 # June 2025
 
+## [Immediate Decisions by Kihong Bae](https://www.thestartupbible.com/2025/06/making-immediate-decisions-on-the-fly.html)
+
+> Another reason people struggle to make immediate decisions isn’t excessive caution, but rather the discomfort and unease that comes with making the decision itself.
+
+> In these situations, the worst decision a CEO can make is to say, "Let’s wait another week and see."
+
+> Finally, to be honest, there are no decisions in this world that truly require that much deliberation. In my experience, most decisions can be made within five minutes.
+
 ## [(Fairly Important) Communicating with Investors by Kihong Bae (Translated from Korean)](https://www.thestartupbible.com/2025/06/why-regular-communication-with-your-investors-matters-more-than-you-think.html)
 
 > 1. Key KPIs the company is focusing on (e.g., revenue, UV, MAU, etc.)
