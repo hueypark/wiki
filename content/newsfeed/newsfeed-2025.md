@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # June 2025
 
+## [Tool vs Capability with AI Coding Agents by Toby Lee (Translated from Korean)](https://www.linkedin.com/posts/tobyilee_%EB%8F%84%EA%B5%AC-vs-%EC%97%AD%EB%9F%89-ai-%EC%BD%94%EB%94%A9-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EA%B0%80-%EA%B0%80%EC%A0%B8%EC%98%AC-%EB%AF%B8%EB%9E%98%EC%97%90-%EB%8C%80%ED%95%B4-%EB%A7%8E%EC%9D%80-%EC%9D%B4%EC%95%BC%EA%B8%B0%EA%B0%80-activity-7343520603661910017-S8FB)
+
+> However, as the quoted text suggests, if the key factor in development productivity with AI tools ultimately lies in the competence of the developers using them, then we need to discuss what kind of competence that is, how it can be improved, how AI tools can contribute to enhancing that competence, and how much learning productivity—not just development productivity—can be increased in the process.
+
 ## [Immediate Decisions by Kihong Bae](https://www.thestartupbible.com/2025/06/making-immediate-decisions-on-the-fly.html)
 
 > Another reason people struggle to make immediate decisions isn’t excessive caution, but rather the discomfort and unease that comes with making the decision itself.
