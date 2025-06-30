@@ -14,6 +14,8 @@ tags: ["go"]
 
 ## Performance
 
+### [Finding performance problems by diffing two Go profiles by Zach Musgrave](https://www.dolthub.com/blog/2025-06-20-go-pprof-diffing/)
+
 ### [Optimising and Visualising Go Tests Parallelism: Why more cores don't speed up your Go tests](https://threedots.tech/post/go-test-parallelism/)
 
 ### [Leveraging benchstat Projections in Go Benchmark Analysis!](https://www.bwplotka.dev/2024/go-microbenchmarks-benchstat/)
