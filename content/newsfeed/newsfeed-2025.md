@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # June 2025
 
+## [The Service-as-Software Gold Rush by Glenn Clayton](https://www.glennclayton.me/my-blog/the-service-as-software-gold-rush)
+
+> The math is irresistible. As Elad Gil explains, AI can transform gross margins from 10% to 40%—a 4x improvement. This creates a flywheel: higher margins enable more acquisitions, which drives more transformation, which increases competitive advantages.
+
 ## [Build a Global Sales Career You Love (as a Non-native English Speaker) by Logan Yoon](https://youtu.be/1Hd8liIp6Dc)
 
 > Content is first And then number two is storytelling.
