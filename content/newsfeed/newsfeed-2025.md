@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # July 2025
 
+## [Hammer, Nail and AI by Jay Gengelbach](https://www.linkedin.com/posts/jaygengelbach_when-you-hold-the-worlds-most-powerful-hammer-activity-7248519786723246080-AVev)
+
+> When you hold the world's most powerful hammer, your job is to shape every problem to look like a nail.
+
+> I think one of the core challenges of modern engineering is learning to shape your problem to the tool instead of your tool to the problem.
+
 ## [You’re being redefined. by Yen AndersonYen Anderson](https://www.linkedin.com/posts/yenanderson_you-were-laid-off-next-steps-activity-7346557898463842304-4Jly)
 
 > Because the truth is, your job has already changed.
