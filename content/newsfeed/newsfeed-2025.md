@@ -4,6 +4,16 @@ date: "2025-01-01"
 tags: ["newsfeed"]
 ---
 
+# July 2025
+
+## [You’re being redefined. by Yen AndersonYen Anderson](https://www.linkedin.com/posts/yenanderson_you-were-laid-off-next-steps-activity-7346557898463842304-4Jly)
+
+> Because the truth is, your job has already changed.
+> Even if you kept it.
+> AI is redefining every role, expanding responsibilities, and shrinking teams.
+> You can’t rely on what made you valuable before.
+> You have to show you’re evolving with the work.
+
 # June 2025
 
 ## [The Service-as-Software Gold Rush by Glenn Clayton](https://www.glennclayton.me/my-blog/the-service-as-software-gold-rush)
