@@ -96,6 +96,8 @@ Go 메모리 관련 OOM 버그를 수정하는 여정에 관한 이야기
 
 ## Others
 
+### [What's //go:nosplit for? by Miguel Young de la Sota](https://mcyoung.xyz/2025/07/07/nosplit/)
+
 ### [JSON evolution in Go: from v1 to v2 by Anton Zhiyanov](https://antonz.org/go-json-v2/)
 
 ### [We Replaced Our React Frontend with Go and WebAssembly by Alex Suraci](https://dagger.io/blog/replaced-react-with-go)
