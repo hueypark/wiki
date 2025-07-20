@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # July 2025
 
+## [AWS adds vector buckets to S3 to cut RAG storage costs by Chris Mellor](https://blocksandfiles.com/2025/07/17/aws-vector-buckets-s3/)
+
+> AWS is not alone in adding vector support to object storage. Cloudian extended its HyperStore object storage with vector database support earlier this month, using the Milvus database.
+
 ## [Hammer, Nail and AI by Jay Gengelbach](https://www.linkedin.com/posts/jaygengelbach_when-you-hold-the-worlds-most-powerful-hammer-activity-7248519786723246080-AVev)
 
 > When you hold the world's most powerful hammer, your job is to shape every problem to look like a nail.
