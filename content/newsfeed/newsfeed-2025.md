@@ -5,6 +5,23 @@ tags: ["newsfeed"]
 ---
 
 # July 2025
+
+## [[커피타임] 프랜차이즈가 망하는 건 결국 본사 때문입니다 - 이진우, 김현우, 박세훈 with 열정국밥](https://youtu.be/QboDSnqYFBA)
+
+> 에이 문준호가 어떻게 삼성 사장이 됩니까?
+>
+> 왜요? 왜 안 됩니까? 삼성 사장만큼 떨어지는게 없잖아요.
+>
+> 그거야 우리만 아는 사실이고 삼성은 그 사실을 모르잖아요?
+>
+> 아니요. 제 꿈이 그 삼성만큼 크니까 거기에 같이 가야될 사람이...
+
+> 다음 꿈이 뭐에요?
+>
+> 어...
+>
+> 바로 이거야. 꿈이라는 걸 생각해 본 적이 없다는 이 표정. 이게 대표님이 가장 마음에 들어하는 부분입니다.
+
 ## [The Illusion That Silent Work Will Be Recognized: If You Don't Speak Up, Nothing Happens by Soojung Shin (Translated from Korean)](https://www.linkedin.com/posts/soojung-shin-%EC%8B%A0%EC%88%98%EC%A0%95-30398b75_%EB%AC%B5%EB%AC%B5%ED%9E%88-%ED%95%98%EB%A9%B4-%EC%95%8C%EC%95%84%EC%A4%84-%EC%A4%84-%EC%95%8C%EC%95%98%EB%8B%A4%EB%8A%94-%EC%B0%A9%EA%B0%81%EB%A7%90%ED%95%98%EC%A7%80-%EC%95%8A%EC%9C%BC%EB%A9%B4-%EC%95%84%EB%AC%B4-%EC%9D%BC%EB%8F%84-%EC%9D%BC%EC%96%B4%EB%82%98%EC%A7%80-%EC%95%8A%EB%8A%94%EB%8B%A4-activity-7352137046691340291-Xy5k)
 
 > If you don't speak up, nothing happens.
