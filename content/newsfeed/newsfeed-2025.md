@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # July 2025
 
+## [Questioning the Lambda Architecture by Jay Kreps](https://www.oreilly.com/radar/questioning-the-lambda-architecture/)
+
 ## [AWS adds vector buckets to S3 to cut RAG storage costs by Chris Mellor](https://blocksandfiles.com/2025/07/17/aws-vector-buckets-s3/)
 
 > AWS is not alone in adding vector support to object storage. Cloudian extended its HyperStore object storage with vector database support earlier this month, using the Milvus database.
