@@ -5,6 +5,9 @@ tags: ["newsfeed"]
 ---
 
 # July 2025
+## [The Illusion That Silent Work Will Be Recognized: If You Don't Speak Up, Nothing Happens by Soojung Shin (Translated from Korean)](https://www.linkedin.com/posts/soojung-shin-%EC%8B%A0%EC%88%98%EC%A0%95-30398b75_%EB%AC%B5%EB%AC%B5%ED%9E%88-%ED%95%98%EB%A9%B4-%EC%95%8C%EC%95%84%EC%A4%84-%EC%A4%84-%EC%95%8C%EC%95%98%EB%8B%A4%EB%8A%94-%EC%B0%A9%EA%B0%81%EB%A7%90%ED%95%98%EC%A7%80-%EC%95%8A%EC%9C%BC%EB%A9%B4-%EC%95%84%EB%AC%B4-%EC%9D%BC%EB%8F%84-%EC%9D%BC%EC%96%B4%EB%82%98%EC%A7%80-%EC%95%8A%EB%8A%94%EB%8B%A4-activity-7352137046691340291-Xy5k)
+
+> If you don't speak up, nothing happens.
 
 ## [Questioning the Lambda Architecture by Jay Kreps](https://www.oreilly.com/radar/questioning-the-lambda-architecture/)
 
