@@ -14,6 +14,8 @@ tags: ["go"]
 
 ## Performance
 
+### [How Go 1.24's Swiss Tables saved us hundreds of gigabytes by Nayef Ghattas](https://www.datadoghq.com/blog/engineering/go-swiss-tables/)
+
 ### [Finding performance problems by diffing two Go profiles by Zach Musgrave](https://www.dolthub.com/blog/2025-06-20-go-pprof-diffing/)
 
 ### [Optimising and Visualising Go Tests Parallelism: Why more cores don't speed up your Go tests](https://threedots.tech/post/go-test-parallelism/)
