@@ -6,6 +6,14 @@ tags: ["newsfeed"]
 
 # August 2025
 
+## [No more disks: the architecture behind stateless compute in ClickHouse Cloud by Tom Schreiber](https://clickhouse.com/blog/clickhouse-cloud-stateless-compute)
+
+> TL;DR
+
+> ClickHouse Cloud compute is now fully stateless. This post introduces the final piece that made it possible: a new in-memory database engine powered by a Shared Catalog that removes the last dependency on local disks.
+
+> We’ll walk through how we got here, what the Shared Catalog unlocks, and how this powers stateless compute over anything, including data lakes.
+
 ## [🤔 자기개발 안하면 시간낭비다?? 에 대한 솔직한 생각 털어보기 (4K) by 조승연의 탐구생활](https://youtu.be/AqEN8qOcAcA)
 
 > 자기 인생의 꿈이랑 커리어의 방향이 딱히 안 맞는 사람이 많다
