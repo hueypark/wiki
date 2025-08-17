@@ -14,6 +14,19 @@ tags: ["go"]
 
 ## Performance
 
+### [If you want to know how high performance systems written in Go were built, read VictoriaLogs:  https://github.com/VictoriaMetrics/VictoriaLogs by Phuong Le](https://x.com/func25/status/1950115605484552333)
+
+> 1. Custom bloom filters to reduce disk I/O and CPU cycles for redundant logs.
+> 2. Column-oriented block storage for better compression ratio and cache locality.
+> 3. Memory-mapped files with automatic pread fallback for zero-copy reads.
+> 4. Lock-free object pools and arena allocators to reduce heap allocations.
+> 5. Reflection-free JSON parsers for streaming at hundreds of MB/s per core.
+> 6. Compile-time templates replace text/html parsing with near-printf speed.
+> 7. Dictionary-aware Zstd compression balancing CPU cost against bandwidth savings.
+> 8. Multi-core parallelism everywhere with adaptive concurrency limits.
+> 9. Scatter-gather fan-out writes with adaptive concurrency for network saturation.
+> 10. Fast hashing and lock-free randomization for minimal contention.
+
 ### [How Go 1.24's Swiss Tables saved us hundreds of gigabytes by Nayef Ghattas](https://www.datadoghq.com/blog/engineering/go-swiss-tables/)
 
 ### [Finding performance problems by diffing two Go profiles by Zach Musgrave](https://www.dolthub.com/blog/2025-06-20-go-pprof-diffing/)
