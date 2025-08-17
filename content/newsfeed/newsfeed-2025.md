@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # August 2025
 
+## [At @Google, we are moving from a writing‑first culture to a building‑first one. by Madhu Guru](https://x.com/realmadhuguru/status/1950336434126336154)
+
+> It wasn't a flip of a switch. More of an organic, ground-up change that is gaining senior level sponsorship. A few PMs did it first, they then did did knowledge sharing sessions, wrote vibe coding best practices docs and it is catching on. 
+
+> Culture changes are easiest when they happen from the grassroots.
+
 ## [When to Hire a Computer Performance Engineering Team (2025) part 1 of 2 by Brendan Gregg](https://www.brendangregg.com/blog/2025-08-04/when-to-hire-a-computer-performance-engineering-team-2025-part1.html)
 
 > (A) One engineer at $1M/year infrastructure spend, then one per $10M to $20M/year
