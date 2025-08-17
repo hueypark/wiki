@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # August 2025
 
+## [I'm a software engineer, and I've lost my job 4 times in the last 18 years. I don't think AI is the problem. by Marc Kriguer](https://www.businessinsider.com/software-engineer-layoffs-dont-blame-ai-2025-7)
+
+> Companies hire too quickly
+
 ## [No more disks: the architecture behind stateless compute in ClickHouse Cloud by Tom Schreiber](https://clickhouse.com/blog/clickhouse-cloud-stateless-compute)
 
 > TL;DR
