@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # August 2025
 
+## [When to Hire a Computer Performance Engineering Team (2025) part 1 of 2 by Brendan Gregg](https://www.brendangregg.com/blog/2025-08-04/when-to-hire-a-computer-performance-engineering-team-2025-part1.html)
+
+> (A) One engineer at $1M/year infrastructure spend, then one per $10M to $20M/year
+> (B) Staff spend should equal or exceed observability monitoring spend
+> (C) When latency or reliability is prohibitive to growth
+
 ## [I'm a software engineer, and I've lost my job 4 times in the last 18 years. I don't think AI is the problem. by Marc Kriguer](https://www.businessinsider.com/software-engineer-layoffs-dont-blame-ai-2025-7)
 
 > Companies hire too quickly
