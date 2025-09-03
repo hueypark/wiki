@@ -4,6 +4,12 @@ date: "2025-01-01"
 tags: ["newsfeed"]
 ---
 
+# September 2025
+
+## [Beyond the Hype: Why Drones Cannot Replace Artillery by Bill Murray](https://smallwarsjournal.com/2025/05/05/beyond-the-hype-why-drones-cannot-replace-artillery/)
+
+> The future of fires lies not in replacing proven capabilities with unproven technologies, but in integrating them to create a more versatile, resilient, and effective fire support network.
+
 # August 2025
 
 ## [At @Google, we are moving from a writing‑first culture to a building‑first one. by Madhu Guru](https://x.com/realmadhuguru/status/1950336434126336154)
