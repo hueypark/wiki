@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # September 2025
 
+## [Questions Actually Asked in Interviews by Claire Park (Translated from Korean)](https://www.threads.com/@startup.marketing.survive/post/DOI5khTjEP1)
+
+1. Have you had an experience where you still listened to the other person's opinion even when you thought you were wrong?
+2. Tell me about a time a problem occurred in a team project because of you.
+3. How do you give feedback when a colleague makes a mistake?
+
 ## [Beyond the Hype: Why Drones Cannot Replace Artillery by Bill Murray](https://smallwarsjournal.com/2025/05/05/beyond-the-hype-why-drones-cannot-replace-artillery/)
 
 > The future of fires lies not in replacing proven capabilities with unproven technologies, but in integrating them to create a more versatile, resilient, and effective fire support network.
