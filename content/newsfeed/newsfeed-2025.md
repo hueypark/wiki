@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # September 2025
 
+## [Claude Code 101 by Jeremy (Translated from Korean)](https://sungjk.github.io/2025/08/09/claude-code-101.html)
+
+> - If the coding agent can’t do it, teach it
+> - If the coding agent did it, hold a retrospective
+> - And believe in the magic of compounding
+
 ## [Questions Actually Asked in Interviews by Claire Park (Translated from Korean)](https://www.threads.com/@startup.marketing.survive/post/DOI5khTjEP1)
 
 1. Have you had an experience where you still listened to the other person's opinion even when you thought you were wrong?
