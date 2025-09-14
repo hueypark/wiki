@@ -6,6 +6,22 @@ tags: ["newsfeed"]
 
 # September 2025
 
+## [First attempt will be 95% garbage: A staff engineer's 6-week journey with Claude Code by Vincent Quigley](https://www.sanity.io/blog/first-attempt-will-be-95-garbage)
+
+> This started as an internal Sanity workshop where I demoed how I actually use AI. Spoiler: it's running multiple agents like a small team with daily amnesia.
+
+> If a better AI tool appears tomorrow, I'll switch immediately. The code isn't precious; the problems we solve are.
+
+> If I were to give advice from an engineer's perspective, if you're a technical leader considering AI adoption:
+>
+> 1. Let your engineers adopt and test different AI solutions: AI-assisted coding is a skill that you have to practice to learn.
+> 2. Start with your most repetitive tasks: that's where AI shines immediately.
+> 3. Budget for experimentation: the first month will be messy.
+> 4. Adjust your review processes: AI code needs different scrutiny.
+> 5. Document everything: Great context is your efficiency multiplier.
+
+> The engineers who adapt to the new AI workflows will find themselves with a new sharp knife in their toolbox: They're becoming orchestrators, handling multiple AI agents while focusing on architecture, review, and complex problem-solving.
+
 ## [Claude Code 101 by Jeremy (Translated from Korean)](https://sungjk.github.io/2025/08/09/claude-code-101.html)
 
 > - If the coding agent can’t do it, teach it
