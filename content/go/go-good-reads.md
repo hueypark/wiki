@@ -14,6 +14,8 @@ tags: ["go"]
 
 ## Performance
 
+### [Deep dive into a go binary by Jesús Espino](https://youtu.be/5VkYXgUqxcE?list=PLDWZ5uzn69ewrYyHTNrXlrWVDjLiOX0Yb)
+
 ### [If you want to know how high performance systems written in Go were built, read VictoriaLogs:  https://github.com/VictoriaMetrics/VictoriaLogs by Phuong Le](https://x.com/func25/status/1950115605484552333)
 
 > 1. Custom bloom filters to reduce disk I/O and CPU cycles for redundant logs.
