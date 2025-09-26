@@ -113,6 +113,8 @@ Go 메모리 관련 OOM 버그를 수정하는 여정에 관한 이야기
 
 ## Others
 
+### [Hello, MCP World! by Daniela Petruzalek](https://youtu.be/WzfYd6cV4gE?list=PLDWZ5uzn69ewrYyHTNrXlrWVDjLiOX0Yb)
+
 ### [What's //go:nosplit for? by Miguel Young de la Sota](https://mcyoung.xyz/2025/07/07/nosplit/)
 
 ### [JSON evolution in Go: from v1 to v2 by Anton Zhiyanov](https://antonz.org/go-json-v2/)
