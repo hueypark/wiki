@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # September 2025
 
+## [Krafton temporarily suspends external hiring: "Strengthening global competitiveness by internalizing AI" (Translated from Korean)](https://m.inven.co.kr/webzine/wznews.php?idx=309868)
+
 ## [First attempt will be 95% garbage: A staff engineer's 6-week journey with Claude Code by Vincent Quigley](https://www.sanity.io/blog/first-attempt-will-be-95-garbage)
 
 > This started as an internal Sanity workshop where I demoed how I actually use AI. Spoiler: it's running multiple agents like a small team with daily amnesia.
