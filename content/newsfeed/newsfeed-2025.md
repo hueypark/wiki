@@ -6,6 +6,16 @@ tags: ["newsfeed"]
 
 # September 2025
 
+## [How I Code with LLMs by Hong Minhee (Translated from Korean)](https://hackers.pub/@hongminhee/2025/how-i-code-with-llms)
+
+> Context is king
+
+> Put detailed instructions in writing
+
+> Humans design; LLMs implement
+
+> Leverage planning mode
+
 ## [Krafton temporarily suspends external hiring: "Strengthening global competitiveness by internalizing AI" (Translated from Korean)](https://m.inven.co.kr/webzine/wznews.php?idx=309868)
 
 ## [First attempt will be 95% garbage: A staff engineer's 6-week journey with Claude Code by Vincent Quigley](https://www.sanity.io/blog/first-attempt-will-be-95-garbage)
