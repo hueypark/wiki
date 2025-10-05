@@ -14,6 +14,8 @@ tags: ["go"]
 
 ## Performance
 
+### [Parsing Protobuf Like Never Before by mcyoung](https://mcyoung.xyz/2025/07/16/hyperpb/)
+
 ### [Deep dive into a go binary by Jesús Espino](https://youtu.be/5VkYXgUqxcE?list=PLDWZ5uzn69ewrYyHTNrXlrWVDjLiOX0Yb)
 
 ### [If you want to know how high performance systems written in Go were built, read VictoriaLogs:  https://github.com/VictoriaMetrics/VictoriaLogs by Phuong Le](https://x.com/func25/status/1950115605484552333)
