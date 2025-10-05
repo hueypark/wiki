@@ -14,6 +14,8 @@ tags: ["go"]
 
 ## Performance
 
+### [We tried Go's experimental Green Tea garbage collector and it didn't help performance by Zach Musgrave](https://www.dolthub.com/blog/2025-09-26-greentea-gc-with-dolt/)
+
 ### [Parsing Protobuf Like Never Before by mcyoung](https://mcyoung.xyz/2025/07/16/hyperpb/)
 
 ### [Deep dive into a go binary by Jesús Espino](https://youtu.be/5VkYXgUqxcE?list=PLDWZ5uzn69ewrYyHTNrXlrWVDjLiOX0Yb)
