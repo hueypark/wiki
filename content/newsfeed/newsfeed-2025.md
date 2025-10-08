@@ -4,6 +4,13 @@ date: "2025-01-01"
 tags: ["newsfeed"]
 ---
 
+# October 2025
+
+## [Role of a software engineer in game development](https://www.linkedin.com/posts/taeil-ha-61b91186_%EA%B2%8C%EC%9E%84-%EA%B0%9C%EB%B0%9C%EC%97%90%EC%84%9C-%ED%8C%80%EC%9B%90%EB%93%A4%EC%9D%98-%EB%AA%A9%EC%A0%81%EC%9D%84-%ED%86%B5%ED%95%9C-%EB%8F%99%EA%B8%B0%EC%99%80-%EC%97%85%EB%AC%B4%EC%A7%84%ED%96%89%EC%9D%B4-%EC%A4%91%EC%9A%94%ED%95%98%EB%8B%A4-%EA%B2%8C%EC%9E%84%EC%9D%80-%EA%B0%9C%EB%B0%9C%ED%8C%80%EC%9B%90%EB%93%A4%EC%9D%B4-activity-7381167421128224768-KNej)
+
+> The software engineer on that team clearly aimed to build games that are fun and deliver results.
+> Their goal was not to take a handed-over spec and implement it verbatim within a fixed schedule.
+
 # September 2025
 
 ## [How I Code with LLMs by Hong Minhee (Translated from Korean)](https://hackers.pub/@hongminhee/2025/how-i-code-with-llms)
