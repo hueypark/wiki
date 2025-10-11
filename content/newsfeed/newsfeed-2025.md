@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # October 2025
 
+## [A Top Performer's Career Move by Eunjoo Kim (Translated from Korean)](https://www.linkedin.com/posts/eunjookim_%EC%9E%84%EC%9B%90%EC%9D%B4-%EB%B9%A0%EC%A7%80%EA%B8%B0-%EC%89%AC%EC%9A%B4-%ED%95%A8%EC%A0%95-%EC%84%B1%EA%B3%BC%EC%97%90-%EB%8C%80%ED%95%9C-%EC%98%A4%ED%95%B4-1-%ED%95%9C-%EC%9E%84%EC%9B%90%EC%9D%B4-%EA%B3%A0%EB%AF%BC-%EC%83%81%EB%8B%B4%EC%9D%84-activity-7381190920123318273-_VMb)
+
+> 1) Passion for the challenge - One must have a deep passion and curiosity for the domain and the problem itself. Even if you don’t achieve visible results or receive recognition within the organization, you need the conviction that the very act of digging into the problem will lead to your own growth.
+
 ## [Role of a software engineer in game development](https://www.linkedin.com/posts/taeil-ha-61b91186_%EA%B2%8C%EC%9E%84-%EA%B0%9C%EB%B0%9C%EC%97%90%EC%84%9C-%ED%8C%80%EC%9B%90%EB%93%A4%EC%9D%98-%EB%AA%A9%EC%A0%81%EC%9D%84-%ED%86%B5%ED%95%9C-%EB%8F%99%EA%B8%B0%EC%99%80-%EC%97%85%EB%AC%B4%EC%A7%84%ED%96%89%EC%9D%B4-%EC%A4%91%EC%9A%94%ED%95%98%EB%8B%A4-%EA%B2%8C%EC%9E%84%EC%9D%80-%EA%B0%9C%EB%B0%9C%ED%8C%80%EC%9B%90%EB%93%A4%EC%9D%B4-activity-7381167421128224768-KNej)
 
 > The software engineer on that team clearly aimed to build games that are fun and deliver results.
