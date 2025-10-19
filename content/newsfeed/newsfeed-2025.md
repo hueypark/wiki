@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # October 2025
 
+## [bevy_hanabi v0.17.0](https://github.com/djeedai/bevy_hanabi/blob/main/CHANGELOG.md#0170-2025-10-05)
+
 ## [Bevy 0.17](https://bevy.org/news/bevy-0-17/)
 
 ## [Avian v0.4.0](https://github.com/avianphysics/avian/releases/tag/v0.4.0)
