@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # October 2025
 
+## [Developing with AI Agents by hueypark (Translated from Korean)](https://engineering.ab180.co/stories/development-with-ai-agent)
+
 ## [bevy_hanabi v0.17.0](https://github.com/djeedai/bevy_hanabi/blob/main/CHANGELOG.md#0170-2025-10-05)
 
 ## [Bevy 0.17](https://bevy.org/news/bevy-0-17/)
