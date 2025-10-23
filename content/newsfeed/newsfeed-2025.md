@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # October 2025
 
+## [User Creation by Kihong Bae (Translated from Korean)](https://www.thestartupbible.com/2025/10/user-creation-is-only-for-the-1.html)
+
+> Creators are a tiny minority. No matter how easy we make the creation process, most people prefer consuming what others make over creating something themselves.
+
 ## [Developing with AI Agents by hueypark (Translated from Korean)](https://engineering.ab180.co/stories/development-with-ai-agent)
 
 ## [bevy_hanabi v0.17.0](https://github.com/djeedai/bevy_hanabi/blob/main/CHANGELOG.md#0170-2025-10-05)
