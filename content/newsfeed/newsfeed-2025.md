@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # October 2025
 
+## [Java Application Debugging Story by Rajin (Translated from Korean)](https://www.rajin.me/dev/2025/04/12/java-application-debug.html)
+
 ## ["It's time to replace Parquet" by Vu Trinh](https://vutr.substack.com/p/its-time-to-replace-parquet)
 
 ## [%CPU Utilization Is A Lie by Brendan Long](https://www.brendanlong.com/cpu-utilization-is-a-lie.html)
