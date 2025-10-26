@@ -6,6 +6,14 @@ tags: ["newsfeed"]
 
 # October 2025
 
+## [%CPU Utilization Is A Lie by Brendan Long](https://www.brendanlong.com/cpu-utilization-is-a-lie.html)
+
+> The best way I know to work around this is to run benchmarks and monitor actual work done:
+>
+> 1. Benchmark how much work your server can do before having errors or unacceptable latency.
+> 2. Report how much work your server is currently doing.
+> 3. Compare those two metrics instead of CPU utilization.
+
 ## [User Creation by Kihong Bae (Translated from Korean)](https://www.thestartupbible.com/2025/10/user-creation-is-only-for-the-1.html)
 
 > Creators are a tiny minority. No matter how easy we make the creation process, most people prefer consuming what others make over creating something themselves.
