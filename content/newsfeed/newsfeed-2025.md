@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # October 2025
 
+## ["It's time to replace Parquet" by Vu Trinh](https://vutr.substack.com/p/its-time-to-replace-parquet)
+
 ## [%CPU Utilization Is A Lie by Brendan Long](https://www.brendanlong.com/cpu-utilization-is-a-lie.html)
 
 > The best way I know to work around this is to run benchmarks and monitor actual work done:
