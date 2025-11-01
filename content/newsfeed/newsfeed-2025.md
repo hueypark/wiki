@@ -4,6 +4,10 @@ date: "2025-01-01"
 tags: ["newsfeed"]
 ---
 
+# November 2025
+
+## [Attention is a luxury good by Seth Godin](https://seths.blog/2025/10/attention-is-a-luxury-good/)
+
 # October 2025
 
 ## [Java Application Debugging Story by Rajin (Translated from Korean)](https://www.rajin.me/dev/2025/04/12/java-application-debug.html)
