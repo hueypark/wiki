@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # November 2025
 
+## [How RimWorld Was Made and Why it’s Not a Video Game by ThatGuyGlen](https://youtu.be/xGtUjTM6hd0)
+
 ## [TMC25 | Engineering - Reducing Spring Server Application Startup Time by Hyunsu Kim (Translated from Korean)](https://youtu.be/fY1vj05NuKo)
 
 ## [Attention is a luxury good by Seth Godin](https://seths.blog/2025/10/attention-is-a-luxury-good/)
