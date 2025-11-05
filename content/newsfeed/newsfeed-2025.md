@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # November 2025
 
+## [A Quick Start to Rust Lang by chris biscardi](https://youtu.be/fTXtdbt1PFA)
+
 ## [How RimWorld Was Made and Why it’s Not a Video Game by ThatGuyGlen](https://youtu.be/xGtUjTM6hd0)
 
 ## [TMC25 | Engineering - Reducing Spring Server Application Startup Time by Hyunsu Kim (Translated from Korean)](https://youtu.be/fY1vj05NuKo)
