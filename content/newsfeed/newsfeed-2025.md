@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # November 2025
 
+## [What It Means to Develop with an AI Going 300 km/h by Jin Hyung Park (Sigrid Jin)](https://www.linkedin.com/pulse/%EC%8B%9C%EC%86%8D-300km%EB%A5%BC-%EB%8B%AC%EB%A6%AC%EB%8A%94-ai-%EC%99%80-%ED%95%A8%EA%BB%98-%EA%B0%9C%EB%B0%9C%ED%95%9C%EB%8B%A4%EB%8A%94-%EA%B2%83%EC%9D%80-jin-hyung-park-sigrid-jin--rsfkc/)
+
+> It’s not about just writing more code faster.
+> It’s about using AI to make engineering practices we avoided as "too expensive" actually feasible.
+> Teams that succeed with agent development will be the ones that recognize the entire software development lifecycle must evolve along with it.
+
 ## [A Quick Start to Rust Lang by chris biscardi](https://youtu.be/fTXtdbt1PFA)
 
 ## [How RimWorld Was Made and Why it’s Not a Video Game by ThatGuyGlen](https://youtu.be/xGtUjTM6hd0)
