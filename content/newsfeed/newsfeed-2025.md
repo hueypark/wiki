@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # November 2025
 
+## [The Work of a PD as a Talent Collector by Sangkyoon Lee (Translated from Korean)](https://x.com/kaysangkyoonlee/status/1985534011356430799)
+
+> If a headhunter hands me a resume, I should first be suspicious. "How did this talent end up coming to me?" If they were truly a good talent, someone should have already hired them. Talent is not something you sit and wait for, but something you desperately seek out and recruit. This is how I build my team.
+
+> Someone asked if finding people on social media helps with recruitment, so I wrote this. I have a meeting this afternoon with a talent I discovered on social media.
+
 ## [What It Means to Develop with an AI Going 300 km/h by Jin Hyung Park (Sigrid Jin)](https://www.linkedin.com/pulse/%EC%8B%9C%EC%86%8D-300km%EB%A5%BC-%EB%8B%AC%EB%A6%AC%EB%8A%94-ai-%EC%99%80-%ED%95%A8%EA%BB%98-%EA%B0%9C%EB%B0%9C%ED%95%9C%EB%8B%A4%EB%8A%94-%EA%B2%83%EC%9D%80-jin-hyung-park-sigrid-jin--rsfkc/)
 
 > It’s not about just writing more code faster.
