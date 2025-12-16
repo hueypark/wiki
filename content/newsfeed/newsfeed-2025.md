@@ -4,6 +4,16 @@ date: "2025-01-01"
 tags: ["newsfeed"]
 ---
 
+# December 2025
+
+## [My first Vibe-Coded Game - Codex Mortis Demo is Live On Steam](https://www.reddit.com/r/aigamedev/comments/1pidb5g/my_first_vibecoded_game_codex_mortis_demo_is_live/)
+
+> 100% AI-driven development.
+
+> 3 months, i did it after my 9-5 as a passion project
+
+> Hi! No engine here - it's pure TypeScript. I use PIXI.js for rendering, bitECS for the entity-component-system backend, and Electron to wrap it as a desktop app. The whole thing was vibe-coded with Claude Code (mostly Opus 4.1 and 4.5)
+
 # November 2025
 
 ## [The Work of a PD as a Talent Collector by Sangkyoon Lee (Translated from Korean)](https://x.com/kaysangkyoonlee/status/1985534011356430799)
