@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # December 2025
 
+## [I Choose My Own Destiny by @otaku__life_ (Translated from Korean)](https://x.com/otaku__life_/status/1979481545821000181)
+
+> That barbarian wasn't the chosen hero and couldn't pull the sword from the stone. So he just carried the whole rock—sword and used it as a hammer.
+
 ## [My first Vibe-Coded Game - Codex Mortis Demo is Live On Steam](https://www.reddit.com/r/aigamedev/comments/1pidb5g/my_first_vibecoded_game_codex_mortis_demo_is_live/)
 
 > 100% AI-driven development.
