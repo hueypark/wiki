@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # December 2025
 
+## [Own a Graph by @staysaasy](https://staysaasy.com/strategy/2025/11/25/own-a-graph.html)
+
+> Graphs are a critical unit of ownership for senior people to track their progress, communicate outcomes, and get feedback. If you don’t own one, fix that ASAP.
+
 ## [I Choose My Own Destiny by @otaku__life_ (Translated from Korean)](https://x.com/otaku__life_/status/1979481545821000181)
 
 > That barbarian wasn't the chosen hero and couldn't pull the sword from the stone. So he just carried the whole rock—sword and used it as a hammer.
