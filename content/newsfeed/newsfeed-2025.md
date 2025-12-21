@@ -4,7 +4,7 @@ date: "2025-01-01"
 tags: ["newsfeed"]
 ---
 
-# December 2025
+## [The Process Is Evaluated by the Outcome by Joseph Lee (Translated from Korean)](https://www.linkedin.com/posts/munsulee_suestuqsb-tsvtrmstusxqqos-activity-7397881481446060033-c7j0)
 
 ## [Own a Graph by @staysaasy](https://staysaasy.com/strategy/2025/11/25/own-a-graph.html)
 
