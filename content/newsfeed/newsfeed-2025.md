@@ -6,6 +6,13 @@ tags: ["newsfeed"]
 
 # December 2025
 
+## [i didn't expect to see this... by Low Level](https://youtu.be/dgPI7NfKCiQ)
+
+> 1. Take the lock.
+> 2. Move all items to a local list on the stack.
+> 3. Drop the lock.
+> 4. Iterate the local list on the stack.
+
 ## [The Process Is Evaluated by the Outcome by Joseph Lee (Translated from Korean)](https://www.linkedin.com/posts/munsulee_suestuqsb-tsvtrmstusxqqos-activity-7397881481446060033-c7j0)
 
 ## [Own a Graph by @staysaasy](https://staysaasy.com/strategy/2025/11/25/own-a-graph.html)
