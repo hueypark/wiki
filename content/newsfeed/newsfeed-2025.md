@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # December 2025
 
+## [Please Don't Say "Please Clarify the R&R" by Kyuhan Nam (Translated from Korean)](https://www.linkedin.com/posts/kyuhannam_pm-po-syotfnsxbtbs-activity-7401929146559561728-xXGR)
+
+> Gray areas don't disappear with documentation
+
 ## [Questions a Founder Asked Himself in the Age of AI by 이동건 (Translated from Korean)](https://medium.com/myrealtrip-product/ai-시대를-맞이하며-한-창업자가-스스로에게-던진-질문-785973f3a9f4)
 
 > If AI dramatically improves team and individual productivity, it must be accompanied by `bigger goals and challenges` to match.
