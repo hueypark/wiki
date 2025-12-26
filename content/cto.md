@@ -4,6 +4,17 @@ date: "2021-11-03"
 tags: ["cto"]
 ---
 
+## [I once watched a team's velocity drop by half after hiring their best engineer. by Alex Di Mango](https://www.linkedin.com/feed/update/urn:li:activity:7394650736007045120/)
+
+> Teams don't scale through individual brilliance. They scale through collective momentum.
+
+> The engineers who actually multiplied output never looked like rockstars.
+> They wrote boring, obvious code that anyone could maintain.
+> They approved pull requests that were good enough, not perfect.
+> They spent time pairing with people who were stuck instead of cranking out features alone.
+
+> His performance review was unremarkable. His impact was everywhere.
+
 ## [Changing Thoughts on Good Developers by 이동욱 (Translated from Korean)](https://www.linkedin.com/posts/%EB%8F%99%EC%9A%B1-%EC%9D%B4-575160177_2019%EB%85%84%EC%97%90-eo%EC%97%90%EC%84%9C-%EC%B4%AC%EC%98%81%ED%95%B4%EC%A3%BC%EC%8B%A0-%EC%9D%B8%ED%84%B0%EB%B7%B0%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%A7%80%EA%B8%88%EB%8F%84-%EB%A7%8E%EC%9D%B4%EB%93%A4-%EB%AC%B8%EC%9D%98-%EC%A3%BC%EC%8B%A0%EB%8B%A4-activity-7345234203271143424-aHmR)
 
 > Focusing on individual traits like "characteristics of a good developer" or "personalities suited for developers" turned out to be meaningless.
