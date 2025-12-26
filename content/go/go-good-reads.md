@@ -8,6 +8,7 @@ tags: ["go"]
 
 - [Performance](##performance)
 - [Concurrency](##concurrency)
+- [Distributed Systems](##distributed-systems)
 - [Generics](##generics)
 - [Reiaibility](##reiaibility)
 - [Others](##others)
@@ -100,6 +101,10 @@ Go 메모리 관련 OOM 버그를 수정하는 여정에 관한 이야기
 ## Concurrency
 
 ### [Go synctest: Solving Flaky Tests by Phuong Le](https://victoriametrics.com/blog/go-synctest/)
+
+## Distributed Systems
+
+### [Implementing MapReduce in Golang by Jitesh](https://jitesh117.github.io/blog/implementing-mapreduce-in-golang/)
 
 ## Generics
 
