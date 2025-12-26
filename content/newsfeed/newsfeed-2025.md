@@ -6,6 +6,14 @@ tags: ["newsfeed"]
 
 # December 2025
 
+## [If there's a benevolent God, why do we still have reorgs? by Jay Gengelbach](https://www.linkedin.com/feed/update/urn:li:share:7394945294662209538/)
+
+> Q: We just reorged 6 months ago. Why do we need another one?
+>
+> A: You deleted code you wrote 6 months ago. Why didn't you write it better?
+> There is no perfect org. Only "good enough for now."
+
+
 ## [Please Don't Say "Please Clarify the R&R" by Kyuhan Nam (Translated from Korean)](https://www.linkedin.com/posts/kyuhannam_pm-po-syotfnsxbtbs-activity-7401929146559561728-xXGR)
 
 > Gray areas don't disappear with documentation
