@@ -13,7 +13,6 @@ tags: ["newsfeed"]
 > A: You deleted code you wrote 6 months ago. Why didn't you write it better?
 > There is no perfect org. Only "good enough for now."
 
-
 ## [Please Don't Say "Please Clarify the R&R" by Kyuhan Nam (Translated from Korean)](https://www.linkedin.com/posts/kyuhannam_pm-po-syotfnsxbtbs-activity-7401929146559561728-xXGR)
 
 > Gray areas don't disappear with documentation
