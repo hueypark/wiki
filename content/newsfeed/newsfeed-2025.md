@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # December 2025
 
+## [Questions a Founder Asked Himself in the Age of AI by 이동건 (Translated from Korean)](https://medium.com/myrealtrip-product/ai-시대를-맞이하며-한-창업자가-스스로에게-던진-질문-785973f3a9f4)
+
+> If AI dramatically improves team and individual productivity, it must be accompanied by `bigger goals and challenges` to match.
+
 ## [i didn't expect to see this... by Low Level](https://youtu.be/dgPI7NfKCiQ)
 
 > 1. Take the lock.
