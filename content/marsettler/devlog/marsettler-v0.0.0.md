@@ -14,4 +14,6 @@ Marsettler is a simulation where players shape the story of these survivors. You
 - Behavior Tree System: The architecture powering AI decision-making
 - Resource Management: Mines deplete and disappear when exhausted
 
+[Run Simulation](/marsettler/simulation/)
+
 ![Marsettler v0.0.0](/marsettler/devlog/v0.0.0.png)
