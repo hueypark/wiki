@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # December 2025
 
+## [On Metastable Failures and Interactions Between Systems by Aleksey Charapko](https://charap.co/on-metastable-failures-and-interactions-between-systems/)
+
+> Fault-tolerance is hard, and in the case of metastable failures, maybe next-to-impossible and/or expensive. I have a hunch that we may not be able to avoid metastable failures entirely in large, non-trivial systems that are also economical to operate, because of these “forced” actions that systems sometimes have to take. However, the three strategies above remain effective mitigation approaches. Just replace “avoid” with “avoid as much as possible.”
+
 ## [If there's a benevolent God, why do we still have reorgs? by Jay Gengelbach](https://www.linkedin.com/feed/update/urn:li:share:7394945294662209538/)
 
 > Q: We just reorged 6 months ago. Why do we need another one?
