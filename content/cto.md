@@ -4,6 +4,12 @@ date: "2021-11-03"
 tags: ["cto"]
 ---
 
+## [Promoted your best developer to manager? Congratulations. You just destroyed two careers. by Matt Watson](https://www.linkedin.com/feed/update/urn:li:activity:7383869700407156736/)
+
+> Engineers optimize for code quality. 
+> Managers optimize for human potential. 
+> These are fundamentally different skill sets.
+
 ## [I once watched a team's velocity drop by half after hiring their best engineer. by Alex Di Mango](https://www.linkedin.com/feed/update/urn:li:activity:7394650736007045120/)
 
 > Teams don't scale through individual brilliance. They scale through collective momentum.
