@@ -6,6 +6,14 @@ tags: ["newsfeed"]
 
 # January 2026
 
+## [The Leader's Delusion by Jin Hwan Park (Translated from Korean)](https://www.linkedin.com/posts/jinhwanpark711_reeqysstutrfqop-activity-7420435178986078208-QRI1?utm_source=share&utm_medium=member_desktop&rcm=ACoAABSjspgBLaworIQjzZyO5CJmXIsDApO0tOU)
+
+> Saying "This is nothing special. Just add market data to the existing materials. It's easy." versus
+>
+> "It may look simple on the surface, but it actually takes quite a bit of effort. You just need to add market data, but it requires thought to blend it well into the overall context. It's an important document for next month's executive meeting. Let me know anytime if you run into difficulties. But it must be completed."
+>
+> Which of these is more motivating to the person hearing it?
+
 ## [The coding interview by Jay Gengelbach](https://www.linkedin.com/posts/jaygengelbach_i-conducted-200-interviews-for-google-in-activity-7413777107685879808-tAtg?utm_source=share&utm_medium=member_desktop&rcm=ACoAABSjspgBLaworIQjzZyO5CJmXIsDApO0tOU)
 
 > My fear is that the reaction will be to stop leaning on interviewing. The flawed assessment mechanism will fall back to even-more-flawed reputation networks: "who you know, not what you know."
