@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # January 2026
 
+## [I Stopped Reading Code. My Code Reviews Got Better. by Kieran Klaassen](https://every.to/source-code/i-stopped-reading-code-my-code-reviews-got-better)
+
+> The 50/50 rule
+>
+> I spent 15 minutes fixing those bugs. Then I spent another 15 minutes making sure I’d never see them again.
+
 ## [The Leader's Delusion by Jin Hwan Park (Translated from Korean)](https://www.linkedin.com/posts/jinhwanpark711_reeqysstutrfqop-activity-7420435178986078208-QRI1?utm_source=share&utm_medium=member_desktop&rcm=ACoAABSjspgBLaworIQjzZyO5CJmXIsDApO0tOU)
 
 > Saying "This is nothing special. Just add market data to the existing materials. It's easy." versus
