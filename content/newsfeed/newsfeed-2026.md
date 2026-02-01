@@ -6,6 +6,15 @@ tags: ["newsfeed"]
 
 # January 2026
 
+## [The Strengths of the `weak` Package: Weak Pointers Arrive in Go by Sam Burns](https://youtu.be/DbSQX0ERrp0?list=PLDWZ5uzn69ewrYyHTNrXlrWVDjLiOX0Yb)
+
+> ### Benefirts of a Weak Cache
+>
+> - Cache itself does not prevent garbage collection
+> - Memory-efficient caching without manual eviction
+> - Simpler cache logic than manual eviction:
+>   check weak pointer -> reload if nil
+
 ## [I Stopped Reading Code. My Code Reviews Got Better. by Kieran Klaassen](https://every.to/source-code/i-stopped-reading-code-my-code-reviews-got-better)
 
 > The 50/50 rule
