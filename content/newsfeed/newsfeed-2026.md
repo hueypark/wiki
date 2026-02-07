@@ -4,6 +4,12 @@ date: "2026-01-01"
 tags: ["newsfeed"]
 ---
 
+# February 2026
+
+## [Why I Joined OpenAI by Brendan Gregg](https://www.brendangregg.com/blog/2026-02-07/why-i-joined-openai.html)
+
+> it's about saving the planet.
+
 # January 2026
 
 ## [The Strengths of the `weak` Package: Weak Pointers Arrive in Go by Sam Burns](https://youtu.be/DbSQX0ERrp0?list=PLDWZ5uzn69ewrYyHTNrXlrWVDjLiOX0Yb)
