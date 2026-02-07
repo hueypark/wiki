@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # February 2026
 
+## [Detecting goroutine leaks with synctest/pprof by Anton Zhiyanov](https://antonz.org/detecting-goroutine-leaks/)
+
+> Leak detection algorithm
+> 
+> This goroutineleak profile uses the garbage collector's marking phase to find goroutines that are permanently blocked (leaked). The approach is explained in detail in the proposal and the paper by Saioc et al. — check it out if you're interested.
+
 ## [Why I Joined OpenAI by Brendan Gregg](https://www.brendangregg.com/blog/2026-02-07/why-i-joined-openai.html)
 
 > it's about saving the planet.
