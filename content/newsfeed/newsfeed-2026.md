@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # February 2026
 
+## [Flight Recorder in Go 1.25 by Carlos Amedee and Michael Knyszek](https://go.dev/blog/flight-recorder)
+
+> Fortunately, execution tracing helped us pinpoint the problem.
+
 ## [Detecting goroutine leaks with synctest/pprof by Anton Zhiyanov](https://antonz.org/detecting-goroutine-leaks/)
 
 > Leak detection algorithm
