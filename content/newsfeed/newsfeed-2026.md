@@ -6,6 +6,12 @@ tags: ["newsfeed"]
 
 # February 2026
 
+## [Go's synctest is amazing by Eric Chiang](https://oblique.security/blog/go-synctest/)
+
+> The main headline for Go 1.25’s synctest is its ability to magically advance time. Tests run in a “bubble” with a fake clock and calls to time.Sleep are virtualized, causing them to seem to run instantly:
+
+> synctest is about blocking
+
 ## [Flight Recorder in Go 1.25 by Carlos Amedee and Michael Knyszek](https://go.dev/blog/flight-recorder)
 
 > Fortunately, execution tracing helped us pinpoint the problem.
