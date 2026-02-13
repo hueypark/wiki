@@ -6,6 +6,18 @@ tags: ["newsfeed"]
 
 # February 2026
 
+## [Optimizing SQL CASE Expression Evaluation by Pepijn Van Eeckhoudt](https://datafusion.apache.org/blog/2026/02/02/datafusion_case/)
+
+> Optimization 1: Short-Circuit Early Exit
+
+> Optimization 2: Optimized Result Merging
+
+> Optimization 3: Column Projection
+
+> Optimization 4: Eliminating Scatter in Two-Branch Case
+
+> Optimization 5: Table Lookup of Constants
+
 ## [Stop Using The Ralph Loop Plugin](https://youtu.be/yAE3ONleUas)
 
 ## [The Economic Intervention That Stops Engineer Attrition by Lloyd](https://codegood.co/writing/the-economic-intervention-that-stops-engineer-attrition)
