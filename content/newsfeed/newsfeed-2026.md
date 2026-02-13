@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # February 2026
 
+## [Stop Using The Ralph Loop Plugin](https://youtu.be/yAE3ONleUas)
+
 ## [The Economic Intervention That Stops Engineer Attrition by Lloyd](https://codegood.co/writing/the-economic-intervention-that-stops-engineer-attrition)
 
 > Option B wins every time—until it does not. Until a critical system fails during a product launch. Until you lose five senior engineers in eighteen months and the CFO start/s asking why you're spending $1.4 million annually to rehire for preventable problems.
