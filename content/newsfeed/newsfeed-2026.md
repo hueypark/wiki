@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # February 2026
 
+## [AI can help you type faster, but it cannot replace engineering constraints by Phuong Le](https://x.com/func25/status/2023314394856235489)
+
+> AI want to complete a task, but you want a complete solution
+
 ## [Optimizing SQL CASE Expression Evaluation by Pepijn Van Eeckhoudt](https://datafusion.apache.org/blog/2026/02/02/datafusion_case/)
 
 > Optimization 1: Short-Circuit Early Exit
