@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # February 2026
 
+## [No Skill. No Taste. by crow](https://blog.kinglycrow.com/no-skill-no-taste/)
+
 ## [AI can help you type faster, but it cannot replace engineering constraints by Phuong Le](https://x.com/func25/status/2023314394856235489)
 
 > AI want to complete a task, but you want a complete solution
