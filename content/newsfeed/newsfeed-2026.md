@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # February 2026
 
+## [Why 'Skip the Code, Ship the Binary' Is a Category Error by Tirtha Sarker](https://engrlog.substack.com/p/why-skip-the-code-ship-the-binary)
+
 ## [No Skill. No Taste. by crow](https://blog.kinglycrow.com/no-skill-no-taste/)
 
 ## [AI can help you type faster, but it cannot replace engineering constraints by Phuong Le](https://x.com/func25/status/2023314394856235489)
