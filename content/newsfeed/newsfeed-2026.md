@@ -6,6 +6,8 @@ tags: ["newsfeed"]
 
 # March 2026
 
+## [The Real Reason Solo Developers Make Money — Success Story Breakdown by Leeo (Translated from Korean)](https://leeo.ghost.io/1in-gaebaljaga-doneul-beoneun-jinjja-iyu-seonggong-sarye-haebu/)
+
 ## [How Personal AI Agents and Agent Orchestrators are Made by Arnav Gupta](https://gist.github.com/championswimmer/bd0a45f0b1482cb7181d922fd94ab978)
 
 # February 2026
