@@ -4,6 +4,10 @@ date: "2026-01-01"
 tags: ["newsfeed"]
 ---
 
+# March 2026
+
+## [How Personal AI Agents and Agent Orchestrators are Made by Arnav Gupta](https://gist.github.com/championswimmer/bd0a45f0b1482cb7181d922fd94ab978)
+
 # February 2026
 
 ## [Why 'Skip the Code, Ship the Binary' Is a Category Error by Tirtha Sarker](https://engrlog.substack.com/p/why-skip-the-code-ship-the-binary)
