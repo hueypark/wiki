@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # March 2026
 
+## [I Wish Young Semiconductor Engineers Could Build Wealth Just by Doing Their Job by damnang2 (Translated from Korean)](https://www.threads.com/@damnang2/post/DVEhdx-Er1P)
+
+> Investment is certainly important too, but I wish we had a social structure where semiconductor engineers in their 20s could build some degree of wealth just by being dedicated to their main job.
+
 ## [Productivity and Excessive Vitamins by 향로 (Translated from Korean)](https://jojoldu.tistory.com/870)
 
 > Is our current business structure one where revenue grows proportionally as the development team's output increases?
