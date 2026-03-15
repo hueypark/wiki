@@ -6,6 +6,10 @@ tags: ["newsfeed"]
 
 # March 2026
 
+## [Productivity and Excessive Vitamins by 향로 (Translated from Korean)](https://jojoldu.tistory.com/870)
+
+> Is our current business structure one where revenue grows proportionally as the development team's output increases?
+
 ## [The Real Reason Solo Developers Make Money — Success Story Breakdown by Leeo (Translated from Korean)](https://leeo.ghost.io/1in-gaebaljaga-doneul-beoneun-jinjja-iyu-seonggong-sarye-haebu/)
 
 ## [How Personal AI Agents and Agent Orchestrators are Made by Arnav Gupta](https://gist.github.com/championswimmer/bd0a45f0b1482cb7181d922fd94ab978)
